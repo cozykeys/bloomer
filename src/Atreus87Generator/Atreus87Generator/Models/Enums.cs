@@ -1,6 +1,6 @@
 ﻿namespace Atreus87Generator.Models
 {
-    internal enum RegionChildType
+    internal enum KeyboardRegionComponentType
     {
         KeyColumn,
         KeyRow
