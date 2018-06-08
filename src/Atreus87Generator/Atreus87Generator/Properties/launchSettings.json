@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Atreus87Generator": {
+      "commandName": "Project",
+      "commandLineArgs": "load-svg c:\\src\\pcewing\\atreus87\\test.svg"
+    }
+  }
+}
