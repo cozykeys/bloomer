@@ -2,7 +2,7 @@
   "profiles": {
     "Atreus87Generator": {
       "commandName": "Project",
-      "commandLineArgs": "load-svg c:\\src\\pcewing\\atreus87\\test.svg"
+      "commandLineArgs": "gen-svg C:\\src\\pcewing\\atreus87\\src\\Atreus87Generator\\Atreus87Generator\\Layouts\\Atreus87.xml c:\\src\\pcewing\\atreus87\\test.svg"
     }
   }
 }

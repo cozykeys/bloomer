@@ -1,19 +1,19 @@
 ﻿namespace Atreus87Generator.Commands
 {
-    using System;
+    using Atreus87Generator.Models;
     using Atreus87Generator.Services;
     using Microsoft.Extensions.CommandLineUtils;
 
     internal class GenerateSvgCommand
     {
-        private readonly IFileService _fileService;
+        private readonly IKeyboardDataService _keyboardDataService;
 
         private readonly CommandArgument _inputPathArgument;
         private readonly CommandArgument _outputPathArgument;
 
-        public GenerateSvgCommand(IApplicationService applicationService, IFileService fileService)
+        public GenerateSvgCommand(IApplicationService applicationService, IKeyboardDataService keyboardDataService)
         {
-            _fileService = fileService;
+            _keyboardDataService = keyboardDataService;
 
             Command = applicationService.CommandLineApplication
                 .Command("gen-svg", config =>
@@ -35,20 +35,9 @@
 
         public int Execute()
         {
-            ParseInputFile();
-            return 0;
-        }
+            Keyboard keyboard = _keyboardDataService.GetKeyboardData(InputPath);
 
-        private void ParseInputFile()
-        {
-            try
-            {
-                _fileService.ReadAllText(InputPath);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Failed to read the keyboard data file at ${InputPath}.", ex);
-            }
+            return 0;
         }
     }
 }

@@ -80,6 +80,7 @@
             serviceCollection.AddSingleton<IAssemblyService, AssemblyService>();
             serviceCollection.AddSingleton<IEnvironmentService, EnvironmentService>();
             serviceCollection.AddSingleton<IApplicationService, ApplicationService>();
+            serviceCollection.AddSingleton<IKeyboardDataService, KeyboardDataService>();
             serviceCollection.AddSingleton<IFileService, FileService>();
             return serviceCollection;
         }

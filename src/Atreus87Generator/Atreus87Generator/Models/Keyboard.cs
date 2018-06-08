@@ -4,6 +4,6 @@
 
     internal class Keyboard
     {
-        public IEnumerable<KeyboardRegion> Regions { get; set; }
+        public IEnumerable<KeyboardRegion> KeyboardRegions { get; set; }
     }
 }
