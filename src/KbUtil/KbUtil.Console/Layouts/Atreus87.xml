@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Keyboard Name="Atreus87" Version="0.0.1">
+  <Children>
+      <Group Name="LeftSide" XOffset="0" YOffset="0" Rotation="10">
+        <Children>
+            <Group Name="Column1" YOffset="-3">
+                <Children>
+                    <Key Name="Column1Key1" Width="1" Height="1" XOffset="0" YOffset="0" />
+                    <Key Name="Column1Key2" Width="1" Height="1" XOffset="0" YOffset="19" />
+                    <Key Name="Column1Key3" Width="1" Height="1" XOffset="0" YOffset="38" />
+                    <Key Name="Column1Key4" Width="1" Height="1" XOffset="0" YOffset="57" />
+                    <Key Name="Column1Key5" Width="1" Height="1" XOffset="0" YOffset="76" />
+                    <Key Name="Column1Key6" Width="1" Height="1" XOffset="0" YOffset="95" />
+                </Children>
+            </Group>
+            <Group Name="Column2" YOffset="-3">
+                <Children>
+                    <Key Name="Column2Key1" Width="1" Height="1" XOffset="19" YOffset="0" />
+                    <Key Name="Column2Key2" Width="1" Height="1" XOffset="19" YOffset="19" />
+                    <Key Name="Column2Key3" Width="1" Height="1" XOffset="19" YOffset="38" />
+                    <Key Name="Column2Key4" Width="1" Height="1" XOffset="19" YOffset="57" />
+                    <Key Name="Column2Key5" Width="1" Height="1" XOffset="19" YOffset="76" />
+                    <Key Name="Column2Key6" Width="1" Height="1" XOffset="19" YOffset="95" />
+                </Children>
+            </Group>
+            <Group Name="Column3" YOffset="-6">
+                <Children>
+                    <Key Name="Column3Key1" Width="1" Height="1" XOffset="38" YOffset="0" />
+                    <Key Name="Column3Key2" Width="1" Height="1" XOffset="38" YOffset="19" />
+                    <Key Name="Column3Key3" Width="1" Height="1" XOffset="38" YOffset="38" />
+                    <Key Name="Column3Key4" Width="1" Height="1" XOffset="38" YOffset="57" />
+                    <Key Name="Column3Key5" Width="1" Height="1" XOffset="38" YOffset="76" />
+                    <Key Name="Column3Key6" Width="1" Height="1" XOffset="38" YOffset="95" />
+                </Children>
+            </Group>
+            <Group Name="Column4" YOffset="-11">
+                <Children>
+                    <Key Name="Column4Key1" Width="1" Height="1" XOffset="57" YOffset="0" />
+                    <Key Name="Column4Key2" Width="1" Height="1" XOffset="57" YOffset="19" />
+                    <Key Name="Column4Key3" Width="1" Height="1" XOffset="57" YOffset="38" />
+                    <Key Name="Column4Key4" Width="1" Height="1" XOffset="57" YOffset="57" />
+                    <Key Name="Column4Key5" Width="1" Height="1" XOffset="57" YOffset="76" />
+                    <Key Name="Column4Key6" Width="1" Height="1" XOffset="57" YOffset="95" />
+                </Children>
+            </Group>
+            <Group Name="Column5" YOffset="-5">
+                <Children>
+                    <Key Name="Column5Key1" Width="1" Height="1" XOffset="76" YOffset="0" />
+                    <Key Name="Column5Key2" Width="1" Height="1" XOffset="76" YOffset="19" />
+                    <Key Name="Column5Key3" Width="1" Height="1" XOffset="76" YOffset="38" />
+                    <Key Name="Column5Key4" Width="1" Height="1" XOffset="76" YOffset="57" />
+                    <Key Name="Column5Key5" Width="1" Height="1" XOffset="76" YOffset="76" />
+                    <Key Name="Column5Key6" Width="1" Height="1" XOffset="76" YOffset="95" />
+                </Children>
+            </Group>
+            <Group Name="Column6">
+                <Children>
+                    <Key Name="Column6Key1" Width="1" Height="1" XOffset="95" YOffset="0" />
+                    <Key Name="Column6Key2" Width="1" Height="1" XOffset="95" YOffset="19" />
+                    <Key Name="Column6Key3" Width="1" Height="1" XOffset="95" YOffset="38" />
+                    <Key Name="Column6Key4" Width="1" Height="1" XOffset="95" YOffset="57" />
+                    <Key Name="Column6Key5" Width="1" Height="1" XOffset="95" YOffset="76" />
+                    <Key Name="Column6Key6" Width="1" Height="1" XOffset="95" YOffset="95" />
+                </Children>
+            </Group>
+        </Children>
+      </Group>
+  </Children>
+</Keyboard>

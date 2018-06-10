@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KBUtil": {
+      "commandName": "Project",
+      "commandLineArgs": "gen-svg Layouts\\Atreus87.xml test.svg"
+    }
+  }
+}
