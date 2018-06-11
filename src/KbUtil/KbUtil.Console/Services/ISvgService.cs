@@ -4,6 +4,6 @@ namespace KbUtil.Console.Services
 {
     internal interface ISvgService
     {
-        void GenerateSvg(KbElementKeyboard kbElementKeyboard, string path);
+        void GenerateSvg(Keyboard Keyboard, string path);
     }
 }

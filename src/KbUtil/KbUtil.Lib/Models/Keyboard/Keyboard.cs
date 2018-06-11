@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class KbElementKeyboard : KbElementGroup
+    public class Keyboard : Group
     {
         public Version Version { get; set; }
     }

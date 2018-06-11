@@ -8,144 +8,175 @@ namespace KbUtil.Console.Deserializers
 {
     class XmlDeserializer
     {
-        public static KbElementKeyboard DeserializeKbElementKeyboard(XElement element)
+        public static Keyboard DeserializeKeyboard(XElement xElement)
         {
-            KbElementKeyboard kbElementKeyboard = new KbElementKeyboard();
+            Keyboard Keyboard = new Keyboard();
 
-            DeserializeKbElementGroup(element, kbElementKeyboard);
+            DeserializeGroup(xElement, Keyboard);
 
-            if(TryGetAttribute(element, "Version", out XAttribute versionAttribute))
+            Keyboard.Version = default;
+            if(TryGetAttribute(xElement, "Version", out XAttribute versionAttribute))
             {
-                kbElementKeyboard.Version = versionAttribute.VersionValue();
-            }
-            else
-            {
-                kbElementKeyboard.Version = default;
+                Keyboard.Version = versionAttribute.ValueAsVersion();
             }
 
-            return kbElementKeyboard;
+            return Keyboard;
         }
 
-        private static void DeserializeKbElementKey(XElement element, KbElementKey kbElementKey)
+        private static void DeserializeKey(XElement keyElement, Key key)
         {
-            DeserializeKbElement(element, kbElementKey);
+            DeserializeElement(keyElement, key);
 
-            if(TryGetAttribute(element, "Height", out XAttribute heightAttribute))
+            key.Height = default;
+            if(TryGetAttribute(keyElement, "Height", out XAttribute heightAttribute))
             {
-                kbElementKey.Height = heightAttribute.FloatValue();
-            }
-            else
-            {
-                kbElementKey.Height = default;
+                key.Height = heightAttribute.ValueAsFloat();
             }
 
-            if(TryGetAttribute(element, "Width", out XAttribute widthAttribute))
+            key.Width = default;
+            if(TryGetAttribute(keyElement, "Width", out XAttribute widthAttribute))
             {
-                kbElementKey.Width = widthAttribute.FloatValue();
+                key.Width = widthAttribute.ValueAsFloat();
             }
-            else
+
+            var legendElements = keyElement
+                .Nodes()
+                .Where(node =>
+                    node.NodeType == System.Xml.XmlNodeType.Element
+                    && ((XElement)node).Name == "Legend")
+                .Select(node => (XElement)node);
+
+            var legends = new List<Legend>();
+            foreach (var legendElement in legendElements)
             {
-                kbElementKey.Width = default;
+                legends.Add(DeserializeLegend(legendElement));
             }
+            key.Legends = legends;
         }
 
-        private static void DeserializeKbElementGroup(XElement element, KbElementGroup kbElementGroup)
+        private static Legend DeserializeLegend(XElement legendElement)
         {
-            DeserializeKbElement(element, kbElementGroup);
+            var legend = new Legend();
 
-            if(TryGetSubElement(element, "Children", out XElement childrenElement))
+            legend.HorizontalAlignment = default;
+            if(TryGetAttribute(legendElement, "HorizontalAlignment", out XAttribute horizontalAlignmentAttribute))
             {
-                kbElementGroup.Children = DeserializeChildren(childrenElement);
+                legend.HorizontalAlignment = horizontalAlignmentAttribute.ValueAsLegendHorizontalAlignment();
             }
-            else
+
+            legend.VerticalAlignment = default;
+            if(TryGetAttribute(legendElement, "VerticalAlignment", out XAttribute verticalAlignmentAttribute))
             {
-                kbElementGroup.Children = new List<KbElement>();
+                legend.VerticalAlignment = verticalAlignmentAttribute.ValueAsLegendVerticalAlignment();
             }
+
+            legend.Text = default;
+            if(TryGetAttribute(legendElement, "Text", out XAttribute textAttribute))
+            {
+                legend.Text = textAttribute.ValueAsString();
+            }
+
+            legend.FontSize = default;
+            if(TryGetAttribute(legendElement, "FontSize", out XAttribute fontSizeAttribute))
+            {
+                legend.FontSize = fontSizeAttribute.ValueAsFloat();
+            }
+
+            return legend;
         }
 
-        private static IEnumerable<KbElement> DeserializeChildren(XElement element)
+        private static void DeserializeGroup(XElement xElement, Group group)
         {
-            var childrenElements = element
+            DeserializeElement(xElement, group);
+
+            var children = new List<Element>();
+
+            var childElements = xElement
                 .Nodes()
                 .Where(node =>
                     node.NodeType == System.Xml.XmlNodeType.Element)
                 .Select(node => (XElement)node);
 
-            List<KbElement> children = new List<KbElement>();
-            foreach (var childElement in childrenElements)
+            foreach (var childElement in childElements)
             {
-                KbElement child;
-                switch (childElement.Name.ToString())
-                {
-                    case "Group":
-                        child = new KbElementGroup();
-                        DeserializeKbElementGroup(childElement, (KbElementGroup)child);
-                        break;
-                    case "Key":
-                        child = new KbElementKey();
-                        DeserializeKbElementKey(childElement, (KbElementKey)child);
-                        break;
-                    default:
-                        throw new Exception();
-                }
-                children.Add(child);
+                children.Add(DeserializeChild(childElement));
             }
 
-            return children;
+            group.Children = children;
         }
 
-        private static void DeserializeKbElement(XElement element, KbElement kbElement)
+        private static Element DeserializeChild(XElement childElement)
         {
-            kbElement.Name = default;
-            if(TryGetAttribute(element, "Name", out XAttribute nameAttribute))
+            Element child;
+
+            switch (childElement.Name.ToString())
             {
-                kbElement.Name = nameAttribute.StringValue();
+                case "Group":
+                    child = new Group();
+                    DeserializeGroup(childElement, (Group)child);
+                    break;
+                case "Key":
+                    child = new Key();
+                    DeserializeKey(childElement, (Key)child);
+                    break;
+                default:
+                    throw new Exception();
+            }
+            return child;
+        }
+
+        private static void DeserializeElement(XElement xElement, Element element)
+        {
+            element.Name = default;
+            if(TryGetAttribute(xElement, "Name", out XAttribute nameAttribute))
+            {
+                element.Name = nameAttribute.ValueAsString();
             }
 
-            kbElement.XOffset = default;
-            if(TryGetAttribute(element, "XOffset", out XAttribute xOffsetAttribute))
+            element.XOffset = default;
+            if(TryGetAttribute(xElement, "XOffset", out XAttribute xOffsetAttribute))
             {
-                kbElement.XOffset = xOffsetAttribute.FloatValue();
+                element.XOffset = xOffsetAttribute.ValueAsFloat();
             }
 
-            kbElement.YOffset = default;
-            if(TryGetAttribute(element, "YOffset", out XAttribute yOffsetAttribute))
+            element.YOffset = default;
+            if(TryGetAttribute(xElement, "YOffset", out XAttribute yOffsetAttribute))
             {
-                kbElement.YOffset = yOffsetAttribute.FloatValue();
+                element.YOffset = yOffsetAttribute.ValueAsFloat();
             }
 
-            kbElement.Rotation = default;
-            if(TryGetAttribute(element, "Rotation", out XAttribute rotationAttribute))
+            element.Rotation = default;
+            if(TryGetAttribute(xElement, "Rotation", out XAttribute rotationAttribute))
             {
-                kbElement.Rotation = rotationAttribute.FloatValue();
+                element.Rotation = rotationAttribute.ValueAsFloat();
             }
 
         }
 
-        private static bool TryGetAttribute(XElement element, string attributeName, out XAttribute attribute)
+        private static bool TryGetAttribute(XElement xElement, string attributeName, out XAttribute attribute)
         {
-            if (element == null || string.IsNullOrWhiteSpace(attributeName))
+            if (xElement == null || string.IsNullOrWhiteSpace(attributeName))
             {
                 attribute = null;
                 return false;
             }
 
-            attribute = element
+            attribute = xElement
                 .Attributes()
                 .FirstOrDefault(attr => attr.Name.ToString() == attributeName);
 
             return !(attribute is default);
         }
 
-        private static bool TryGetSubElement(XElement parentElement, string subElementName, out XElement element)
+        private static bool TryGetSubElement(XElement xElement, string subElementName, out XElement element)
         {
-            if (parentElement == null || string.IsNullOrWhiteSpace(subElementName))
+            if (xElement == null || string.IsNullOrWhiteSpace(subElementName))
             {
                 element = null;
                 return false;
             }
 
-            element = (XElement)parentElement
+            element = (XElement)xElement
                 .Nodes()
                 .FirstOrDefault(node =>
                     node.NodeType == System.Xml.XmlNodeType.Element

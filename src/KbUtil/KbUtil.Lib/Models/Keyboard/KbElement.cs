@@ -1,6 +1,6 @@
 ﻿namespace KbUtil.Lib.Models.Keyboard
 {
-    public class KbElement
+    public class Element
     {
         public string Name { get; set; }
         public float XOffset { get; set; }
