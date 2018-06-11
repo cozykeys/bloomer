@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard Name="Atreus87" Version="0.0.1">
+    <Stack Name="Left" XOffset="0" YOffset="0" Rotation="10" Orientation="Horizontal">
+        <Stack Name="Column1" YOffset="-3" Orientation="Vertical">
+            <Key Name="Column1Key1" Width="1u" Height="1u" Margin="0.45">
+                <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="Q" />
+            </Key>
+            <Key Name="Column1Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column1Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column1Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column1Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column1Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column2" YOffset="-3" Orientation="Vertical">
+            <Key Name="Column2Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column3" YOffset="-6" Orientation="Vertical">
+            <Key Name="Column3Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column3Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column3Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column3Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column3Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column3Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column4" YOffset="-11" Orientation="Vertical">
+            <Key Name="Column4Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column4Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column4Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column4Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column4Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column4Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column5" YOffset="-5" Orientation="Vertical">
+            <Key Name="Column5Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column5Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column5Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column5Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column5Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column5Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column6" Orientation="Vertical">
+            <Key Name="Column6Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column6Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column6Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column6Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column6Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column6Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column7">
+            <Key Name="Column7Key1" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+    </Stack>
+    <Stack Name="Right" XOffset="150" YOffset="0" Rotation="-10">
+        <Stack Name="Column11" YOffset="-3" Orientation="Vertical">
+            <Key Name="Column11Key1" Width="1u" Height="1u" Margin="0.45">
+                <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="Q" />
+            </Key>
+            <Key Name="Column11Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column11Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column11Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column11Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column11Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column12" YOffset="-3" Orientation="Vertical">
+            <Key Name="Column12Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column12Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column12Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column12Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column12Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column12Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column13" YOffset="-6" Orientation="Vertical">
+            <Key Name="Column13Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column13Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column13Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column13Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column13Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column13Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column14" YOffset="-11" Orientation="Vertical">
+            <Key Name="Column14Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column14Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column14Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column14Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column14Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column14Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column15" YOffset="-5" Orientation="Vertical">
+            <Key Name="Column15Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column15Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column15Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column15Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column15Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column15Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column16" Orientation="Vertical">
+            <Key Name="Column16Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column16Key2" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column16Key3" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column16Key4" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column16Key5" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column16Key6" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column17">
+            <Key Name="Column17Key1" Width="1u" Height="1u" Margin="0.45" XOffset="95" YOffset="47.5" />
+        </Stack>
+    </Stack>
+</Keyboard>

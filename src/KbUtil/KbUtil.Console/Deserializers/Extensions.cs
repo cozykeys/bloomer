@@ -16,5 +16,7 @@ namespace KbUtil.Console.Deserializers
         public static LegendVerticalAlignment ValueAsLegendVerticalAlignment(this XAttribute attribute)
             => (LegendVerticalAlignment)Enum
                 .Parse(typeof(LegendVerticalAlignment), attribute.ValueAsString());
+        public static StackOrientation ValueAsStackOrientation(this XAttribute attribute)
+            => (StackOrientation)Enum.Parse(typeof(StackOrientation), attribute.ValueAsString());
     }
 }

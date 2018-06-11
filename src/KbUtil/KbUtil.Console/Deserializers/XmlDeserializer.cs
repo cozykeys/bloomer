@@ -27,18 +27,6 @@ namespace KbUtil.Console.Deserializers
         {
             DeserializeElement(keyElement, key);
 
-            key.Height = default;
-            if(TryGetAttribute(keyElement, "Height", out XAttribute heightAttribute))
-            {
-                key.Height = heightAttribute.ValueAsFloat();
-            }
-
-            key.Width = default;
-            if(TryGetAttribute(keyElement, "Width", out XAttribute widthAttribute))
-            {
-                key.Width = widthAttribute.ValueAsFloat();
-            }
-
             var legendElements = keyElement
                 .Nodes()
                 .Where(node =>
@@ -85,6 +73,17 @@ namespace KbUtil.Console.Deserializers
             return legend;
         }
 
+        private static void DeserializeStack(XElement xElement, Stack stack)
+        {
+            DeserializeGroup(xElement, stack);
+
+            stack.Orientation = default;
+            if(TryGetAttribute(xElement, "Orientation", out XAttribute orientationAttribute))
+            {
+                stack.Orientation = orientationAttribute.ValueAsStackOrientation();
+            }
+        }
+
         private static void DeserializeGroup(XElement xElement, Group group)
         {
             DeserializeElement(xElement, group);
@@ -99,24 +98,28 @@ namespace KbUtil.Console.Deserializers
 
             foreach (var childElement in childElements)
             {
-                children.Add(DeserializeChild(childElement));
+                children.Add(DeserializeChild(group, childElement));
             }
 
             group.Children = children;
         }
 
-        private static Element DeserializeChild(XElement childElement)
+        private static Element DeserializeChild(Element parent, XElement childElement)
         {
             Element child;
 
             switch (childElement.Name.ToString())
             {
+                case "Stack":
+                    child = new Stack { Parent = parent };
+                    DeserializeStack(childElement, (Stack)child);
+                    break;
                 case "Group":
-                    child = new Group();
+                    child = new Group { Parent = parent };
                     DeserializeGroup(childElement, (Group)child);
                     break;
                 case "Key":
-                    child = new Key();
+                    child = new Key { Parent = parent };
                     DeserializeKey(childElement, (Key)child);
                     break;
                 default:
@@ -151,6 +154,41 @@ namespace KbUtil.Console.Deserializers
                 element.Rotation = rotationAttribute.ValueAsFloat();
             }
 
+            element.Height = default;
+            if(TryGetAttribute(xElement, "Height", out XAttribute heightAttribute))
+            {
+                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
+                var heightString = heightAttribute.ValueAsString();
+                if (heightString.EndsWith("u"))
+                {
+                    element.Height = float.Parse(heightString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
+                }
+                else
+                {
+                    element.Height = heightAttribute.ValueAsFloat();
+                }
+            }
+
+            element.Width = default;
+            if(TryGetAttribute(xElement, "Width", out XAttribute widthAttribute))
+            {
+                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
+                var widthString = widthAttribute.ValueAsString();
+                if (widthString.EndsWith("u"))
+                {
+                    element.Width = float.Parse(widthString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
+                }
+                else
+                {
+                    element.Width = widthAttribute.ValueAsFloat();
+                }
+            }
+
+            element.Margin = default;
+            if(TryGetAttribute(xElement, "Margin", out XAttribute marginAttribute))
+            {
+                element.Margin = marginAttribute.ValueAsFloat();
+            }
         }
 
         private static bool TryGetAttribute(XElement xElement, string attributeName, out XAttribute attribute)
