@@ -5,6 +5,7 @@
     using System.IO;
     using System.Collections.Generic;
     using System.Linq;
+    using System;
 
     internal class SvgService : ISvgService
     {
@@ -76,6 +77,31 @@
         {
         }
 
+        private void WriteStack(XmlWriter writer, Group group)
+        {
+            writer.WriteStartElement("g");
+
+            // Attributes
+            WriteElementAttributes(writer, group);
+            WriteGroupAttributes(writer, group);
+            WriteStackAttributes(writer, group);
+
+            // Elements
+            WriteElementSubElements(writer, group);
+            WriteGroupSubElements(writer, group);
+            WriteStackSubElements(writer, group);
+
+            writer.WriteEndElement();
+        }
+
+        private void WriteStackAttributes(XmlWriter writer, Group group)
+        {
+        }
+
+        private void WriteStackSubElements(XmlWriter writer, Group group)
+        {
+        }
+
         private void WriteGroup(XmlWriter writer, Group group)
         {
             writer.WriteStartElement("g");
@@ -106,12 +132,17 @@
                     case var key when child is Key:
                         WriteKey(writer, (Key)key);
                         break;
+                    case var stack when child is Stack:
+                        WriteStack(writer, (Stack)stack);
+                        break;
                     case var subGroup when child is Group:
                         WriteGroup(writer, (Group)subGroup);
                         break;
                     case var element when child is Element:
                         WriteElement(writer, element);
                         break;
+                    default:
+                        throw new NotSupportedException();
                 }
             }
         }
@@ -163,11 +194,20 @@
 
         private void WriteElementSubElements(XmlWriter writer, Element element)
         {
+            WriteDebugOverlay(writer, element);
+        }
+
+        private void WriteDebugOverlay(XmlWriter writer, Element element)
+        {
+            // TODO: Add this feature
         }
 
         private void WriteTransform(XmlWriter writer, Element element)
         {
             List<string> transformationStrings = new List<string>();
+
+            // TODO: We actually need to walk up the element's parent tree all the way to calculate 
+            // the final transformation
 
             if (!(element.Rotation is default))
             {
@@ -204,11 +244,9 @@
 
         private void WriteKeycapOverlay(XmlWriter writer, Key key)
         {
-            const float KeycapDiameterMm1u = 18.1f;
-
             // Give these short names so the resulting path data is readable
-            float w = key.Width * KeycapDiameterMm1u; // Overlay Width
-            float h = key.Height * KeycapDiameterMm1u; // Overlay Height
+            float w = key.Width;
+            float h = key.Height;
 
             // Next we write it with a style that is more visually pleasing
             writer.WriteStartElement("path");
