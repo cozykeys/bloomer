@@ -40,7 +40,7 @@
 
         public int Execute()
         {
-            KbElementKeyboard keyboard = _keyboardDataService.GetKeyboardData(InputPath);
+            Keyboard keyboard = _keyboardDataService.GetKeyboardData(InputPath);
 
             _svgService.GenerateSvg(keyboard, OutputPath);
 

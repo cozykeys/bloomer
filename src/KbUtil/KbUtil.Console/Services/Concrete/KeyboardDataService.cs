@@ -7,7 +7,7 @@
 
     internal class KeyboardDataService : IKeyboardDataService
     {
-        public KbElementKeyboard GetKeyboardData(string path)
+        public Keyboard GetKeyboardData(string path)
         {
             XElement rootElement = LoadInputData(path);
 
@@ -16,7 +16,7 @@
                 throw new Exception("The root element of the input file should be of type Keyboard.");
             }
 
-            return XmlDeserializer.DeserializeKbElementKeyboard(rootElement);
+            return XmlDeserializer.DeserializeKeyboard(rootElement);
         }
 
         private static XElement LoadInputData(string path)

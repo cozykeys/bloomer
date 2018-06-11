@@ -4,6 +4,6 @@
 
     internal interface IKeyboardDataService
     {
-        KbElementKeyboard GetKeyboardData(string path);
+        Keyboard GetKeyboardData(string path);
     }
 }
