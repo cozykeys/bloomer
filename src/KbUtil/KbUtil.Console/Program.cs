@@ -1,9 +1,6 @@
 ﻿namespace KbUtil.Console
 {
     using System;
-    using KbUtil.Console.Commands;
-    using KbUtil.Console.Services;
-    using KbUtil.Console.Services.Concrete;
     using Microsoft.Extensions.CommandLineUtils;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Logging;
@@ -12,6 +9,10 @@
     using NLog.Config;
     using NLog.Extensions.Logging;
     using NLog.Targets;
+
+    using KbUtil.Console.Commands;
+    using KbUtil.Console.Services;
+    using KbUtil.Console.Services.Concrete;
 
     public static class Program
     {
@@ -82,14 +83,13 @@
             serviceCollection.AddSingleton<IApplicationService, ApplicationService>();
             serviceCollection.AddSingleton<IKeyboardDataService, KeyboardDataService>();
             serviceCollection.AddSingleton<IFileService, FileService>();
-            serviceCollection.AddSingleton<ISvgService, SvgService>();
+            serviceCollection.AddSingleton<ISvgGenerationService, SvgGenerationService>();
             return serviceCollection;
         }
 
         private static void CreateCommands(IServiceProvider serviceProvider)
         {
             ActivatorUtilities.CreateInstance<GenerateSvgCommand>(serviceProvider);
-            ActivatorUtilities.CreateInstance<LoadSvgCommand>(serviceProvider);
         }
     }
 }

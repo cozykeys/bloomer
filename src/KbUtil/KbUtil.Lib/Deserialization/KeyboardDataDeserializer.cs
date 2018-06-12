@@ -1,33 +1,32 @@
-﻿using KbUtil.Lib.Models.Keyboard;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Linq;
-
-namespace KbUtil.Console.Deserializers
+﻿namespace KbUtil.Lib.Deserialization
 {
-    class XmlDeserializer
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Xml.Linq;
+    using KbUtil.Lib.Models.Keyboard;
+
+    public class KeyboardDataDeserializer
     {
-        public static Keyboard DeserializeKeyboard(XElement xElement)
+        public static Keyboard Deserialize(XElement xElement)
         {
-            Keyboard Keyboard = new Keyboard();
+            var keyboard = new Keyboard();
 
-            DeserializeGroup(xElement, Keyboard);
+            DeserializeGroup(xElement, keyboard);
 
-            Keyboard.Version = default;
             if(TryGetAttribute(xElement, "Version", out XAttribute versionAttribute))
             {
-                Keyboard.Version = versionAttribute.ValueAsVersion();
+                keyboard.Version = versionAttribute.ValueAsVersion();
             }
 
-            return Keyboard;
+            return keyboard;
         }
 
         private static void DeserializeKey(XElement keyElement, Key key)
         {
             DeserializeElement(keyElement, key);
 
-            var legendElements = keyElement
+            IEnumerable<XElement> legendElements = keyElement
                 .Nodes()
                 .Where(node =>
                     node.NodeType == System.Xml.XmlNodeType.Element
@@ -46,25 +45,21 @@ namespace KbUtil.Console.Deserializers
         {
             var legend = new Legend();
 
-            legend.HorizontalAlignment = default;
             if(TryGetAttribute(legendElement, "HorizontalAlignment", out XAttribute horizontalAlignmentAttribute))
             {
                 legend.HorizontalAlignment = horizontalAlignmentAttribute.ValueAsLegendHorizontalAlignment();
             }
 
-            legend.VerticalAlignment = default;
             if(TryGetAttribute(legendElement, "VerticalAlignment", out XAttribute verticalAlignmentAttribute))
             {
                 legend.VerticalAlignment = verticalAlignmentAttribute.ValueAsLegendVerticalAlignment();
             }
 
-            legend.Text = default;
             if(TryGetAttribute(legendElement, "Text", out XAttribute textAttribute))
             {
                 legend.Text = textAttribute.ValueAsString();
             }
 
-            legend.FontSize = default;
             if(TryGetAttribute(legendElement, "FontSize", out XAttribute fontSizeAttribute))
             {
                 legend.FontSize = fontSizeAttribute.ValueAsFloat();
@@ -77,7 +72,6 @@ namespace KbUtil.Console.Deserializers
         {
             DeserializeGroup(xElement, stack);
 
-            stack.Orientation = default;
             if(TryGetAttribute(xElement, "Orientation", out XAttribute orientationAttribute))
             {
                 stack.Orientation = orientationAttribute.ValueAsStackOrientation();
@@ -88,18 +82,15 @@ namespace KbUtil.Console.Deserializers
         {
             DeserializeElement(xElement, group);
 
-            var children = new List<Element>();
-
-            var childElements = xElement
+            IEnumerable<XElement> childElements = xElement
                 .Nodes()
                 .Where(node =>
                     node.NodeType == System.Xml.XmlNodeType.Element)
                 .Select(node => (XElement)node);
 
-            foreach (var childElement in childElements)
-            {
-                children.Add(DeserializeChild(group, childElement));
-            }
+            List<Element> children = childElements
+                .Select(childElement => DeserializeChild(group, childElement))
+                .ToList();
 
             group.Children = children;
         }
@@ -130,35 +121,30 @@ namespace KbUtil.Console.Deserializers
 
         private static void DeserializeElement(XElement xElement, Element element)
         {
-            element.Name = default;
             if(TryGetAttribute(xElement, "Name", out XAttribute nameAttribute))
             {
                 element.Name = nameAttribute.ValueAsString();
             }
 
-            element.XOffset = default;
             if(TryGetAttribute(xElement, "XOffset", out XAttribute xOffsetAttribute))
             {
                 element.XOffset = xOffsetAttribute.ValueAsFloat();
             }
 
-            element.YOffset = default;
             if(TryGetAttribute(xElement, "YOffset", out XAttribute yOffsetAttribute))
             {
                 element.YOffset = yOffsetAttribute.ValueAsFloat();
             }
 
-            element.Rotation = default;
             if(TryGetAttribute(xElement, "Rotation", out XAttribute rotationAttribute))
             {
                 element.Rotation = rotationAttribute.ValueAsFloat();
             }
 
-            element.Height = default;
             if(TryGetAttribute(xElement, "Height", out XAttribute heightAttribute))
             {
                 // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                var heightString = heightAttribute.ValueAsString();
+                string heightString = heightAttribute.ValueAsString();
                 if (heightString.EndsWith("u"))
                 {
                     element.Height = float.Parse(heightString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
@@ -169,11 +155,10 @@ namespace KbUtil.Console.Deserializers
                 }
             }
 
-            element.Width = default;
             if(TryGetAttribute(xElement, "Width", out XAttribute widthAttribute))
             {
                 // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                var widthString = widthAttribute.ValueAsString();
+                string widthString = widthAttribute.ValueAsString();
                 if (widthString.EndsWith("u"))
                 {
                     element.Width = float.Parse(widthString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
@@ -184,10 +169,14 @@ namespace KbUtil.Console.Deserializers
                 }
             }
 
-            element.Margin = default;
             if(TryGetAttribute(xElement, "Margin", out XAttribute marginAttribute))
             {
                 element.Margin = marginAttribute.ValueAsFloat();
+            }
+
+            if(TryGetAttribute(xElement, "Debug", out XAttribute debugAttribute))
+            {
+                element.Debug = debugAttribute.ValueAsBool();
             }
         }
 
@@ -204,23 +193,6 @@ namespace KbUtil.Console.Deserializers
                 .FirstOrDefault(attr => attr.Name.ToString() == attributeName);
 
             return !(attribute is default);
-        }
-
-        private static bool TryGetSubElement(XElement xElement, string subElementName, out XElement element)
-        {
-            if (xElement == null || string.IsNullOrWhiteSpace(subElementName))
-            {
-                element = null;
-                return false;
-            }
-
-            element = (XElement)xElement
-                .Nodes()
-                .FirstOrDefault(node =>
-                    node.NodeType == System.Xml.XmlNodeType.Element
-                    && ((XElement)node).Name == subElementName);
-
-            return !(element is default);
         }
     }
 }
