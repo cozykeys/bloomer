@@ -3,7 +3,7 @@
     using System;
     using System.Xml.Linq;
     using KbUtil.Lib.Models.Keyboard;
-    using KbUtil.Console.Deserializers;
+    using KbUtil.Lib.Deserialization;
 
     internal class KeyboardDataService : IKeyboardDataService
     {
@@ -16,7 +16,7 @@
                 throw new Exception("The root element of the input file should be of type Keyboard.");
             }
 
-            return XmlDeserializer.DeserializeKeyboard(rootElement);
+            return KeyboardDataDeserializer.Deserialize(rootElement);
         }
 
         private static XElement LoadInputData(string path)

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbUtil.Console", "KbUtil.Console\KbUtil.Console.csproj", "{43FA54A0-3010-418C-97D6-FD08EE0FE439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KbUtil.Lib", "KbUtil.Lib\KbUtil.Lib.csproj", "{A5F415F0-62E0-4ECB-97C9-0E7262FFCC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbUtil.Lib", "KbUtil.Lib\KbUtil.Lib.csproj", "{A5F415F0-62E0-4ECB-97C9-0E7262FFCC5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

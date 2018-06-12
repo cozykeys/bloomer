@@ -1,13 +1,15 @@
 ﻿namespace KbUtil.Console.Commands
 {
+    using Microsoft.Extensions.CommandLineUtils;
+
     using KbUtil.Console.Services;
     using KbUtil.Lib.Models.Keyboard;
-    using Microsoft.Extensions.CommandLineUtils;
+    using KbUtil.Lib.SvgGeneration;
 
     internal class GenerateSvgCommand
     {
         private readonly IKeyboardDataService _keyboardDataService;
-        private readonly ISvgService _svgService;
+        private readonly ISvgGenerationService _svgGenerationService;
 
         private readonly CommandArgument _inputPathArgument;
         private readonly CommandArgument _outputPathArgument;
@@ -15,10 +17,10 @@
         public GenerateSvgCommand(
             IApplicationService applicationService,
             IKeyboardDataService keyboardDataService,
-            ISvgService svgService)
+            ISvgGenerationService svgGenerationService)
         {
             _keyboardDataService = keyboardDataService;
-            _svgService = svgService;
+            _svgGenerationService = svgGenerationService;
 
             Command = applicationService.CommandLineApplication
                 .Command("gen-svg", config =>
@@ -42,7 +44,8 @@
         {
             Keyboard keyboard = _keyboardDataService.GetKeyboardData(InputPath);
 
-            _svgService.GenerateSvg(keyboard, OutputPath);
+            var generationOptions = new SvgGenerationOptions();
+            _svgGenerationService.GenerateSvg(keyboard, OutputPath, generationOptions);
 
             return 0;
         }

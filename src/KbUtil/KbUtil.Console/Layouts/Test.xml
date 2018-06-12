@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard Name="2x2" Version="0.0.1">
+    <Stack Name="Left" Debug="true" Rotation="10">
+        <Stack Name="Column1" Orientation="Vertical" YOffset="5">
+            <Key Name="Column1Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column1Key2" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+        <Stack Name="Column2" Orientation="Vertical" YOffset="-5">
+            <Key Name="Column2Key1" Width="1u" Height="1u" Margin="0.45" />
+            <Key Name="Column2Key2" Width="1u" Height="1u" Margin="0.45" />
+        </Stack>
+    </Stack>
+</Keyboard>
