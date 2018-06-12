@@ -5,11 +5,7 @@
 
     internal class LegendWriter : IElementWriter<Legend>
     {
-        private LegendWriter()
-        {
-        }
-
-        public static LegendWriter Instance { get; } = new LegendWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Legend keyboard)
         {

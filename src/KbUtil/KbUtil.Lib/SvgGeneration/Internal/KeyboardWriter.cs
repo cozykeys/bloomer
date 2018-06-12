@@ -5,24 +5,21 @@
 
     internal class KeyboardWriter : IElementWriter<Keyboard>
     {
-        private KeyboardWriter()
-        {
-        }
-
-        public static KeyboardWriter Instance { get; } = new KeyboardWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Keyboard keyboard)
         {
             writer.WriteStartElement("g");
 
-            // Attributes
-            ElementWriter.Instance.WriteAttributes(writer, keyboard);
-            GroupWriter.Instance.WriteAttributes(writer, keyboard);
+            var elementWriter = new ElementWriter { GenerationOptions = GenerationOptions };
+            var groupWriter = new GroupWriter { GenerationOptions = GenerationOptions };
+
+            elementWriter.WriteAttributes(writer, keyboard);
+            groupWriter.WriteAttributes(writer, keyboard);
             WriteAttributes(writer, keyboard);
 
-            // Elements
-            ElementWriter.Instance.WriteSubElements(writer, keyboard);
-            GroupWriter.Instance.WriteSubElements(writer, keyboard);
+            elementWriter.WriteSubElements(writer, keyboard);
+            groupWriter.WriteSubElements(writer, keyboard);
             WriteSubElements(writer, keyboard);
 
             writer.WriteEndElement();
