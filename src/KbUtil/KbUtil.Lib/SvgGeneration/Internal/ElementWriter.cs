@@ -8,11 +8,7 @@
 
     internal class ElementWriter : IElementWriter<Element>
     {
-        private ElementWriter()
-        {
-        }
-
-        public static ElementWriter Instance { get; } = new ElementWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Element element)
         {

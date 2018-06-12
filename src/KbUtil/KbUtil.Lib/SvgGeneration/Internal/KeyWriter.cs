@@ -4,25 +4,22 @@
     using System.Linq;
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
+    using KbUtil.Lib.Extensions;
 
     internal class KeyWriter : IElementWriter<Key>
     {
-        private KeyWriter()
-        {
-        }
-
-        public static KeyWriter Instance { get; } = new KeyWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Key key)
         {
             writer.WriteStartElement("g");
 
-            // Attributes
-            ElementWriter.Instance.WriteAttributes(writer, key);
+            var elementWriter = new ElementWriter { GenerationOptions = GenerationOptions };
+
+            elementWriter.WriteAttributes(writer, key);
             WriteAttributes(writer, key);
 
-            // Elements
-            ElementWriter.Instance.WriteSubElements(writer, key);
+            elementWriter.WriteSubElements(writer, key);
             WriteSubElements(writer, key);
 
             writer.WriteEndElement();
@@ -39,7 +36,7 @@
             WriteKeyLegends(writer, key);
         }
 
-        private static void WriteSwitchCutoutPath(XmlWriter writer, Key key)
+        private void WriteSwitchCutoutPath(XmlWriter writer, Key key)
         {
             // First we write it with the style that Ponoko expects
             writer.WriteStartElement("path");
@@ -49,15 +46,23 @@
             writer.WriteEndElement();
 
             // Next we write it with a style that is more visually pleasing
-            writer.WriteStartElement("path");
-            writer.WriteAttributeString("id", $"{key.Name}SwitchCutoutVisual");
-            writer.WriteAttributeString("d", "m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14");
-            writer.WriteAttributeString("style", "fill:none;stroke:#0000ff;stroke-width:0.5");
-            writer.WriteEndElement();
+            if (GenerationOptions != null && GenerationOptions.EnableVisualSwitchCutouts == true)
+            {
+                writer.WriteStartElement("path");
+                writer.WriteAttributeString("id", $"{key.Name}SwitchCutoutVisual");
+                writer.WriteAttributeString("d", "m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14");
+                writer.WriteAttributeString("style", "fill:none;stroke:#0000ff;stroke-width:0.5");
+                writer.WriteEndElement();
+            }
         }
 
-        private static void WriteKeycapOverlay(XmlWriter writer, Key key)
+        private void WriteKeycapOverlay(XmlWriter writer, Key key)
         {
+            if (GenerationOptions == null || GenerationOptions.EnableKeycapOverlays == false)
+            {
+                return;
+            }
+
             // Give these short names so the resulting path data is readable
             float w = key.Width;
             float h = key.Height;
@@ -70,8 +75,13 @@
             writer.WriteEndElement();
         }
 
-        private static void WriteKeyLegends(XmlWriter writer, Key key)
+        private void WriteKeyLegends(XmlWriter writer, Key key)
         {
+            if (GenerationOptions == null || GenerationOptions.EnableKeycapOverlays == false)
+            {
+                return;
+            }
+
             if (key.Legends == null || !key.Legends.Any())
             {
                 return;
@@ -82,32 +92,19 @@
             {
                 writer.WriteStartElement("text");
                 writer.WriteAttributeString("id", $"{key.Name}Legend{legendIndex}");
+                writer.WriteAttributeString("text-anchor", "middle");
 
-                var style = new List<string>
+                var style = new Dictionary<string, string>
                 {
-                    "font-style:normal",
-                    "font-weight:normal",
-                    $"font-size:{legend.FontSize}px",
-                    "line-height:1.25",
-                    "font-family:sans-serif",
-                    "letter-spacing:0px",
-                    "word-spacing:0px",
-                    "fill:#000000",
-                    "fill-opacity:1",
-                    "stroke:none",
-                    "stroke-width:0.26458332"
+                    { "alignment-baseline", "middle" },
+                    { "font-size", "12px" },
+                    { "font-family", "sans-serif" },
+                    { "font-weight", "normal" },
+                    { "font-style", "normal" },
                 };
-                writer.WriteAttributeString("style", string.Join(";", style));
-                //writer.WriteAttributeString("transform", $"translate(0,{0 - (legend.FontSize / 2)})");
 
-                writer.WriteStartElement("tspan");
-                writer.WriteAttributeString("id", $"{key.Name}Legend{legendIndex}tspan");
-                writer.WriteAttributeString("style", "stroke-width:0.26458332");
-
+                writer.WriteAttributeString("style", style.ToCssStyleString());
                 writer.WriteString(legend.Text);
-
-                writer.WriteEndElement(); // </tspan>
-
                 writer.WriteEndElement(); // </text>
 
                 legendIndex++;

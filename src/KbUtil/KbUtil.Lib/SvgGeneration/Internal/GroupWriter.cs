@@ -7,22 +7,18 @@
 
     internal class GroupWriter : IElementWriter<Group>
     {
-        private GroupWriter()
-        {
-        }
-
-        public static GroupWriter Instance { get; } = new GroupWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Group group)
         {
             writer.WriteStartElement("g");
 
-            // Attributes
-            ElementWriter.Instance.WriteAttributes(writer, group);
+            var elementWriter = new ElementWriter { GenerationOptions = GenerationOptions };
+
+            elementWriter.WriteAttributes(writer, group);
             WriteAttributes(writer, group);
 
-            // Elements
-            ElementWriter.Instance.WriteSubElements(writer, group);
+            elementWriter.WriteSubElements(writer, group);
             WriteSubElements(writer, group);
 
             writer.WriteEndElement();
@@ -41,10 +37,12 @@
                     case var _ when child is Keyboard:
                         throw new InvalidDataException("Keyboard is not a valid child type.");
                     case var key when child is Key:
-                        KeyWriter.Instance.Write(writer, (Key)key);
+                        var keyWriter = new KeyWriter { GenerationOptions = GenerationOptions };
+                        keyWriter.Write(writer, (Key)key);
                         break;
                     case var stack when child is Stack:
-                        StackWriter.Instance.Write(writer, (Stack)stack);
+                        var stackWriter = new StackWriter { GenerationOptions = GenerationOptions };
+                        stackWriter.Write(writer, (Stack)stack);
                         break;
                     case var subGroup when child is Group:
                         Write(writer, (Group)subGroup);

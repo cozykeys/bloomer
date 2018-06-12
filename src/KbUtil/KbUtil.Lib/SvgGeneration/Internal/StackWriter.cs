@@ -5,22 +5,21 @@
 
     internal class StackWriter : IElementWriter<Stack>
     {
-        private StackWriter()
-        {
-        }
-
-        public static StackWriter Instance { get; } = new StackWriter();
+        public SvgGenerationOptions GenerationOptions { get; set; }
 
         public void Write(XmlWriter writer, Stack stack)
         {
             writer.WriteStartElement("g");
 
-            ElementWriter.Instance.WriteAttributes(writer, stack);
-            GroupWriter.Instance.WriteAttributes(writer, stack);
+            var elementWriter = new ElementWriter { GenerationOptions = GenerationOptions };
+            var groupWriter = new GroupWriter { GenerationOptions = GenerationOptions };
+
+            elementWriter.WriteAttributes(writer, stack);
+            groupWriter.WriteAttributes(writer, stack);
             WriteAttributes(writer, stack);
 
-            ElementWriter.Instance.WriteSubElements(writer, stack);
-            GroupWriter.Instance.WriteSubElements(writer, stack);
+            elementWriter.WriteSubElements(writer, stack);
+            groupWriter.WriteSubElements(writer, stack);
             WriteSubElements(writer, stack);
 
             writer.WriteEndElement();

@@ -20,7 +20,10 @@
             using (XmlWriter writer = XmlWriter.Create(stream, settings))
             {
                 WriteSvgOpenTag(writer);
-                KeyboardWriter.Instance.Write(writer, keyboard);
+
+                var keyboardWriter = new KeyboardWriter { GenerationOptions = options };
+                keyboardWriter.Write(writer, keyboard);
+
                 WriteSvgCloseTag(writer);
             }
         }
