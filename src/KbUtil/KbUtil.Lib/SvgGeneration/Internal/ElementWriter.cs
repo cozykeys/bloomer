@@ -60,6 +60,18 @@
                 writer.WriteAttributeString("style", "fill:none;stroke:#00ffff;stroke-width:0.1");
                 writer.WriteEndElement();
             }
+
+            // Write center axes
+            {
+                float w = element.Width + element.Margin * 2;
+                float h = element.Height + element.Margin * 2;
+
+                writer.WriteStartElement("path");
+                writer.WriteAttributeString("id", $"{element.Name}DebugOverlayBorder");
+                writer.WriteAttributeString("d", $"m 0,0 h 5 h -10 h 5 v 5 v -10 v 5");
+                writer.WriteAttributeString("style", "fill:none;stroke:#00ffff;stroke-width:0.1");
+                writer.WriteEndElement();
+            }
         }
 
         private static void WriteTransform(XmlWriter writer, Element element)

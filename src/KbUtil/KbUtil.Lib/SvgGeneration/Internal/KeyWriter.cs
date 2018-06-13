@@ -94,16 +94,19 @@
                 writer.WriteAttributeString("id", $"{key.Name}Legend{legendIndex}");
                 writer.WriteAttributeString("text-anchor", "middle");
 
-                var style = new Dictionary<string, string>
+                float fontSize = legend.FontSize is default ? 4 : legend.FontSize;
+
+                var styleDictionary = new Dictionary<string, string>
                 {
-                    { "alignment-baseline", "middle" },
-                    { "font-size", "12px" },
+                    { "dominant-baseline", "central" },
+                    { "text-anchor", "middle" },
+                    { "font-size", $"{fontSize}px" },
                     { "font-family", "sans-serif" },
                     { "font-weight", "normal" },
                     { "font-style", "normal" },
                 };
 
-                writer.WriteAttributeString("style", style.ToCssStyleString());
+                writer.WriteAttributeString("style", styleDictionary.ToCssStyleString());
                 writer.WriteString(legend.Text);
                 writer.WriteEndElement(); // </text>
 

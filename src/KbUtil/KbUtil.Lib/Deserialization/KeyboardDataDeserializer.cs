@@ -41,6 +41,11 @@
             key.Legends = legends;
         }
 
+        private static void DeserializeSpacer(XElement spacerElement, Spacer spacer)
+        {
+            DeserializeElement(spacerElement, spacer);
+        }
+
         private static Legend DeserializeLegend(XElement legendElement)
         {
             var legend = new Legend();
@@ -112,6 +117,10 @@
                 case "Key":
                     child = new Key { Parent = parent };
                     DeserializeKey(childElement, (Key)child);
+                    break;
+                case "Spacer":
+                    child = new Spacer { Parent = parent };
+                    DeserializeSpacer(childElement, (Spacer)child);
                     break;
                 default:
                     throw new Exception();
