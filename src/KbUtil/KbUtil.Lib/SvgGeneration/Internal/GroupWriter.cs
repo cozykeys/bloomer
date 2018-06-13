@@ -40,6 +40,10 @@
                         var keyWriter = new KeyWriter { GenerationOptions = GenerationOptions };
                         keyWriter.Write(writer, (Key)key);
                         break;
+                    case var spacer when child is Spacer:
+                        var spacerWriter = new SpacerWriter { GenerationOptions = GenerationOptions };
+                        spacerWriter.Write(writer, (Spacer)spacer);
+                        break;
                     case var stack when child is Stack:
                         var stackWriter = new StackWriter { GenerationOptions = GenerationOptions };
                         stackWriter.Write(writer, (Stack)stack);
