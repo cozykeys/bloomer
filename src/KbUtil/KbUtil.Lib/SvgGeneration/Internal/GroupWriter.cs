@@ -48,6 +48,10 @@
                         var stackWriter = new StackWriter { GenerationOptions = GenerationOptions };
                         stackWriter.Write(writer, (Stack)stack);
                         break;
+                    case var @case when child is Case:
+                        var caseWriter = new CaseWriter { GenerationOptions = GenerationOptions };
+                        caseWriter.Write(writer, (Case)@case);
+                        break;
                     case var subGroup when child is Group:
                         Write(writer, (Group)subGroup);
                         break;
