@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Keyboard Name="Atreus87" Version="0.0.1">
-  <Group Name="Outer" Debug="true">
-    <Stack Name="Left" Rotation="10" Orientation="Horizontal" Debug="true" XOffset="-88">
+  <Group Name="Outer">
+    <Stack Name="Left" Rotation="10" Orientation="Horizontal" XOffset="-88">
       <Stack Name="Column1" YOffset="2.5" Orientation="Vertical">
         <Key Name="Column1Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="F1" FontSize="4" />
@@ -123,7 +123,7 @@
         </Key>
       </Stack>
       <Stack Name="Column7" YOffset="5.5" Orientation="Vertical">
-        <Spacer Height="95" Width="19" Debug="true" />
+        <Spacer Height="95" Width="19" />
         <Key Name="Column7Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="DEL" FontSize="4" />
         </Key>
@@ -134,60 +134,60 @@
         <Key Name="Column8Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PRSC" FontSize="4" />
         </Key>
-        <Spacer Height="10" Width="19" Debug="true" />
+        <Spacer Height="10" Width="19" />
         <Key Name="Column8Key2" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="INS" FontSize="4" />
         </Key>
         <Key Name="Column8Key3" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="DEL" FontSize="4" />
         </Key>
-        <Spacer Height="14" Width="19" Debug="true" />
+        <Spacer Height="14" Width="19" />
         <Key Name="Column8Key4" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="LEFT" FontSize="4" />
         </Key>
-        <Spacer Height="19" Width="19" Debug="true" />
+        <Spacer Height="19" Width="19" />
       </Stack>
       <Stack Name="Column9" Orientation="Vertical" YOffset="-2.5">
         <Key Name="Column9Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="SCLK" FontSize="4" />
         </Key>
-        <Spacer Height="10" Width="10" Debug="true" />
+        <Spacer Height="10" Width="10" />
         <Key Name="Column9Key2" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="HOME" FontSize="4" />
         </Key>
         <Key Name="Column9Key3" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="END" FontSize="4" />
         </Key>
-        <Spacer Height="10" Width="19" Debug="true" />
+        <Spacer Height="10" Width="19" />
         <Key Name="Column9Key4" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="UP" FontSize="4" />
         </Key>
         <Key Name="Column9Key5" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="DOWN" FontSize="4" />
         </Key>
-        <Spacer Height="4" Width="19" Debug="true" />
+        <Spacer Height="4" Width="19" />
       </Stack>
       <Stack Name="Column10" Orientation="Vertical" YOffset="2.5">
         <Key Name="Column10Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PAUS" FontSize="4" />
         </Key>
-        <Spacer Height="10" Width="19" Debug="true" />
+        <Spacer Height="10" Width="19" />
         <Key Name="Column10Key2" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PGUP" FontSize="4" />
         </Key>
         <Key Name="Column10Key3" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PGDN" FontSize="4" />
         </Key>
-        <Spacer Height="14" Width="19" Debug="true" />
+        <Spacer Height="14" Width="19" />
         <Key Name="Column10Key4" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="RGHT" FontSize="4" />
         </Key>
-        <Spacer Height="19" Width="19" Debug="true" />
+        <Spacer Height="19" Width="19" />
       </Stack>
     </Stack>
     <Stack Name="Right" Rotation="-10" XOffset="88">
       <Stack Name="Column11" YOffset="5.5" Orientation="Vertical">
-        <Spacer Height="95" Width="19" Debug="true" />
+        <Spacer Height="95" Width="19" />
         <Key Name="Column11Key1" Width="1u" Height="1u" Margin="0.45">
           <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="ENT" FontSize="4" />
         </Key>
@@ -313,5 +313,15 @@
         </Key>
       </Stack>
     </Stack>
-  </Group>
+    </Group>
+    <Case>
+        <Hole Size="M2Screw" XOffset="-147" YOffset="-68" />
+        <Hole Size="M2Screw" XOffset="-25" YOffset="-68" />
+        <Hole Size="M2Screw" XOffset="25" YOffset="-68" />
+        <Hole Size="M2Screw" XOffset="147" YOffset="-68" />
+        <Hole Size="M2Screw" XOffset="-168" YOffset="50" />
+        <Hole Size="M2Screw" XOffset="-30" YOffset="78" />
+        <Hole Size="M2Screw" XOffset="30" YOffset="78" />
+        <Hole Size="M2Screw" XOffset="168" YOffset="50" />
+    </Case>
 </Keyboard>

@@ -7,33 +7,9 @@
     id="Atreus87">
     <g
       id="Outer">
-      <path
-        id="OuterDebugOverlayMargin"
-        d="M -0,-0 h 0 v 0 h -0 v -0 h 0"
-        style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-      <path
-        id="OuterDebugOverlayBorder"
-        d="M -0,-0 h 0 v 0 h -0 v -0 h 0"
-        style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-      <path
-        id="OuterDebugOverlayBorder"
-        d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-        style="fill:none;stroke:#00ffff;stroke-width:0.1" />
       <g
         id="Left"
         transform="translate(-88,0) rotate(10)">
-        <path
-          id="LeftDebugOverlayMargin"
-          d="M -66.5,-62.5 h 133 v 125 h -133 v -125 h 133"
-          style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-        <path
-          id="LeftDebugOverlayBorder"
-          d="M -66.5,-62.5 h 133 v 125 h -133 v -125 h 133"
-          style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-        <path
-          id="LeftDebugOverlayBorder"
-          d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-          style="fill:none;stroke:#00ffff;stroke-width:0.1" />
         <g
           id="Column1"
           transform="translate(-57,2.5)">
@@ -783,20 +759,7 @@
           transform="translate(57,5.5)">
           <g
             id=""
-            transform="translate(0,-9.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-47.5 h 19 v 95 h -19 v -95 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-47.5 h 19 v 95 h -19 v -95 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,-9.5)" />
           <g
             id="Column7Key1"
             transform="translate(0,47.5)">
@@ -847,20 +810,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,-35.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,-35.5)" />
           <g
             id="Column8Key2"
             transform="translate(0,-21)">
@@ -903,20 +853,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,14.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-7 h 19 v 14 h -19 v -14 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-7 h 19 v 14 h -19 v -14 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,14.5)" />
           <g
             id="Column8Key4"
             transform="translate(0,31)">
@@ -939,20 +876,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,50)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-9.5 h 19 v 19 h -19 v -19 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-9.5 h 19 v 19 h -19 v -19 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,50)" />
         </g>
         <g
           id="Column9"
@@ -979,20 +903,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,-35.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -5,-5 h 10 v 10 h -10 v -10 h 10"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -5,-5 h 10 v 10 h -10 v -10 h 10"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,-35.5)" />
           <g
             id="Column9Key2"
             transform="translate(0,-21)">
@@ -1035,20 +946,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,12.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,12.5)" />
           <g
             id="Column9Key4"
             transform="translate(0,27)">
@@ -1091,20 +989,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,57.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-2 h 19 v 4 h -19 v -4 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-2 h 19 v 4 h -19 v -4 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,57.5)" />
         </g>
         <g
           id="Column10"
@@ -1131,20 +1016,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,-35.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-5 h 19 v 10 h -19 v -10 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,-35.5)" />
           <g
             id="Column10Key2"
             transform="translate(0,-21)">
@@ -1187,20 +1059,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,14.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-7 h 19 v 14 h -19 v -14 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-7 h 19 v 14 h -19 v -14 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,14.5)" />
           <g
             id="Column10Key4"
             transform="translate(0,31)">
@@ -1223,20 +1082,7 @@
           </g>
           <g
             id=""
-            transform="translate(0,50)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-9.5 h 19 v 19 h -19 v -19 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-9.5 h 19 v 19 h -19 v -19 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,50)" />
         </g>
       </g>
       <g
@@ -1247,20 +1093,7 @@
           transform="translate(-57,5.5)">
           <g
             id=""
-            transform="translate(0,-9.5)">
-            <path
-              id="DebugOverlayMargin"
-              d="M -9.5,-47.5 h 19 v 95 h -19 v -95 h 19"
-              style="fill:none;stroke:#00ff00;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="M -9.5,-47.5 h 19 v 95 h -19 v -95 h 19"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-            <path
-              id="DebugOverlayBorder"
-              d="m 0,0 h 5 h -10 h 5 v 5 v -10 v 5"
-              style="fill:none;stroke:#00ffff;stroke-width:0.1" />
-          </g>
+            transform="translate(0,-9.5)" />
           <g
             id="Column11Key1"
             transform="translate(0,47.5)">
@@ -2026,6 +1859,89 @@
               style="dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">CTRL</text>
           </g>
         </g>
+      </g>
+    </g>
+    <g
+      id="">
+      <g
+        id=""
+        transform="translate(-147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(-25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(-168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(-30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id=""
+        transform="translate(168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.5" />
       </g>
     </g>
   </g>

@@ -100,6 +100,45 @@
             group.Children = children;
         }
 
+        private static void DeserializeCase(XElement caseElement, Case @case)
+        {
+            DeserializeElement(caseElement, @case);
+
+            IEnumerable<XElement> holeElements = caseElement
+                .Nodes()
+                .Where(node =>
+                    node.NodeType == System.Xml.XmlNodeType.Element
+                    && ((XElement)node).Name == "Hole")
+                .Select(node => (XElement)node);
+
+            List<Hole> holes = holeElements
+                .Select(childElement => DeserializeHole(@case, childElement))
+                .ToList();
+
+            @case.Holes = holes;
+        }
+
+        private static Hole DeserializeHole(Element parent, XElement holeElement)
+        {
+            var hole = new Hole { Parent = parent };
+
+            DeserializeElement(holeElement, hole);
+
+            if (TryGetAttribute(holeElement, "Size", out XAttribute sizeAttribute))
+            {
+                if (Hole.Sizes.ContainsKey(sizeAttribute.ValueAsString()))
+                {
+                    hole.Size = Hole.Sizes[sizeAttribute.ValueAsString()];
+                }
+                else
+                {
+                    hole.Size = sizeAttribute.ValueAsFloat();
+                }
+            }
+
+            return hole;
+        }
+
         private static Element DeserializeChild(Element parent, XElement childElement)
         {
             Element child;
@@ -121,6 +160,10 @@
                 case "Spacer":
                     child = new Spacer { Parent = parent };
                     DeserializeSpacer(childElement, (Spacer)child);
+                    break;
+                case "Case":
+                    child = new Case { Parent = parent };
+                    DeserializeCase(childElement, (Case)child);
                     break;
                 default:
                     throw new Exception();
