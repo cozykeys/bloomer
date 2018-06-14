@@ -94,7 +94,7 @@
                 writer.WriteAttributeString("id", $"{key.Name}Legend{legendIndex}");
                 writer.WriteAttributeString("text-anchor", "middle");
 
-                float fontSize = legend.FontSize is default ? 4 : legend.FontSize;
+                float fontSize = legend.FontSize is default(float) ? 4 : legend.FontSize;
 
                 var styleDictionary = new Dictionary<string, string>
                 {

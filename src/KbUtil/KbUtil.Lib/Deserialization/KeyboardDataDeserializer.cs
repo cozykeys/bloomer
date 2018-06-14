@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Xml;
     using System.Xml.Linq;
     using KbUtil.Lib.Models.Keyboard;
 
@@ -116,6 +117,75 @@
                 .ToList();
 
             @case.Holes = holes;
+
+            var perimeter = new Perimeter();
+            if (TryGetSubElement(caseElement, "Perimeter", out XElement perimeterElement))
+            {
+                DeserializePerimeter(perimeterElement, perimeter);
+            }
+            @case.Perimeter = perimeter;
+        }
+
+        private static void DeserializePerimeter(XElement perimeterElement, Perimeter perimeter)
+        {
+            IEnumerable<XElement> sideElements = perimeterElement
+                .Nodes()
+                .Where(node =>
+                    node.NodeType == XmlNodeType.Element
+                    && ((XElement)node).Name == "Side")
+                .Select(node => (XElement)node);
+
+            List<Side> sides = sideElements
+                .Select(childElement => DeserializeSide(perimeter, childElement))
+                .ToList();
+
+            perimeter.Sides = sides;
+
+            IEnumerable<XElement> cornerElements = perimeterElement
+                .Nodes()
+                .Where(node =>
+                    node.NodeType == XmlNodeType.Element
+                    && ((XElement)node).Name == "Corner")
+                .Select(node => (XElement)node);
+
+            List<Corner> corners = cornerElements
+                .Select(childElement => DeserializeCorner(perimeter, childElement, sides))
+                .ToList();
+
+            perimeter.Corners = corners;
+        }
+
+        private static Side DeserializeSide(Element parent, XElement sideElement)
+        {
+            var side = new Side { Parent = parent };
+
+            DeserializeElement(sideElement, side);
+
+            if (TryGetSubElement(sideElement, "Start", out XElement startElement))
+            {
+                side.Start = DeserializePoint(side, startElement);
+            }
+
+            if (TryGetSubElement(sideElement, "End", out XElement endElement))
+            {
+                side.End = DeserializePoint(side, endElement);
+            }
+
+            return side;
+        }
+
+        private static Corner DeserializeCorner(Element parent, XElement cornerElement, IEnumerable<Side> sides)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static Point DeserializePoint(Element parent, XElement pointElement)
+        {
+            var point = new Point { Parent = parent };
+
+            DeserializeElement(pointElement, point);
+
+            return point;
         }
 
         private static Hole DeserializeHole(Element parent, XElement holeElement)
@@ -244,7 +314,24 @@
                 .Attributes()
                 .FirstOrDefault(attr => attr.Name.ToString() == attributeName);
 
-            return !(attribute is default);
+            return !(attribute is default(XAttribute));
+        }
+
+        private static bool TryGetSubElement(XElement xElement, string elementName, out XElement element)
+        {
+            if (xElement == null || string.IsNullOrWhiteSpace(elementName))
+            {
+                element = null;
+                return false;
+            }
+
+            element = (XElement)xElement
+                .Nodes()
+                .FirstOrDefault(node =>
+                    node.NodeType == XmlNodeType.Element
+                    && ((XElement)node).Name.ToString() == elementName);
+
+            return !(element is default(XElement));
         }
     }
 }

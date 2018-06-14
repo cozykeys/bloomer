@@ -95,12 +95,12 @@
                 }
             }
 
-            if (!(xOffset is default) || !(yOffset is default))
+            if (!(xOffset is default(float)) || !(yOffset is default(float)))
             {
                 transformationStrings.Add($"translate({xOffset},{yOffset})");
             }
 
-            if (!(element.Rotation is default))
+            if (!(element.Rotation is default(float)))
             {
                 transformationStrings.Add($"rotate({element.Rotation})");
             }
