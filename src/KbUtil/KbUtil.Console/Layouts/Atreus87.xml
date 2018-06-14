@@ -323,5 +323,37 @@
         <Hole Size="M2Screw" XOffset="-30" YOffset="78" />
         <Hole Size="M2Screw" XOffset="30" YOffset="78" />
         <Hole Size="M2Screw" XOffset="168" YOffset="50" />
+      <Perimeter>
+        <Side Name="Top">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Side Name="Right">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Side Name="BottomRight">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Side Name="BottomCenter">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Side Name="BottomLeft">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Side Name="Left">
+          <Start XOffset="0" YOffset="0" />
+          <End XOffset="0" YOffset="0" />
+        </Side>
+        <Corner SideA="Top" SideB="Right" />
+        <Corner SideA="Right" SideB="BottomRight" />
+        <Corner SideA="BottomRight" SideB="BottomCenter" />
+        <Corner SideA="BottomCenter" SideB="BottomLeft" />
+        <Corner SideA="BottomLeft" SideB="Left" />
+        <Corner SideA="Left" SideB="Top" />
+      </Perimeter>
     </Case>
 </Keyboard>

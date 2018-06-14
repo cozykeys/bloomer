@@ -4,6 +4,7 @@ namespace KbUtil.Lib.Models.Keyboard
 {
     public class Perimeter : Element
     {
-        public IEnumerable<Edge> Edges { get; set; }
+        public IEnumerable<Side> Sides { get; set; }
+        public IEnumerable<Corner> Corners { get; set; }
     }
 }
