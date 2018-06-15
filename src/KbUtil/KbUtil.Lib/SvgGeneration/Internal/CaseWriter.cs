@@ -34,6 +34,9 @@
             {
                 holeWriter.Write(writer, hole);
             }
+
+            var perimeterWriter = new PerimeterWriter { GenerationOptions = GenerationOptions };
+            perimeterWriter.Write(writer, @case.Perimeter);
         }
     }
 }
