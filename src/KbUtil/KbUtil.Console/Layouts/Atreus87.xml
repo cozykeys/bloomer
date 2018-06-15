@@ -325,28 +325,28 @@
         <Hole Size="M2Screw" XOffset="168" YOffset="50" />
       <Perimeter>
         <Side Name="Top">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="-147" YOffset="-73" />
+          <End XOffset="147" YOffset="-73" />
         </Side>
         <Side Name="Right">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="152" YOffset="-66" />
+          <End XOffset="173" YOffset="48" />
         </Side>
         <Side Name="BottomRight">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="165" YOffset="56" />
+          <End XOffset="35" YOffset="83" />
         </Side>
         <Side Name="BottomCenter">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="31" YOffset="83" />
+          <End XOffset="-31" YOffset="83" />
         </Side>
         <Side Name="BottomLeft">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="-35" YOffset="83" />
+          <End XOffset="-165" YOffset="56" />
         </Side>
         <Side Name="Left">
-          <Start XOffset="0" YOffset="0" />
-          <End XOffset="0" YOffset="0" />
+          <Start XOffset="-173" YOffset="48" />
+          <End XOffset="-152" YOffset="-66" />
         </Side>
         <Corner SideA="Top" SideB="Right" />
         <Corner SideA="Right" SideB="BottomRight" />

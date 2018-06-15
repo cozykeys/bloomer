@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Xml;
     using System.Xml.Linq;
@@ -176,7 +177,56 @@
 
         private static Corner DeserializeCorner(Element parent, XElement cornerElement, IEnumerable<Side> sides)
         {
-            throw new NotImplementedException();
+            var corner = new Corner { Parent = parent };
+
+            DeserializeElement(cornerElement, corner);
+
+            string sideAName = string.Empty;
+            if (TryGetAttribute(cornerElement, "SideA", out XAttribute sideAAttribute))
+            {
+                sideAName = sideAAttribute.ValueAsString();
+            }
+
+            string sideBName = string.Empty;
+            if (TryGetAttribute(cornerElement, "SideB", out XAttribute sideBAttribute))
+            {
+                sideBName = sideBAttribute.ValueAsString();
+            }
+
+            if (string.IsNullOrEmpty(sideAName) || string.IsNullOrEmpty(sideBName))
+            {
+                throw new InvalidDataException("A corner must reference two valid sides.");
+            }
+
+            // This is implemented in N^2 but what keyboard case will that actually matter for
+            bool sideAFound = false;
+            bool sideBFound = false;
+            foreach (Side side in sides)
+            {
+                if (side.Name == sideAName)
+                {
+                    corner.A = side;
+                    sideAFound = true;
+                }
+
+                if (side.Name == sideBName)
+                {
+                    corner.B = side;
+                    sideBFound = true;
+                }
+
+                if (sideAFound && sideBFound)
+                {
+                    break;
+                }
+            }
+
+            if (!sideAFound || !sideBFound)
+            {
+                throw new InvalidDataException("A corner must reference two valid sides.");
+            }
+
+            return corner;
         }
 
         private static Point DeserializePoint(Element parent, XElement pointElement)
