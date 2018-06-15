@@ -1,0 +1,962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg
+  width="500mm"
+  height="500mm"
+  viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g
+    id="Atreus87"
+    transform="translate(175,80)">
+    <g
+      id="Outer">
+      <g
+        id="Left"
+        transform="translate(-88,0) rotate(10)">
+        <g
+          id="Column1"
+          transform="translate(-57,2.5)">
+          <g
+            id="Column1Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column1Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column1Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column1Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column1Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column1Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column1Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column1Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column1Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column1Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column1Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column1Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column2"
+          transform="translate(-38,2.5)">
+          <g
+            id="Column2Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column2Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column2Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column2Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column2Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column2Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column2Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column2Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column2Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column2Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column2Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column2Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column3"
+          transform="translate(-19,0.5)">
+          <g
+            id="Column3Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column3Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column3Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column3Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column3Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column3Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column3Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column3Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column3Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column3Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column3Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column3Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column4"
+          transform="translate(0,-5.5)">
+          <g
+            id="Column4Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column4Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column4Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column4Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column4Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column4Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column4Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column4Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column4Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column4Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column4Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column4Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column5"
+          transform="translate(19,0.5)">
+          <g
+            id="Column5Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column5Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column5Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column5Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column5Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column5Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column5Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column5Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column5Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column5Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column5Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column5Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column6"
+          transform="translate(38,5.5)">
+          <g
+            id="Column6Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column6Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column6Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column6Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column6Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column6Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column6Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column6Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column6Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column6Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column6Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column6Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column7"
+          transform="translate(57,5.5)">
+          <g
+            id=""
+            transform="translate(0,-9.5)" />
+          <g
+            id="Column7Key1"
+            transform="translate(0,47.5)">
+            <path
+              id="Column7Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+      </g>
+      <g
+        id="Center"
+        transform="translate(0,7)">
+        <g
+          id="Column8"
+          transform="translate(-19,2.5)">
+          <g
+            id="Column8Key1"
+            transform="translate(0,-50)">
+            <path
+              id="Column8Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,-35.5)" />
+          <g
+            id="Column8Key2"
+            transform="translate(0,-21)">
+            <path
+              id="Column8Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column8Key3"
+            transform="translate(0,-2)">
+            <path
+              id="Column8Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,14.5)" />
+          <g
+            id="Column8Key4"
+            transform="translate(0,31)">
+            <path
+              id="Column8Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,50)" />
+        </g>
+        <g
+          id="Column9"
+          transform="translate(0,-2.5)">
+          <g
+            id="Column9Key1"
+            transform="translate(0,-50)">
+            <path
+              id="Column9Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,-35.5)" />
+          <g
+            id="Column9Key2"
+            transform="translate(0,-21)">
+            <path
+              id="Column9Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column9Key3"
+            transform="translate(0,-2)">
+            <path
+              id="Column9Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,12.5)" />
+          <g
+            id="Column9Key4"
+            transform="translate(0,27)">
+            <path
+              id="Column9Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column9Key5"
+            transform="translate(0,46)">
+            <path
+              id="Column9Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,57.5)" />
+        </g>
+        <g
+          id="Column10"
+          transform="translate(19,2.5)">
+          <g
+            id="Column10Key1"
+            transform="translate(0,-50)">
+            <path
+              id="Column10Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,-35.5)" />
+          <g
+            id="Column10Key2"
+            transform="translate(0,-21)">
+            <path
+              id="Column10Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column10Key3"
+            transform="translate(0,-2)">
+            <path
+              id="Column10Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,14.5)" />
+          <g
+            id="Column10Key4"
+            transform="translate(0,31)">
+            <path
+              id="Column10Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id=""
+            transform="translate(0,50)" />
+        </g>
+      </g>
+      <g
+        id="Right"
+        transform="translate(88,0) rotate(-10)">
+        <g
+          id="Column11"
+          transform="translate(-57,5.5)">
+          <g
+            id=""
+            transform="translate(0,-9.5)" />
+          <g
+            id="Column11Key1"
+            transform="translate(0,47.5)">
+            <path
+              id="Column11Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column12"
+          transform="translate(-38,5.5)">
+          <g
+            id="Column12Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column12Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column12Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column12Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column12Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column12Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column12Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column12Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column12Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column12Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column12Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column12Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column13"
+          transform="translate(-19,0.5)">
+          <g
+            id="Column13Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column13Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column13Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column13Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column13Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column13Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column13Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column13Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column13Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column13Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column13Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column13Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column14"
+          transform="translate(0,-5.5)">
+          <g
+            id="Column14Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column14Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column14Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column14Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column14Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column14Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column14Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column14Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column14Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column14Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column14Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column14Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column15"
+          transform="translate(19,-0.5)">
+          <g
+            id="Column15Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column15Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column15Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column15Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column15Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column15Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column15Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column15Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column15Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column15Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column15Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column15Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column16"
+          transform="translate(38,2.5)">
+          <g
+            id="Column16Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column16Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column16Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column16Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column16Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column16Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column16Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column16Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column16Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column16Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column16Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column16Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+        <g
+          id="Column17"
+          transform="translate(57,2.5)">
+          <g
+            id="Column17Key1"
+            transform="translate(0,-47.5)">
+            <path
+              id="Column17Key1SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column17Key2"
+            transform="translate(0,-28.5)">
+            <path
+              id="Column17Key2SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column17Key3"
+            transform="translate(0,-9.5)">
+            <path
+              id="Column17Key3SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column17Key4"
+            transform="translate(0,9.5)">
+            <path
+              id="Column17Key4SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column17Key5"
+            transform="translate(0,28.5)">
+            <path
+              id="Column17Key5SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+          <g
+            id="Column17Key6"
+            transform="translate(0,47.5)">
+            <path
+              id="Column17Key6SwitchCutoutPonoko"
+              d="m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14"
+              style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+      id="">
+      <g
+        id=""
+        transform="translate(-147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id="">
+        <g
+          id="Top">
+          <path
+            id="TopSidePonoko"
+            d="m -147,-73 294,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="Right">
+          <path
+            id="RightSidePonoko"
+            d="m 152,-66 21,114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="BottomRight">
+          <path
+            id="BottomRightSidePonoko"
+            d="m 165,56 -130,27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="BottomCenter">
+          <path
+            id="BottomCenterSidePonoko"
+            d="m 31,83 -62,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="BottomLeft">
+          <path
+            id="BottomLeftSidePonoko"
+            d="m -35,83 -130,-27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="Left">
+          <path
+            id="LeftSidePonoko"
+            d="m -173,48 21,-114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 147 -73 q 3.710526 0 5 7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 173 48 q 1.124588 6.104919 -8 8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 35 83 q -2.288818E-05 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -31 83 q -4.000015 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -165 56 q -9.124588 -1.895103 -8 -8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -152 -66 q 1.289474 -7 5 -7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
