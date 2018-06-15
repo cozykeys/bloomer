@@ -4,7 +4,8 @@
   height="500mm"
   viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
   <g
-    id="Atreus87">
+    id="Atreus87"
+    transform="translate(175,80)">
     <g
       id="Outer">
       <g
@@ -1942,6 +1943,129 @@
         <circle
           r="1.15"
           style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+      </g>
+      <g
+        id="">
+        <g
+          id="Top">
+          <path
+            id="TopSidePonoko"
+            d="m -147,-73 294,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="TopSideVisual"
+            d="m -147,-73 294,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="Right">
+          <path
+            id="RightSidePonoko"
+            d="m 152,-66 21,114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="RightSideVisual"
+            d="m 152,-66 21,114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="BottomRight">
+          <path
+            id="BottomRightSidePonoko"
+            d="m 165,56 -130,27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="BottomRightSideVisual"
+            d="m 165,56 -130,27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="BottomCenter">
+          <path
+            id="BottomCenterSidePonoko"
+            d="m 31,83 -62,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="BottomCenterSideVisual"
+            d="m 31,83 -62,0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="BottomLeft">
+          <path
+            id="BottomLeftSidePonoko"
+            d="m -35,83 -130,-27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="BottomLeftSideVisual"
+            d="m -35,83 -130,-27"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="Left">
+          <path
+            id="LeftSidePonoko"
+            d="m -173,48 21,-114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            id="LeftSideVisual"
+            d="m -173,48 21,-114"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 147 -73 q 3.710526 0 5 7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m 147 -73 q 3.710526 0 5 7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 173 48 q 1.124588 6.104919 -8 8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m 173 48 q 1.124588 6.104919 -8 8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m 35 83 q -2.288818E-05 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m 35 83 q -2.288818E-05 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -31 83 q -4.000015 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m -31 83 q -4.000015 0 -4 0"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -165 56 q -9.124588 -1.895103 -8 -8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m -165 56 q -9.124588 -1.895103 -8 -8"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
+        <g
+          id="">
+          <path
+            d="m -152 -66 q 1.289474 -7 5 -7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+          <path
+            d="m -152 -66 q 1.289474 -7 5 -7"
+            style="fill:none;stroke:#0000ff;stroke-width:0.5" />
+        </g>
       </g>
     </g>
   </g>

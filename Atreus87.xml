@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Keyboard Name="Atreus87" Version="0.0.1">
+<Keyboard Name="Atreus87" Version="0.0.1" XOffset="175" YOffset="80">
   <Group Name="Outer">
     <Stack Name="Left" Rotation="10" Orientation="Horizontal" XOffset="-88">
       <Stack Name="Column1" YOffset="2.5" Orientation="Vertical">

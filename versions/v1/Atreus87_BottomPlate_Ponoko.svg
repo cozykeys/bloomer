@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg293"
+   sodipodi:docname="Atreus87_BottomPlate_Ponoko.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata299">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs297" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     id="namedview295"
+     showgrid="false"
+     inkscape:zoom="1.9981333"
+     inkscape:cx="614.41252"
+     inkscape:cy="1243.5688"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Outer" />
+  <g
+     id="Atreus87"
+     transform="translate(175,80)">
+    <g
+       id="Outer" />
+    <g
+       id="g290">
+      <g
+         id="g220"
+         transform="translate(-147,-68)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle218" />
+      </g>
+      <g
+         id="g224"
+         transform="translate(-25,-68)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle222" />
+      </g>
+      <g
+         id="g228"
+         transform="translate(25,-68)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle226" />
+      </g>
+      <g
+         id="g232"
+         transform="translate(147,-68)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle230" />
+      </g>
+      <g
+         id="g236"
+         transform="translate(-168,50)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle234" />
+      </g>
+      <g
+         id="g240"
+         transform="translate(-30,78)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle238" />
+      </g>
+      <g
+         id="g244"
+         transform="translate(30,78)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle242" />
+      </g>
+      <g
+         id="g248"
+         transform="translate(168,50)">
+        <circle
+           r="1.15"
+           style="fill:none;stroke:#0000ff;stroke-width:0.01"
+           id="circle246" />
+      </g>
+      <g
+         id="g288">
+        <g
+           id="Top">
+          <path
+             id="TopSidePonoko"
+             d="m -147,-73 294,0"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="g253">
+          <path
+             id="RightSidePonoko"
+             d="m 152,-66 21,114"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="BottomRight">
+          <path
+             id="BottomRightSidePonoko"
+             d="m 165,56 -130,27"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="BottomCenter">
+          <path
+             id="BottomCenterSidePonoko"
+             d="m 31,83 -62,0"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="BottomLeft">
+          <path
+             id="BottomLeftSidePonoko"
+             d="m -35,83 -130,-27"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="g262">
+          <path
+             id="LeftSidePonoko"
+             d="m -173,48 21,-114"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        </g>
+        <g
+           id="g266">
+          <path
+             d="m 147 -73 q 3.710526 0 5 7"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path264" />
+        </g>
+        <g
+           id="g270">
+          <path
+             d="m 173 48 q 1.124588 6.104919 -8 8"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path268" />
+        </g>
+        <g
+           id="g274">
+          <path
+             d="m 35 83 q -2.288818E-05 0 -4 0"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path272" />
+        </g>
+        <g
+           id="g278">
+          <path
+             d="m -31 83 q -4.000015 0 -4 0"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path276" />
+        </g>
+        <g
+           id="g282">
+          <path
+             d="m -165 56 q -9.124588 -1.895103 -8 -8"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path280" />
+        </g>
+        <g
+           id="g286">
+          <path
+             d="m -152 -66 q 1.289474 -7 5 -7"
+             style="fill:none;stroke:#0000ff;stroke-width:0.01"
+             id="path284" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

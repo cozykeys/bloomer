@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Keyboard Name="2x2" Version="0.0.1">
-  <Stack Name="Column1" Orientation="Vertical" YOffset="5" Debug="true">
-    <Key Name="Column1Key1" Width="1u" Height="1u" Margin="0.45">
-      <Legend VerticalAlignment="Center" HorizontalAlignment="Center" Text="Q" />
-    </Key>
-  </Stack>
-</Keyboard>
