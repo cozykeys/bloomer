@@ -1,7 +1,9 @@
-﻿namespace KbUtil.Lib.SvgGeneration.Internal
+﻿namespace KbUtil.Lib.SvgGeneration.Internal.Path
 {
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
+    using KbUtil.Lib.Models.Path;
+    using System;
 
     internal class PathWriter : IElementWriter<Path>
     {
@@ -28,17 +30,7 @@
 
         public void WriteSubElements(XmlWriter writer, Path path)
         {
-            var sideWriter = new SideWriter { GenerationOptions = GenerationOptions };
-            foreach (Side side in path.Sides)
-            {
-                sideWriter.Write(writer, side);
-            }
-
-            var cornerWriter = new CornerWriter { GenerationOptions = GenerationOptions };
-            foreach (Corner corner in path.Corners)
-            {
-                cornerWriter.Write(writer, corner);
-            }
+            throw new NotImplementedException();
         }
     }
 }
