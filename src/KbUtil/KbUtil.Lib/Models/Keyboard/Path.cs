@@ -4,8 +4,9 @@
     using System.Collections.Generic;
 
     [GroupChild]
-    public class Group : Element
+    public class Path : Element
     {
-        public IEnumerable<Element> Children { get; set; }
+        public IEnumerable<Side> Sides { get; set; }
+        public IEnumerable<Corner> Corners { get; set; }
     }
 }

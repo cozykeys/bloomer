@@ -3,39 +3,39 @@
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
 
-    internal class PerimeterWriter : IElementWriter<Perimeter>
+    internal class PathWriter : IElementWriter<Path>
     {
         public SvgGenerationOptions GenerationOptions { get; set; }
 
-        public void Write(XmlWriter writer, Perimeter perimeter)
+        public void Write(XmlWriter writer, Path path)
         {
             writer.WriteStartElement("g");
 
             var elementWriter = new ElementWriter { GenerationOptions = GenerationOptions };
 
-            elementWriter.WriteAttributes(writer, perimeter);
-            WriteAttributes(writer, perimeter);
+            elementWriter.WriteAttributes(writer, path);
+            WriteAttributes(writer, path);
 
-            elementWriter.WriteSubElements(writer, perimeter);
-            WriteSubElements(writer, perimeter);
+            elementWriter.WriteSubElements(writer, path);
+            WriteSubElements(writer, path);
 
             writer.WriteEndElement();
         }
 
-        public void WriteAttributes(XmlWriter writer, Perimeter perimeter)
+        public void WriteAttributes(XmlWriter writer, Path path)
         {
         }
 
-        public void WriteSubElements(XmlWriter writer, Perimeter perimeter)
+        public void WriteSubElements(XmlWriter writer, Path path)
         {
             var sideWriter = new SideWriter { GenerationOptions = GenerationOptions };
-            foreach (Side side in perimeter.Sides)
+            foreach (Side side in path.Sides)
             {
                 sideWriter.Write(writer, side);
             }
 
             var cornerWriter = new CornerWriter { GenerationOptions = GenerationOptions };
-            foreach (Corner corner in perimeter.Corners)
+            foreach (Corner corner in path.Corners)
             {
                 cornerWriter.Write(writer, corner);
             }

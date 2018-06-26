@@ -48,9 +48,13 @@
                         var stackWriter = new StackWriter { GenerationOptions = GenerationOptions };
                         stackWriter.Write(writer, (Stack)stack);
                         break;
-                    case var @case when child is Case:
-                        var caseWriter = new CaseWriter { GenerationOptions = GenerationOptions };
-                        caseWriter.Write(writer, (Case)@case);
+                    case var path when child is Models.Keyboard.Path:
+                        var pathWriter = new PathWriter { GenerationOptions = GenerationOptions };
+                        pathWriter.Write(writer, (Models.Keyboard.Path)path);
+                        break;
+                    case var hole when child is Hole:
+                        var holeWriter = new HoleWriter { GenerationOptions = GenerationOptions };
+                        holeWriter.Write(writer, (Hole)hole);
                         break;
                     case var subGroup when child is Group:
                         Write(writer, (Group)subGroup);

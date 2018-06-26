@@ -16,7 +16,7 @@
                 throw new Exception("The root element of the input file should be of type Keyboard.");
             }
 
-            return KeyboardDataDeserializer.Deserialize(rootElement);
+            return KeyboardDataDeserializer.DeserializeKeyboard(rootElement);
         }
 
         private static XElement LoadInputData(string path)

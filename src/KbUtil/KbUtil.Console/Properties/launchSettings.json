@@ -2,7 +2,7 @@
   "profiles": {
     "KBUtil": {
       "commandName": "Project",
-      "commandLineArgs": "gen-svg --keycap-overlays --visual-switch-cutouts --keycap-legends Layouts\\Atreus87.xml test.svg"
+      "commandLineArgs": "gen-svg --keycap-overlays --visual-switch-cutouts --keycap-legends \"c:\\src\\atreus87\\Atreus87.xml\" \"c:\\src\\atreus87\\output\""
     }
   }
 }
