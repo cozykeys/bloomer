@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Keyboard Name="Atreus87" Version="1.0.0" XOffset="175" YOffset="80">
+<Keyboard Name="Atreus87" Version="1.0.0">
   <Constants>
     <Constant Name="AlphaFillColor" Value="#ffffff" />
     <Constant Name="AlphaLegendColor" Value="#000000" />
@@ -10,7 +10,7 @@
     <Constant Name="M2ScrewSize" Value="2.3" />
   </Constants>
   <Layers>
-    <Layer Name="Switch" ZIndex="3">
+    <Layer Name="Switch" ZIndex="3" XOffset="175" YOffset="80">
       <Groups>
         <Group Name="Outer">
           <Children>
@@ -379,94 +379,21 @@
             <Hole Size="${M2SpacerSize}" XOffset="30" YOffset="78" />
             <Hole Size="${M2SpacerSize}" XOffset="168" YOffset="50" />
             <Path>
-              <Side Name="TopLeft">
-                <Start XOffset="-147" YOffset="-73" />
-                <End XOffset="-20" YOffset="-73" />
-              </Side>
-              <Side Name="TopRight">
-                <Start XOffset="20" YOffset="-73" />
-                <End XOffset="147" YOffset="-73" />
-              </Side>
-              <Side Name="Right">
-                <Start XOffset="152" YOffset="-66" />
-                <End XOffset="173" YOffset="48" />
-              </Side>
-              <Side Name="BottomRight">
-                <Start XOffset="165" YOffset="56" />
-                <End XOffset="35" YOffset="83" />
-              </Side>
-              <Side Name="BottomCenter">
-                <Start XOffset="31" YOffset="83" />
-                <End XOffset="-31" YOffset="83" />
-              </Side>
-              <Side Name="BottomLeft">
-                <Start XOffset="-35" YOffset="83" />
-                <End XOffset="-165" YOffset="56" />
-              </Side>
-              <Side Name="Left">
-                <Start XOffset="-173" YOffset="48" />
-                <End XOffset="-152" YOffset="-66" />
-              </Side>
-              <Corner SideA="TopRight" SideB="Right" />
-              <Corner SideA="Right" SideB="BottomRight" />
-              <Corner SideA="BottomRight" SideB="BottomCenter" />
-              <Corner SideA="BottomCenter" SideB="BottomLeft" />
-              <Corner SideA="BottomLeft" SideB="Left" />
-              <Corner SideA="Left" SideB="TopLeft" />
-              <Corner SideA="TopLeft" SideB="TopLeftConnector" />
-              <Corner SideA="InnerTopLeft" SideB="TopLeftConnectorReversed" />
-              <Corner SideA="TopRightConnectorReversed" SideB="TopRight" />
-              <Corner SideA="TopRightConnector" SideB="InnerTopRight" />
-              <Side Name="TopLeftConnector">
-                <Start XOffset="-19" YOffset="-72" />
-                <End XOffset="-19.1" YOffset="-65" />
-              </Side>
-              <Side Name="TopLeftConnectorReversed">
-                <Start XOffset="-19.1" YOffset="-65" />
-                <End XOffset="-19" YOffset="-72" />
-              </Side>
-              <Side Name="TopRightConnector">
-                <Start XOffset="19" YOffset="-72" />
-                <End XOffset="19.1" YOffset="-65" />
-              </Side>
-              <Side Name="TopRightConnectorReversed">
-                <Start XOffset="19.1" YOffset="-65" />
-                <End XOffset="19" YOffset="-72" />
-              </Side>
-              <Side Name="InnerTopLeft">
-                <Start XOffset="-143.4" YOffset="-64" />
-                <End XOffset="-20" YOffset="-64" />
-              </Side>
-              <Side Name="InnerTopRight">
-                <Start XOffset="20" YOffset="-64" />
-                <End XOffset="143.4" YOffset="-64" />
-              </Side>
-              <Side Name="InnerRight">
-                <Start XOffset="144.5" YOffset="-63.2" />
-                <End XOffset="164.3" YOffset="45.4" />
-              </Side>
-              <Side Name="InnerBottomRight">
-                <Start XOffset="162.68" YOffset="47.4" />
-                <End XOffset="35.4" YOffset="73" />
-              </Side>
-              <Side Name="InnerBottomCenter">
-                <Start XOffset="35" YOffset="73" />
-                <End XOffset="-35" YOffset="73" />
-              </Side>
-              <Side Name="InnerBottomLeft">
-                <Start XOffset="-35.4" YOffset="73" />
-                <End XOffset="-162.68" YOffset="47.4" />
-              </Side>
-              <Side Name="InnerLeft">
-                <Start XOffset="-164.3" YOffset="45.4" />
-                <End XOffset="-144.5" YOffset="-63.2" />
-              </Side>
-              <Corner SideA="InnerTopRight" SideB="InnerRight" />
-              <Corner SideA="InnerRight" SideB="InnerBottomRight" />
-              <Corner SideA="InnerBottomRight" SideB="InnerBottomCenter" />
-              <Corner SideA="InnerBottomCenter" SideB="InnerBottomLeft" />
-              <Corner SideA="InnerBottomLeft" SideB="InnerLeft" />
-              <Corner SideA="InnerLeft" SideB="InnerTopLeft" />
+                <Components>
+                    <AbsoluteMoveTo>
+                        <EndPoint X="0" Y="-73" />
+                    </AbsoluteMoveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="147" Y="-73" />
+                    </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo>
+                        <EndPoint X="152" Y="-66" />
+                        <ControlPoint X="150.711" Y="-73" />
+                    </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="173" Y="48" />
+                    </AbsoluteLineTo>
+                </Components>
             </Path>
           </Children>
         </Group>
