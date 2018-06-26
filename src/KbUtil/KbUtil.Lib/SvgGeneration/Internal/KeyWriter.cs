@@ -70,8 +70,16 @@
             // Next we write it with a style that is more visually pleasing
             writer.WriteStartElement("path");
             writer.WriteAttributeString("id", $"{key.Name}KeycapOverlay");
-            writer.WriteAttributeString("d", $"M -{w/2},-{h/2} h {w} v {h} h -{w} v -{h} h {w}");
-            writer.WriteAttributeString("style", "fill:none;stroke:#ff0000;stroke-width:0.5");
+            writer.WriteAttributeString("d", $"M -{w / 2},-{h / 2} h {w} v {h} h -{w} v -{h} h {w}");
+
+            var styleDictionary = new Dictionary<string, string>
+            {
+                { "fill", !string.IsNullOrWhiteSpace(key.Fill) ? key.Fill : "#ffffff" },
+                { "stroke", !string.IsNullOrWhiteSpace(key.Stroke) ? key.Stroke : "#000000" },
+                { "stroke-width", "0.5" },
+            };
+
+            writer.WriteAttributeString("style", styleDictionary.ToCssStyleString());
             writer.WriteEndElement();
         }
 
@@ -98,6 +106,7 @@
 
                 var styleDictionary = new Dictionary<string, string>
                 {
+                    { "fill", !string.IsNullOrWhiteSpace(legend.Color) ? legend.Color : "#000000" },
                     { "dominant-baseline", "central" },
                     { "text-anchor", "middle" },
                     { "font-size", $"{fontSize}px" },

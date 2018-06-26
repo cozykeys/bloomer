@@ -42,4 +42,4 @@ Keycap legends don't need to be in the SVG when it is sent to a laser cutting
 service; however, they can be useful during layout development. So, the
 `--keycap-legends` command line option will enable legends being written to the
 resulting SVG.
-
+gen-svg --keycap-overlays --visual-switch-cutouts --keycap-legends ../../../../../../Atreus87.xml

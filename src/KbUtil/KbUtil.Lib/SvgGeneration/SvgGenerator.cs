@@ -4,10 +4,11 @@
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
     using KbUtil.Lib.SvgGeneration.Internal;
+    using System;
 
     public class SvgGenerator
     {
-        public static void GenerateSvg(Keyboard keyboard, string path, SvgGenerationOptions options = null)
+        public static void GenerateSvg(Keyboard keyboard, string outputDirectory, SvgGenerationOptions options = null)
         {
             var settings = new XmlWriterSettings
             {
@@ -16,15 +17,22 @@
                 NewLineOnAttributes = true
             };
 
-            using (FileStream stream = File.Open(path, FileMode.Create))
-            using (XmlWriter writer = XmlWriter.Create(stream, settings))
+            Directory.CreateDirectory(outputDirectory);
+
+            foreach (var layer in keyboard.Layers)
             {
-                WriteSvgOpenTag(writer);
+                string path = System.IO.Path.Combine(outputDirectory, $"{keyboard.Name}_{layer.Name}.svg");
 
-                var keyboardWriter = new KeyboardWriter { GenerationOptions = options };
-                keyboardWriter.Write(writer, keyboard);
+                using (FileStream stream = File.Open(path, FileMode.Create))
+                using (XmlWriter writer = XmlWriter.Create(stream, settings))
+                {
+                    WriteSvgOpenTag(writer);
 
-                WriteSvgCloseTag(writer);
+                    var layerWriter = new LayerWriter { GenerationOptions = options };
+                    layerWriter.Write(writer, layer);
+
+                    WriteSvgCloseTag(writer);
+                }
             }
         }
 
