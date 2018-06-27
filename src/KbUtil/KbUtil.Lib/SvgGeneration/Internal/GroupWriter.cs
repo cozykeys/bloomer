@@ -53,9 +53,9 @@
                         var pathWriter = new PathWriter { GenerationOptions = GenerationOptions };
                         pathWriter.Write(writer, (Models.Path.Path)path);
                         break;
-                    case var hole when child is Hole:
-                        var holeWriter = new HoleWriter { GenerationOptions = GenerationOptions };
-                        holeWriter.Write(writer, (Hole)hole);
+                    case var circle when child is Circle:
+                        var holeWriter = new CircleWriter { GenerationOptions = GenerationOptions };
+                        holeWriter.Write(writer, (Circle)circle);
                         break;
                     case var subGroup when child is Group:
                         Write(writer, (Group)subGroup);

@@ -25,8 +25,8 @@ def get_intersection_point(s1, s2):
     return Vec2(x, y)
 
 def main():
-    s1 = LineSegment(Vec2(0, -73), Vec2(147, -73))
-    s2 = LineSegment(Vec2(152, -66), Vec2(173, 48))
+    s1 = LineSegment(Vec2(165,56), Vec2(35,83))
+    s2 = LineSegment(Vec2(31,83), Vec2(-31,83))
 
     intersection = get_intersection_point(s1, s2)
     print('Intersection Point: {0}'.format(intersection.to_string()))

@@ -87,16 +87,7 @@
         {
             if(XmlUtilities.TryGetAttribute(xElement, "Height", out XAttribute heightAttribute))
             {
-                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                string heightString = heightAttribute.ValueAsString(element);
-                if (heightString.EndsWith("u"))
-                {
-                    element.Height = float.Parse(heightString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
-                }
-                else
-                {
-                    element.Height = heightAttribute.ValueAsFloat(element);
-                }
+                element.Height = heightAttribute.ValueAsFloat(element);
             }
         }
 
@@ -104,16 +95,7 @@
         {
             if(XmlUtilities.TryGetAttribute(xElement, "Width", out XAttribute widthAttribute))
             {
-                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                string widthString = widthAttribute.ValueAsString(element);
-                if (widthString.EndsWith("u"))
-                {
-                    element.Width = float.Parse(widthString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
-                }
-                else
-                {
-                    element.Width = widthAttribute.ValueAsFloat(element);
-                }
+                element.Width = widthAttribute.ValueAsFloat(element);
             }
         }
 
