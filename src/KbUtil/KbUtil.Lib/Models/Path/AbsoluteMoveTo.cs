@@ -5,5 +5,7 @@ namespace KbUtil.Lib.Models.Path
     public class AbsoluteMoveTo : IPathComponent
     {
         public Vec2 EndPoint { get; set; }
+
+        public string Data => $"M {EndPoint.X} {EndPoint.Y}";
     }
 }

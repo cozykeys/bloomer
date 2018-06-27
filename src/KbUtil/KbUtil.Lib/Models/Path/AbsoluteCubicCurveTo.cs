@@ -4,8 +4,10 @@ namespace KbUtil.Lib.Models.Path
 
     public class AbsoluteCubicCurveTo : IPathComponent
     {
-        public Vec2 End { get; set; }
-        public Vec2 ControlA { get; set; }
-        public Vec2 ControlB { get; set; }
+        public Vec2 EndPoint { get; set; }
+        public Vec2 ControlPointA { get; set; }
+        public Vec2 ControlPointB { get; set; }
+
+        public string Data => throw new System.NotImplementedException();
     }
 }
