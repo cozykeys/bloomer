@@ -4,6 +4,7 @@
     using System.IO;
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
+    using KbUtil.Lib.SvgGeneration.Internal.Path;
 
     internal class GroupWriter : IElementWriter<Group>
     {
@@ -48,13 +49,13 @@
                         var stackWriter = new StackWriter { GenerationOptions = GenerationOptions };
                         stackWriter.Write(writer, (Stack)stack);
                         break;
-                    case var path when child is Models.Keyboard.Path:
+                    case var path when child is Models.Path.Path:
                         var pathWriter = new PathWriter { GenerationOptions = GenerationOptions };
-                        pathWriter.Write(writer, (Models.Keyboard.Path)path);
+                        pathWriter.Write(writer, (Models.Path.Path)path);
                         break;
-                    case var hole when child is Hole:
-                        var holeWriter = new HoleWriter { GenerationOptions = GenerationOptions };
-                        holeWriter.Write(writer, (Hole)hole);
+                    case var circle when child is Circle:
+                        var holeWriter = new CircleWriter { GenerationOptions = GenerationOptions };
+                        holeWriter.Write(writer, (Circle)circle);
                         break;
                     case var subGroup when child is Group:
                         Write(writer, (Group)subGroup);

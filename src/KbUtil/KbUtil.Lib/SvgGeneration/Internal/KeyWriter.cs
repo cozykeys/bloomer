@@ -5,10 +5,31 @@
     using System.Xml;
     using KbUtil.Lib.Models.Keyboard;
     using KbUtil.Lib.Extensions;
+    using KbUtil.Lib.SvgGeneration.Internal.Path;
 
     internal class KeyWriter : IElementWriter<Key>
     {
         public SvgGenerationOptions GenerationOptions { get; set; }
+
+        private static Models.Path.Path _switchPath = new Models.Path.Path
+        {
+            Components = new List<Models.Path.IPathComponent>
+            {
+                new Models.Path.AbsoluteMoveTo { EndPoint = new Models.Geometry.Vec2 { X = -7, Y = -7 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7, Y = -7 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7, Y = -6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7.8f, Y = -6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7.8f, Y = 6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7, Y = 6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = 7, Y = 7 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7, Y = 7 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7, Y = 6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7.8f, Y = 6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7.8f, Y = -6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7, Y = -6 } },
+                new Models.Path.AbsoluteLineTo { EndPoint = new Models.Geometry.Vec2 { X = -7, Y = -7 } }
+            }
+        };
 
         public void Write(XmlWriter writer, Key key)
         {
@@ -38,22 +59,8 @@
 
         private void WriteSwitchCutoutPath(XmlWriter writer, Key key)
         {
-            // First we write it with the style that Ponoko expects
-            writer.WriteStartElement("path");
-            writer.WriteAttributeString("id", $"{key.Name}SwitchCutoutPonoko");
-            writer.WriteAttributeString("d", "m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14");
-            writer.WriteAttributeString("style", "fill:none;stroke:#0000ff;stroke-width:0.01");
-            writer.WriteEndElement();
-
-            // Next we write it with a style that is more visually pleasing
-            if (GenerationOptions != null && GenerationOptions.EnableVisualSwitchCutouts == true)
-            {
-                writer.WriteStartElement("path");
-                writer.WriteAttributeString("id", $"{key.Name}SwitchCutoutVisual");
-                writer.WriteAttributeString("d", "m -7,-7 h 14 v 1 h 0.8 v 12 h -0.8 v 1 h -14 v -1 h -0.8 v -12 h 0.8 v -1 h 14");
-                writer.WriteAttributeString("style", "fill:none;stroke:#0000ff;stroke-width:0.5");
-                writer.WriteEndElement();
-            }
+            var pathWriter = new PathWriter { GenerationOptions = GenerationOptions };
+            pathWriter.Write(writer, _switchPath);
         }
 
         private void WriteKeycapOverlay(XmlWriter writer, Key key)

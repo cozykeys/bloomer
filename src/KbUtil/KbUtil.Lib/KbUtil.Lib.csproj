@@ -12,4 +12,10 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Deserialization\Internal\Path\" />
+    <Folder Include="Models\Geometry\" />
+    <Folder Include="Models\Path\" />
+  </ItemGroup>
+
 </Project>

@@ -2,7 +2,6 @@
 {
     using KbUtil.Lib.Deserialization.Extensions;
     using KbUtil.Lib.Models.Keyboard;
-    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Xml.Linq;
@@ -13,17 +12,8 @@
 
         public void Deserialize(XElement xElement, Element element)
         {
-            /* TODO
-             * 
-             * Move Constants to the Element model. Update the deserializer classes to use the new
-             * extension methods that do token replacement. Implement the token replacement extension.
-             * Make sure that constants are always deserialized first so that every subsequent 
-             * attribute deserialization can use them.
-             * 
-             */
-
-            // This should be the first thing we deserialize simply so that we can 
-            // use the constants in any future deserialization
+            // Constants should be the first thing we deserialize for every element so that
+            // every subsequent attribute/element that is deserialized can use them
             DeserializeConstants(xElement, element);
 
             DeserializeName(xElement, element);
@@ -97,16 +87,7 @@
         {
             if(XmlUtilities.TryGetAttribute(xElement, "Height", out XAttribute heightAttribute))
             {
-                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                string heightString = heightAttribute.ValueAsString(element);
-                if (heightString.EndsWith("u"))
-                {
-                    element.Height = float.Parse(heightString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
-                }
-                else
-                {
-                    element.Height = heightAttribute.ValueAsFloat(element);
-                }
+                element.Height = heightAttribute.ValueAsFloat(element);
             }
         }
 
@@ -114,16 +95,7 @@
         {
             if(XmlUtilities.TryGetAttribute(xElement, "Width", out XAttribute widthAttribute))
             {
-                // This is a bit hacky but it's easier to set key dimensions via units instead of mm
-                string widthString = widthAttribute.ValueAsString(element);
-                if (widthString.EndsWith("u"))
-                {
-                    element.Width = float.Parse(widthString.Replace("u", string.Empty)) * Constants.KeyDiameterMillimeters1u;
-                }
-                else
-                {
-                    element.Width = widthAttribute.ValueAsFloat(element);
-                }
+                element.Width = widthAttribute.ValueAsFloat(element);
             }
         }
 
