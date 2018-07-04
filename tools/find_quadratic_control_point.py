@@ -24,12 +24,20 @@ def get_intersection_point(s1, s2):
     y = s1.slope() * x + s1.y_offset()
     return Vec2(x, y)
 
-def main():
-    s1 = LineSegment(Vec2(165,56), Vec2(35,83))
-    s2 = LineSegment(Vec2(31,83), Vec2(-31,83))
 
-    intersection = get_intersection_point(s1, s2)
-    print('Intersection Point: {0}'.format(intersection.to_string()))
+
+def main():
+    calculations = [
+        (
+            LineSegment(Vec2(19.1000004, -65), Vec2(19, -72)),
+            LineSegment(Vec2(20, -73), Vec2(147, -73)),
+        )
+    ]
+
+    for calc in calculations:
+        intersection = get_intersection_point(calc[0], calc[1])
+        print('<ControlPoint X="{0}" Y="{1}" />'.format(
+            intersection.x, intersection.y))
 
 if __name__ == "__main__":
     main()
