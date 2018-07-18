@@ -1,4 +1,4 @@
-# Atreus87
+# Ergo87
 
 This repository contains the design files for the next DIY ergonomic keyboard I
 am designing and building. The keyboard is based closely on the Atreus and the
@@ -7,20 +7,20 @@ replacement for standard TKL keyboards.
 
 The image below shows a preview of the layout of the board.
 
-![Atreus87 Layout Preview][preview]
+![Ergo87 Layout Preview][preview]
 
-[preview]: https://github.com/atreus87/atreus87.github.io/blob/master/images/Atreus87.png?raw=true "Atreus87 Layout Preview"
+[preview]: https://github.com/ergo87/ergo87.github.io/blob/master/images/Ergo87.png?raw=true "Ergo87 Layout Preview"
 
 ## Generating SVGs
 
 Rather than edit SVG files manually which is a pain for several reasons, the
-Atreus87 layout is saved in an XML file. The KbUtil application that resides in
+Ergo87 layout is saved in an XML file. The KbUtil application that resides in
 this repository can be used to generate an SVG from that XML file.
 
 To use that tool, you will need the .NET Core SDK version 2.0+.
 ```bash
 dotnet build -c Release src/KbUtil/KbUtil.sln
-dotnet src/KbUtil/KbUtil.Console/bin/Release/netcoreapp2.0/kbutil.dll gen-svg Atreus87.xml Atreus87.svg
+dotnet src/KbUtil/KbUtil.Console/bin/Release/netcoreapp2.0/kbutil.dll gen-svg Ergo87.xml Ergo87.svg
 ```
 
 There are a few benefits to this approach discussed below.
@@ -42,4 +42,4 @@ Keycap legends don't need to be in the SVG when it is sent to a laser cutting
 service; however, they can be useful during layout development. So, the
 `--keycap-legends` command line option will enable legends being written to the
 resulting SVG.
-gen-svg --keycap-overlays --visual-switch-cutouts --keycap-legends ../../../../../../Atreus87.xml
+gen-svg --keycap-overlays --visual-switch-cutouts --keycap-legends ../../../../../../Ergo87.xml
