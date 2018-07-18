@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "KBUtil": {
-      "commandName": "Project",
-      "commandLineArgs": "gen-svg --visual-switch-cutouts \"c:\\src\\atreus87\\Atreus87.xml\" \"c:\\src\\atreus87\\output\""
-    }
-  }
-}
