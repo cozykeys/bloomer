@@ -1,1 +1,3 @@
 *.swp
+*.kicad_pcb-bak
+*.pyc
