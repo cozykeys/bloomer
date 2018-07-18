@@ -1,0 +1,557 @@
+<svg>
+    <path
+        id="CasePerimeter"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none"
+        d="M 023.816 009.750
+           Q 024.163 007.780 026.163 007.780
+           L 323.837 007.780
+           Q 325.837 007.780 326.184 009.750
+           L 347.529 130.804
+           Q 347.877 132.774 345.920 133.190
+           L 246.124 154.402
+           Q 244.167 154.818 242.198 155.165
+           L 213.912 160.153
+           Q 211.942 160.500 209.942 160.500
+           L 140.058 160.500
+           Q 138.058 160.500 136.088 160.153
+           L 107.802 155.165
+           Q 105.833 154.818 103.876 154.402
+           L 004.080 133.190
+           Q 002.123 132.774 002.471 130.804
+           L 023.816 009.750" />
+    <circle
+        id="TopOuterLeftM2Screw"
+        transform="translate(28.7292881264225,12.03)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopOuterRightM2Screw"
+        transform="translate(321.270721873577,12.0299999999999)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopMiddleLeftM2Screw"
+        transform="translate(95.393,12.03)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopMiddleRightM2Screw"
+        transform="translate(254.6045,12.0299999999999)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopInnerLeftM2Screw"
+        transform="translate(162.0625,12.03)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopInnerRightM2Screw"
+        transform="translate(187.9375,12.03)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="CenterLeftM2Screw"
+        transform="translate(17.375378745,70.515)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="CenterRightM2Screw"
+        transform="translate(332.624631255,70.515)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomOuterLeftM2Screw"
+        transform="translate(8.02146936261395,129)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomOuterRightM2Screw"
+        transform="translate(341.978540637386,129)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomInnerLeftM2Screw"
+        transform="translate(66.643615148327,142.645216098349)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomInnerRightM2Screw"
+        transform="translate(283.356394851673,142.645216098349)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomMiddleLeftM2Screw"
+        transform="translate(138.4299241846,156.25)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomMiddleRightM2Screw"
+        transform="translate(211.570085815399,156.25)"
+        r="1.15"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <path
+        id="Switch_0_0"
+        transform="translate(38.5541109325725,25.636556791659) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_0"
+        transform="translate(35.2461131480175,44.3971444865416) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_0"
+        transform="translate(31.9381162317034,63.1577272573854) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_0"
+        transform="translate(28.6301179262038,81.9183179066912) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_0"
+        transform="translate(25.3221197943525,100.678907571189) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_0"
+        transform="translate(22.0141220097974,119.439495266072) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_1"
+        transform="translate(57.3146986274551,28.9445545762141) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_1"
+        transform="translate(54.0067008429001,47.7051422710966) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_1"
+        transform="translate(50.6987039265859,66.4657250419404) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_1"
+        transform="translate(47.3907056210864,85.2263156912462) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_1"
+        transform="translate(44.082707489235,103.986905355744) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_1"
+        transform="translate(40.77470970468,122.747493050627) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_2"
+        transform="translate(76.4225826776715,30.2829368547447) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_2"
+        transform="translate(73.1145848931165,49.0435245496272) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_2"
+        transform="translate(69.8065879768024,67.804107320471) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_2"
+        transform="translate(66.4985896713028,86.5646979697769) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_2"
+        transform="translate(63.1905915394514,105.325287634275) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_2"
+        transform="translate(59.8825937548964,124.085875329157) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_3"
+        transform="translate(96.2250594385557,27.6820881212264) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_3"
+        transform="translate(92.9170616540006,46.442675816109) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_3"
+        transform="translate(89.6090647376865,65.2032585869528) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_3"
+        transform="translate(86.301066432187,83.9638492362586) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_3"
+        transform="translate(82.9930683003356,102.724438900757) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_3"
+        transform="translate(79.6850705157806,121.485026595639) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_4"
+        transform="translate(113.943758067437,36.8989324238547) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_4"
+        transform="translate(110.635760282882,55.6595201187373) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_4"
+        transform="translate(107.327763366567,74.4201028895811) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_4"
+        transform="translate(104.019765061068,93.1806935388869) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_4"
+        transform="translate(100.711766929217,111.941283203385) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_4"
+        transform="translate(97.4037691446615,130.701870898268) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_5"
+        transform="translate(131.836114722062,45.1309707099526) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_5"
+        transform="translate(128.528116937507,63.8915584048351) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_5"
+        transform="translate(125.220120021193,82.6521411756789) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_5"
+        transform="translate(121.912121715693,101.412731824985) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_5"
+        transform="translate(118.604123583842,120.173321489483) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_5"
+        transform="translate(115.296125799287,138.933909184365) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_6"
+        transform="translate(155.95,39.425)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_6"
+        transform="translate(155.95,68.475)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_6"
+        transform="translate(155.95,87.524998)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_6"
+        transform="translate(155.95,120.575)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_6"
+        transform="translate(134.078419516378,142.118805999794) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_7"
+        transform="translate(175,34.4)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_7"
+        transform="translate(175,63.45)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_7"
+        transform="translate(175,82.499996)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_7"
+        transform="translate(175,111.55)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_7"
+        transform="translate(175,130.6)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_8"
+        transform="translate(194.05,39.425)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_8"
+        transform="translate(194.05,68.475)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_8"
+        transform="translate(194.05,87.524998)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_8"
+        transform="translate(194.05,120.575)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_8"
+        transform="translate(215.9215903317,142.118804263312) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_9"
+        transform="translate(218.163895126015,45.1309689734708) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_9"
+        transform="translate(221.47189291057,63.8915566683533) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_9"
+        transform="translate(224.779889826885,82.6521394391971) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_9"
+        transform="translate(228.087888132384,101.412730088503) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_9"
+        transform="translate(231.395886264236,120.173319753001) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_9"
+        transform="translate(234.703884048791,138.933907447884) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_10"
+        transform="translate(236.056241932563,36.8989324238547) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_10"
+        transform="translate(239.364239717118,55.6595201187373) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_10"
+        transform="translate(242.672236633433,74.4201028895811) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_10"
+        transform="translate(245.980234938932,93.1806935388869) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_10"
+        transform="translate(249.288233070783,111.941283203385) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_10"
+        transform="translate(252.596230855338,130.701870898268) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_11"
+        transform="translate(253.774940561444,27.6820881212264) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_11"
+        transform="translate(257.082938345999,46.442675816109) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_11"
+        transform="translate(260.390935262313,65.2032585869528) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_11"
+        transform="translate(263.698933567813,83.9638492362586) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_11"
+        transform="translate(267.006931699664,102.724438900757) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_11"
+        transform="translate(270.314929484219,121.485026595639) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_12"
+        transform="translate(273.403769144662,29.2981291017325) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_12"
+        transform="translate(276.711766929217,48.058716796615) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_12"
+        transform="translate(280.019763845531,66.8192995674588) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_12"
+        transform="translate(283.32776215103,85.5798902167647) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_12"
+        transform="translate(286.635760282882,104.340479881263) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_12"
+        transform="translate(289.943758067437,123.101067576145) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_13"
+        transform="translate(292.685311220622,28.9445528397323) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_13"
+        transform="translate(295.993309005177,47.7051405346149) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_13"
+        transform="translate(299.301305921492,66.4657233054587) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_13"
+        transform="translate(302.609304226991,85.2263139547645) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_13"
+        transform="translate(305.917302358843,103.986903619263) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_13"
+        transform="translate(309.225300143398,122.747491314145) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_14"
+        transform="translate(311.445898915505,25.6365550551773) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_14"
+        transform="translate(314.75389670006,44.3971427500598) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_14"
+        transform="translate(318.061893616374,63.1577255209036) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_14"
+        transform="translate(321.369891921874,81.9183161702095) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_14"
+        transform="translate(324.677890053725,100.678905834708) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_14"
+        transform="translate(327.98588783828,119.43949352959) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+</svg>

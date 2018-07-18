@@ -1,0 +1,146 @@
+<svg>
+    <path
+        case="CasePerimeter"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none"
+        d="M 183.825 009.654
+           Q 184.525 007.780 186.525 007.780
+           L 323.837 007.780
+           Q 325.837 007.780 326.184 009.750
+           L 347.529 130.804
+           Q 347.877 132.774 345.920 133.190
+           L 246.124 154.402
+           Q 244.167 154.818 242.198 155.165
+           L 213.912 160.153
+           Q 211.942 160.500 209.942 160.500
+           L 140.058 160.500
+           Q 138.058 160.500 136.088 160.153
+           L 107.802 155.165
+           Q 105.833 154.818 103.876 154.402
+           L 004.080 133.190
+           Q 002.123 132.774 002.471 130.804
+           L 023.816 009.750
+           Q 024.163 007.780 026.163 007.780
+           L 163.475 007.780
+           Q 165.475 007.780 166.175 009.654
+           L 167.950 014.406
+           Q 168.650 016.280 166.650 016.280
+           L 033.295 016.280
+           Q 031.295 016.280 030.948 018.250
+           L 012.267 124.196
+           Q 011.920 126.166 013.876 126.582
+           L 105.498 146.057
+           Q 107.455 146.473 109.424 146.820
+           L 136.832 151.653
+           Q 138.802 152.000 140.802 152.000
+           L 209.198 152.000
+           Q 211.198 152.000 213.168 151.653
+           L 240.576 146.820
+           Q 242.545 146.473 244.502 146.057
+           L 336.124 126.582
+           Q 338.080 126.166 337.733 124.196
+           L 319.052 018.250
+           Q 318.705 016.280 316.705 016.280
+           L 183.350 016.280
+           Q 181.350 016.280 182.050 014.406
+           L 183.825 009.654" />
+    <circle
+        id="TopOuterLeftM2Spacer"
+        transform="translate(28.7292881264225,12.03)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopOuterRightM2Spacer"
+        transform="translate(321.270721873577,12.0299999999999)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopMiddleLeftM2Spacer"
+        transform="translate(95.393,12.03)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopMiddleRightM2Spacer"
+        transform="translate(254.6045,12.0299999999999)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopInnerLeftM2Spacer"
+        transform="translate(162.0625,12.03)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="TopInnerRightM2Spacer"
+        transform="translate(187.9375,12.03)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="CenterLeftM2Spacer"
+        transform="translate(17.375378745,70.515)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="CenterRightM2Spacer"
+        transform="translate(332.624631255,70.515)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomOuterLeftM2Spacer"
+        transform="translate(8.02146936261395,129)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomOuterRightM2Spacer"
+        transform="translate(341.978540637386,129)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomInnerLeftM2Spacer"
+        transform="translate(66.643615148327,142.645216098349)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomInnerRightM2Spacer"
+        transform="translate(283.356394851673,142.645216098349)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomMiddleLeftM2Spacer"
+        transform="translate(138.4299241846,156.25)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+    <circle
+        id="BottomMiddleRightM2Spacer"
+        transform="translate(211.570085815399,156.25)"
+        r="1.7815"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none" />
+</svg>
