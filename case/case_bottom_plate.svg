@@ -97,7 +97,7 @@
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
         id="ResetSwitchHole"
-        transform="translate(175,47.78)"
+        transform="translate(175,98)"
         r="0.75"
         style="stroke:black;stroke-width:0.1;fill:none" />
 </svg>
