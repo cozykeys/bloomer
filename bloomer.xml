@@ -10,7 +10,7 @@
     <Constant Name="M2ScrewSize" Value="2.3" />
     <Constant Name="KeycapDiameterMm1u" Value="18.1" />
     <Constant Name="KeyMarginMillimeters" Value="0.475" />
-    <Constant Name="CaseFillColor" Value="#000000" />
+    <Constant Name="CaseFillColor" Value="#7f7f7f" />
     <Constant Name="CaseEdgeTop" Value="-68" />
     <Constant Name="CaseEdgeTopSub" Value="-65" />
     <Constant Name="CaseEdgeBottom" Value="76" />
@@ -23,6 +23,54 @@
   <Layers>
     <Layer Name="Switch" ZIndex="3" XOffset="175" YOffset="80">
       <Groups>
+        <Group Name="Case">
+          <Children>
+            <Path Fill="${CaseFillColor}">
+                <Components>
+                    <AbsoluteMoveTo>
+                        <EndPoint X="0" Y="${CaseEdgeTop}" />
+                    </AbsoluteMoveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="${CaseEdgeRightSub}" Y="${CaseEdgeTop}" />
+                    </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo>
+                        <EndPoint X="${CaseEdgeRight}" Y="${CaseEdgeTopSub}" />
+                        <ControlPoint X="${CaseEdgeRight}" Y="${CaseEdgeTop}" />
+                    </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="${CaseEdgeRight}" Y="${CaseEdgeBottomSub}" />
+                    </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo>
+                        <EndPoint X="${CaseEdgeRightSub}" Y="${CaseEdgeBottom}" />
+                        <ControlPoint X="${CaseEdgeRight}" Y="${CaseEdgeBottom}" />
+                    </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="${CaseEdgeLeftSub}" Y="${CaseEdgeBottom}" />
+                    </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo>
+                        <EndPoint X="${CaseEdgeLeft}" Y="${CaseEdgeBottomSub}" />
+                        <ControlPoint X="${CaseEdgeLeft}" Y="${CaseEdgeBottom}" />
+                    </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="${CaseEdgeLeft}" Y="${CaseEdgeTopSub}" />
+                    </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo>
+                        <EndPoint X="${CaseEdgeLeftSub}" Y="${CaseEdgeTop}" />
+                        <ControlPoint X="${CaseEdgeLeft}" Y="${CaseEdgeTop}" />
+                    </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo>
+                        <EndPoint X="0" Y="${CaseEdgeTop}" />
+                    </AbsoluteLineTo>
+                </Components>
+            </Path>
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="-160" YOffset="-60" />
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="160" YOffset="-60" />
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="-160" YOffset="68" />
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="160" YOffset="68" />
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="-35" YOffset="11.25" />
+            <Circle Fill="#000000" Stroke="#3f3f3f" StrokeWidth="0.5" Size="${M2ScrewSize}" XOffset="35" YOffset="11.25" />
+          </Children>
+        </Group>
         <Group Name="Outer">
           <Children>
             <Stack Name="Left" Rotation="10" Orientation="Horizontal" XOffset="-88">
@@ -376,55 +424,6 @@
                 </Stack>
               </Children>
             </Stack>
-          </Children>
-        </Group>
-        <Group Name="Case">
-          <Children>
-            <Circle Size="${M2ScrewSize}" XOffset="-160" YOffset="-60" />
-            <Circle Size="${M2ScrewSize}" XOffset="160" YOffset="-60" />
-            <Circle Size="${M2ScrewSize}" XOffset="-160" YOffset="68" />
-            <Circle Size="${M2ScrewSize}" XOffset="160" YOffset="68" />
-            <Circle Size="${M2ScrewSize}" XOffset="-35" YOffset="11.25" />
-            <Circle Size="${M2ScrewSize}" XOffset="35" YOffset="11.25" />
-            <!--<Path Fill="${CaseFillColor}">-->
-            <Path>
-                <Components>
-                    <AbsoluteMoveTo>
-                        <EndPoint X="0" Y="${CaseEdgeTop}" />
-                    </AbsoluteMoveTo>
-                    <AbsoluteLineTo>
-                        <EndPoint X="${CaseEdgeRightSub}" Y="${CaseEdgeTop}" />
-                    </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo>
-                        <EndPoint X="${CaseEdgeRight}" Y="${CaseEdgeTopSub}" />
-                        <ControlPoint X="${CaseEdgeRight}" Y="${CaseEdgeTop}" />
-                    </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo>
-                        <EndPoint X="${CaseEdgeRight}" Y="${CaseEdgeBottomSub}" />
-                    </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo>
-                        <EndPoint X="${CaseEdgeRightSub}" Y="${CaseEdgeBottom}" />
-                        <ControlPoint X="${CaseEdgeRight}" Y="${CaseEdgeBottom}" />
-                    </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo>
-                        <EndPoint X="${CaseEdgeLeftSub}" Y="${CaseEdgeBottom}" />
-                    </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo>
-                        <EndPoint X="${CaseEdgeLeft}" Y="${CaseEdgeBottomSub}" />
-                        <ControlPoint X="${CaseEdgeLeft}" Y="${CaseEdgeBottom}" />
-                    </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo>
-                        <EndPoint X="${CaseEdgeLeft}" Y="${CaseEdgeTopSub}" />
-                    </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo>
-                        <EndPoint X="${CaseEdgeLeftSub}" Y="${CaseEdgeTop}" />
-                        <ControlPoint X="${CaseEdgeLeft}" Y="${CaseEdgeTop}" />
-                    </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo>
-                        <EndPoint X="0" Y="${CaseEdgeTop}" />
-                    </AbsoluteLineTo>
-                </Components>
-            </Path>
           </Children>
         </Group>
       </Groups>
