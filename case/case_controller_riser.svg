@@ -17,17 +17,6 @@
            L 201.7815,62.5615 Q 201.7815,67.5615, 196.7815,67.5615
            L 153.2185,67.5615 Q 148.2185,67.5615, 148.2185,62.5615
            L 148.2185,19.28 Q 148.2185,14.28, 153.2185,14.28" />
-    <path
-        id="ItsyBitsy"
-        stroke="black"
-        stroke-width="0.1"
-        fill="none"
-        transform="translate(175,35.56) rotate(270)"
-        d="M -17.78 -8.89
-           L -17.78 8.89
-           L 17.78 8.89
-           L 17.78 -8.89
-           L -17.78 -8.89" />
     <circle
         id="TopLeftM2Spacer"
         transform="translate(155,27.78)"
