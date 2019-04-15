@@ -73,7 +73,7 @@
         </Group>
         <Group Name="Outer">
           <Children>
-            <Stack Name="Left" Rotation="10" Orientation="Horizontal" XOffset="-88">
+            <Stack Name="Left" Rotation="10" Orientation="Horizontal" XOffset="-90">
               <Children>
                 <Stack Name="Column1" YOffset="2.5" Orientation="Vertical">
                   <Children>
@@ -226,8 +226,68 @@
                 </Stack>
               </Children>
             </Stack>
-            <Stack Name="Center" YOffset="7">
+            <Stack Name="Center" Orientation="Vertical" YOffset="35.5">
               <Children>
+                <Stack Name="CenterTop">
+                  <Children>
+                    <Stack Name="CenterTopColumn1" Orientation="Vertical">
+                      <Children>
+                        <Key Name="CenterTopColumn1Key1" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PRSC" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                        <Key Name="CenterTopColumn1Key2" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="CAPS" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                      </Children>
+                    </Stack>
+                    <Stack Name="CenterTopColumn2" Orientation="Vertical">
+                      <Children>
+                        <Key Name="CenterTopColumn2Key1" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="PAUS" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                        <Key Name="CenterTopColumn2Key2" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="NMLK" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                      </Children>
+                    </Stack>
+                  </Children>
+                </Stack>
+                <Stack Name="CenterBottom">
+                  <Children>
+                    <Stack Name="CenterBottomColumn1" Orientation="Vertical">
+                      <Children>
+                        <Key Name="CenterBottomColumn1Key1" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="SCLK" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                        <Key Name="CenterBottomColumn1Key2" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="LEFT" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                      </Children>
+                    </Stack>
+                    <Stack Name="CenterBottomColumn2" Orientation="Vertical">
+                      <Children>
+                        <Key Name="CenterBottomColumn2Key1" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="UP" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                        <Key Name="CenterBottomColumn2Key2" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="DOWN" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                      </Children>
+                    </Stack>
+                    <Stack Name="CenterBottomColumn3" Orientation="Vertical">
+                      <Children>
+                        <Key Name="CenterBottomColumn3Key1" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="INS" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                        <Key Name="CenterBottomColumn3Key2" Width="${KeycapDiameterMm1u}" Height="${KeycapDiameterMm1u}" Margin="${KeyMarginMillimeters}" Fill="${ModFillColor}" Stroke="${KeycapBorderColor}">
+                          <Legend HorizontalAlignment="Center" VerticalAlignment="Center" Text="RGHT" FontSize="4" Color="${AlphaLegendColor}" />
+                        </Key>
+                      </Children>
+                    </Stack>
+                  </Children>
+                </Stack>
+
+                <!--
                 <Stack Name="Column8" Orientation="Vertical" YOffset="8">
                   <Children>
                     <Spacer Height="1" Width="19" />
@@ -276,9 +336,10 @@
                     </Key>
                   </Children>
                 </Stack>
+                -->
               </Children>
             </Stack>
-            <Stack Name="Right" Rotation="-10" XOffset="88">
+            <Stack Name="Right" Rotation="-10" XOffset="90">
               <Children>
                 <Stack Name="Column11" YOffset="5.5" Orientation="Vertical">
                   <Children>
