@@ -8,39 +8,35 @@
         stroke="black"
         stroke-width="0.1"
         fill="none"
-        d="M 13.148 14.28
-           L 158,14.28 Q 163,14.28, 163,19.28
-           L 163,50.7485 Q 163,55.7485, 168,55.7485
-           L 182,55.7485 Q 187,55.7485, 187,50.7485
-           L 187,19.28 Q 187,14.28, 192,14.28
-           L 336.852,14.28 Q 341.852,14.28, 341.852,19.28
-           L 341.852,149.25 Q 341.852,154.25, 336.852,154.25
-           L 13.148,154.25 Q 8.148,154.25, 8.148,149.25
-           L 8.148,19.28 Q 8.148,14.28, 13.148,14.28" />
+        d="M 8.148 14.28
+           L 341.852,14.28
+           L 341.852,154.25
+           L 8.148,154.25
+           L 8.148 14.28" />
     <circle
         id="TopLeftM2Screw"
         transform="translate(21.648,27.78)"
         r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="TopLeftM2Spacer"
+        id="TopInnerLeftM2Screw"
         transform="translate(155,27.78)"
-        r="1.7815"
+        r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="TopRightM2Spacer"
+        id="TopInnerRightM2Screw"
         transform="translate(195,27.78)"
-        r="1.7815"
+        r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="BottomLeftM2Spacer"
+        id="MiddleInnerLeftM2Screw"
         transform="translate(155,60.78)"
-        r="1.7815"
+        r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="BottomRightM2Spacer"
+        id="MiddleInnerRightM2Screw"
         transform="translate(195,60.78)"
-        r="1.7815"
+        r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
         id="TopRightM2Screw"
@@ -58,12 +54,12 @@
         r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="InnerLeftM2Screw"
+        id="BottomInnerLeftM2Screw"
         transform="translate(151.5,111.5)"
         r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
     <circle
-        id="InnerRightM2Screw"
+        id="BottomInnerRightM2Screw"
         transform="translate(198.5,111.5)"
         r="1.15"
         style="stroke:black;stroke-width:0.1;fill:none" />
