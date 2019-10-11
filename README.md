@@ -38,4 +38,3 @@ The second revision added several features and fixes:
 ### rev3 (REDACTED)
 
 See: [v3.0 README](./v3.0/README.md)
-
