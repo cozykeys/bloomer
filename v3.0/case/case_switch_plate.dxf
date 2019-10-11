@@ -1,0 +1,43 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$EXTMIN
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMAX
+ 10
+1000.0
+ 20
+1000.0
+ 30
+0.0
+  9
+$FILLMODE
+ 70
+ 0
+  9
+$SPLFRAME
+ 70
+ 1
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70

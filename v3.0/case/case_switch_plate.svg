@@ -1,0 +1,516 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="500mm"
+    height="500mm"
+    viewBox="0 0 500 500">
+    <path
+        id="CasePerimeter"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none"
+        d="M 13.148 14.28
+           L 336.852,14.28 Q 341.852,14.28, 341.852,19.28
+           L 341.852,149.25 Q 341.852,154.25, 336.852,154.25
+           L 13.148,154.25 Q 8.148,154.25, 8.148,149.25
+           L 8.148,19.28 Q 8.148,14.28, 13.148,14.28" />
+    <circle
+        id="TopLeftM2Screw"
+        transform="translate(21.648,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="TopInnerLeftM2Screw"
+        transform="translate(155,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="TopInnerRightM2Screw"
+        transform="translate(195,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="MiddleInnerLeftM2Screw"
+        transform="translate(155,60.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="MiddleInnerRightM2Screw"
+        transform="translate(195,60.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="TopRightM2Screw"
+        transform="translate(328.352,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomRightM2Screw"
+        transform="translate(328.352,140.5)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomLeftM2Screw"
+        transform="translate(21.648,140.5)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomInnerLeftM2Screw"
+        transform="translate(151.5,111.5)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomInnerRightM2Screw"
+        transform="translate(198.5,111.5)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_0"
+        transform="translate(36.554,25.636) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_0"
+        transform="translate(33.246,44.397) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_0"
+        transform="translate(29.938,63.157) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_0"
+        transform="translate(26.63,81.918) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_0"
+        transform="translate(23.322,100.678) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_0"
+        transform="translate(20.014,119.439) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_1"
+        transform="translate(55.314,28.944) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_1"
+        transform="translate(52.006,47.705) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_1"
+        transform="translate(48.698,66.465) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_1"
+        transform="translate(45.39,85.226) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_1"
+        transform="translate(42.082,103.986) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_1"
+        transform="translate(38.774,122.747) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_2"
+        transform="translate(74.422,30.282) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_2"
+        transform="translate(71.114,49.043) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_2"
+        transform="translate(67.806,67.804) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_2"
+        transform="translate(64.498,86.564) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_2"
+        transform="translate(61.19,105.325) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_2"
+        transform="translate(57.882,124.085) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_3"
+        transform="translate(94.225,27.682) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_3"
+        transform="translate(90.917,46.442) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_3"
+        transform="translate(87.609,65.203) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_3"
+        transform="translate(84.301,83.963) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_3"
+        transform="translate(80.993,102.724) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_3"
+        transform="translate(77.685,121.485) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_4"
+        transform="translate(111.943,36.898) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_4"
+        transform="translate(108.635,55.659) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_4"
+        transform="translate(105.327,74.42) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_4"
+        transform="translate(102.019,93.18) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_4"
+        transform="translate(98.711,111.941) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_4"
+        transform="translate(95.403,130.701) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_5"
+        transform="translate(129.836,45.13) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_5"
+        transform="translate(126.528,63.891) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_5"
+        transform="translate(123.22,82.652) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_5"
+        transform="translate(119.912,101.412) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_5"
+        transform="translate(116.604,120.173) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_5"
+        transform="translate(113.296,138.933) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_6"
+        transform="translate(141.98,85.96) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_6"
+        transform="translate(138.672,104.72) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_6"
+        transform="translate(135.364,123.481) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_6"
+        transform="translate(132.056,142.241) rotate(10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_6"
+        transform="translate(165.475,86.924) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_6"
+        transform="translate(165.475,105.975) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_8"
+        transform="translate(184.525,86.924) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_8"
+        transform="translate(184.525,105.975) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_7"
+        transform="translate(155.95,125.025) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_7"
+        transform="translate(155.95,144.075) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_7"
+        transform="translate(175,125.025) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_7"
+        transform="translate(175,144.075) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_7"
+        transform="translate(194.05,125.025) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_7"
+        transform="translate(194.05,144.075) rotate(0)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_8"
+        transform="translate(208.019,85.96) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_8"
+        transform="translate(211.327,104.72) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_8"
+        transform="translate(214.635,123.481) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_8"
+        transform="translate(217.943,142.241) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_9"
+        transform="translate(220.163,45.13) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_9"
+        transform="translate(223.471,63.891) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_9"
+        transform="translate(226.779,82.652) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_9"
+        transform="translate(230.087,101.412) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_9"
+        transform="translate(233.395,120.173) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_9"
+        transform="translate(236.703,138.933) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_10"
+        transform="translate(238.056,36.898) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_10"
+        transform="translate(241.364,55.659) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_10"
+        transform="translate(244.672,74.42) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_10"
+        transform="translate(247.98,93.18) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_10"
+        transform="translate(251.288,111.941) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_10"
+        transform="translate(254.596,130.701) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_11"
+        transform="translate(255.774,27.682) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_11"
+        transform="translate(259.082,46.442) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_11"
+        transform="translate(262.39,65.203) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_11"
+        transform="translate(265.698,83.963) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_11"
+        transform="translate(269.006,102.724) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_11"
+        transform="translate(272.314,121.485) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_12"
+        transform="translate(275.403,29.298) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_12"
+        transform="translate(278.711,48.058) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_12"
+        transform="translate(282.019,66.819) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_12"
+        transform="translate(285.327,85.579) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_12"
+        transform="translate(288.635,104.34) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_12"
+        transform="translate(291.943,123.101) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_13"
+        transform="translate(294.685,28.944) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_13"
+        transform="translate(297.993,47.705) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_13"
+        transform="translate(301.301,66.465) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_13"
+        transform="translate(304.609,85.226) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_13"
+        transform="translate(307.917,103.986) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_13"
+        transform="translate(311.225,122.747) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_0_14"
+        transform="translate(313.445,25.636) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_1_14"
+        transform="translate(316.753,44.397) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_2_14"
+        transform="translate(320.061,63.157) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_3_14"
+        transform="translate(323.369,81.918) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_4_14"
+        transform="translate(326.677,100.678) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <path
+        id="Switch_5_14"
+        transform="translate(329.985,119.439) rotate(-10)"
+        d="M -7,-7 H 7 v 1 H 7.8 V 6 H 7 V 7 H -7 V 6 H -7.8 V -6 H -7 V -7 H 7"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+</svg>

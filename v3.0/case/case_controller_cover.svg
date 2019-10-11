@@ -1,0 +1,41 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="500mm"
+    height="500mm"
+    viewBox="0 0 500 500">
+    <path
+        id="CasePerimeter"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none"
+        d="M 153.2185,14.28
+           L 196.7815,14.28 Q 201.7815,14.28, 201.7815,19.28
+           L 201.7815,62.5615 Q 201.7815,67.5615, 196.7815,67.5615
+           L 153.2185,67.5615 Q 148.2185,67.5615, 148.2185,62.5615
+           L 148.2185,19.28 Q 148.2185,14.28, 153.2185,14.28" />
+    <circle
+        id="TopLeftM2Screw"
+        transform="translate(155,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="TopRightM2Screw"
+        transform="translate(195,27.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomLeftM2Screw"
+        transform="translate(155,60.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomRightM2Screw"
+        transform="translate(195,60.78)"
+        r="1.15"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="ResetButtonHole"
+        transform="translate(175,48.83)"
+        r="1"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+</svg>

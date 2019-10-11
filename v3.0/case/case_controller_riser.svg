@@ -1,0 +1,40 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="500mm"
+    height="500mm"
+    viewBox="0 0 500 500">
+    <path
+        id="CasePerimeter"
+        stroke="black"
+        stroke-width="0.1"
+        fill="none"
+        d="M 153.2185,14.28
+           L 158,14.28 Q 163,14.28, 163,19.28
+           L 163,50.7485 Q 163,55.7485, 168,55.7485
+           L 182,55.7485 Q 187,55.7485, 187,50.7485
+           L 187,19.28 Q 187,14.28, 192,14.28
+           L 196.7815,14.28 Q 201.7815,14.28, 201.7815,19.28
+           L 201.7815,62.5615 Q 201.7815,67.5615, 196.7815,67.5615
+           L 153.2185,67.5615 Q 148.2185,67.5615, 148.2185,62.5615
+           L 148.2185,19.28 Q 148.2185,14.28, 153.2185,14.28" />
+    <circle
+        id="TopLeftM2Spacer"
+        transform="translate(155,27.78)"
+        r="1.7815"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="TopRightM2Spacer"
+        transform="translate(195,27.78)"
+        r="1.7815"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomLeftM2Spacer"
+        transform="translate(155,60.78)"
+        r="1.7815"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+    <circle
+        id="BottomRightM2Spacer"
+        transform="translate(195,60.78)"
+        r="1.7815"
+        style="stroke:black;stroke-width:0.1;fill:none" />
+</svg>

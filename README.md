@@ -35,3 +35,6 @@ The second revision added several features and fixes:
 - Single orientation switch footprints
 - RGB underglow support
 
+### rev3 (REDACTED)
+
+See: [v3.0 README](./v3.0/README.md)
