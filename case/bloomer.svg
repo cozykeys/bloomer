@@ -1,0 +1,1777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg
+  width="500mm"
+  height="500mm"
+  viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g
+    id="switch">
+    <g
+      id="Clusters">
+      <g
+        id="ClusterLeft"
+        transform="translate(-93.331,-4.815) rotate(10)">
+        <g
+          id="CluserLeftPerimeter">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -67.2 60.175 L -28.05 60.175 L -28.05 57.175 L -9 57.175 L -9 52.175 L 9 52.175 L 9 58.175 L 28.05 58.175 L 28.05 63.175 L 67.2 63.175 L 67.2 43.075 L 48.15 43.075 L 48.15 -52.175 L 29.1 -52.175 L 29.1 -57.175 L 10.05 -57.175 L 10.05 -63.175 L -10.05 -63.175 L -10.05 -58.175 L -29.1 -58.175 L -29.1 -55.175 L -67.2 -55.175 L -67.2 60.175" />
+          </g>
+        </g>
+        <g
+          id="k01"
+          transform="translate(-57.15,-45.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k01KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k01Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F1</text>
+        </g>
+        <g
+          id="k02"
+          transform="translate(-38.1,-45.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k02KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k02Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F2</text>
+        </g>
+        <g
+          id="k03"
+          transform="translate(-19.05,-48.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k03KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k03Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F3</text>
+        </g>
+        <g
+          id="k04"
+          transform="translate(0,-53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k04KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k04Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F4</text>
+        </g>
+        <g
+          id="k05"
+          transform="translate(19.05,-47.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k05KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k05Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F5</text>
+        </g>
+        <g
+          id="k06"
+          transform="translate(38.1,-42.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k06KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k06Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F6</text>
+        </g>
+        <g
+          id="k16"
+          transform="translate(-57.15,-26.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k16KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k16Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">+</text>
+          <text
+            id="k16Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">=</text>
+        </g>
+        <g
+          id="k17"
+          transform="translate(-38.1,-26.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k17KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k17Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">!</text>
+          <text
+            id="k17Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">1</text>
+        </g>
+        <g
+          id="k18"
+          transform="translate(-19.05,-29.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k18KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k18Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">@</text>
+          <text
+            id="k18Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">2</text>
+        </g>
+        <g
+          id="k19"
+          transform="translate(0,-34.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k19KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k19Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">#</text>
+          <text
+            id="k19Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">3</text>
+        </g>
+        <g
+          id="k20"
+          transform="translate(19.05,-28.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k20KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k20Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">$</text>
+          <text
+            id="k20Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">4</text>
+        </g>
+        <g
+          id="k21"
+          transform="translate(38.1,-23.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k21KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k21Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">%</text>
+          <text
+            id="k21Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">5</text>
+        </g>
+        <g
+          id="k31"
+          transform="translate(-57.15,-7.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k31KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k31Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">TAB</text>
+        </g>
+        <g
+          id="k32"
+          transform="translate(-38.1,-7.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k32KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k32Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">Q</text>
+        </g>
+        <g
+          id="k33"
+          transform="translate(-19.05,-10.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k33KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k33Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">W</text>
+        </g>
+        <g
+          id="k34"
+          transform="translate(0,-15.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k34KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k34Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">E</text>
+        </g>
+        <g
+          id="k35"
+          transform="translate(19.05,-9.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k35KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k35Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">R</text>
+        </g>
+        <g
+          id="k36"
+          transform="translate(38.1,-4.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k36KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k36Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">T</text>
+        </g>
+        <g
+          id="k46"
+          transform="translate(-57.15,12.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k46KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k46Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">ESC</text>
+        </g>
+        <g
+          id="k47"
+          transform="translate(-38.1,12.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k47KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k47Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">A</text>
+        </g>
+        <g
+          id="k48"
+          transform="translate(-19.05,9.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k48KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k48Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">S</text>
+        </g>
+        <g
+          id="k49"
+          transform="translate(0,4.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k49KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k49Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">D</text>
+        </g>
+        <g
+          id="k50"
+          transform="translate(19.05,10.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k50KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k50Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">F</text>
+        </g>
+        <g
+          id="k51"
+          transform="translate(38.1,15.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k51KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k51Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">G</text>
+        </g>
+        <g
+          id="k59"
+          transform="translate(-57.15,31.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k59KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k59Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SHFT</text>
+        </g>
+        <g
+          id="k60"
+          transform="translate(-38.1,31.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k60KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k60Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">Z</text>
+        </g>
+        <g
+          id="k61"
+          transform="translate(-19.05,28.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k61KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k61Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">X</text>
+        </g>
+        <g
+          id="k62"
+          transform="translate(0,23.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k62KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k62Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">C</text>
+        </g>
+        <g
+          id="k63"
+          transform="translate(19.05,29.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k63KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k63Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">V</text>
+        </g>
+        <g
+          id="k64"
+          transform="translate(38.1,34.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k64KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k64Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">B</text>
+        </g>
+        <g
+          id="k74"
+          transform="translate(-57.15,50.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k74KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k74Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">CTRL</text>
+        </g>
+        <g
+          id="k75"
+          transform="translate(-38.1,50.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k75KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k75Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">OS</text>
+        </g>
+        <g
+          id="k76"
+          transform="translate(-19.05,47.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k76KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k76Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">ALT</text>
+        </g>
+        <g
+          id="k77"
+          transform="translate(0,42.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k77KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k77Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">~</text>
+          <text
+            id="k77Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">`</text>
+        </g>
+        <g
+          id="k78"
+          transform="translate(19.05,48.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k78KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k78Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">FN</text>
+        </g>
+        <g
+          id="k79"
+          transform="translate(38.1,53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k79KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k79Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">BKSP</text>
+        </g>
+        <g
+          id="k80"
+          transform="translate(57.15,53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k80KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k80Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">DEL</text>
+        </g>
+      </g>
+      <g
+        id="ClusterCenterTop"
+        transform="translate(0,-36.227)">
+        <g
+          id="ClusterCenterTopPerimeter">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 10.05 L 29.1 10.05 L 29.1 -10.05 L -29.1 -10.05 L -29.1 10.05" />
+          </g>
+        </g>
+        <g
+          id="k07"
+          transform="translate(-19.05,0)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k07KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k07Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PRSC</text>
+        </g>
+        <g
+          id="k08">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k08KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k08Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SCLK</text>
+        </g>
+        <g
+          id="k09"
+          transform="translate(19.05,0)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k09KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k09Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PAUS</text>
+        </g>
+      </g>
+      <g
+        id="ClusterCenterMiddle"
+        transform="translate(0,2.747)">
+        <g
+          id="ClusterCenterMiddlePerimeter">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 19.575 L 29.1 19.575 L 29.1 -19.575 L -29.1 -19.575 L -29.1 19.575" />
+          </g>
+        </g>
+        <g
+          id="k22"
+          transform="translate(-19.05,-9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k22KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k22Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">INS</text>
+        </g>
+        <g
+          id="k23"
+          transform="translate(0,-9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k23KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k23Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">HOME</text>
+        </g>
+        <g
+          id="k24"
+          transform="translate(19.05,-9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k24KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k24Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PGUP</text>
+        </g>
+        <g
+          id="k37"
+          transform="translate(-19.05,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k37KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k37Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">CAPS</text>
+        </g>
+        <g
+          id="k38"
+          transform="translate(0,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k38KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k38Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">END</text>
+        </g>
+        <g
+          id="k39"
+          transform="translate(19.05,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k39KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k39Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PGDN</text>
+        </g>
+      </g>
+      <g
+        id="ClusterCenterBottom"
+        transform="translate(0,51.246)">
+        <g
+          id="ClusterCenterBottomPerimeter">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 19.575 L 29.1 19.575 L 29.1 -0.525 L 10.05 -0.525 L 10.05 -19.575 L -10.05 -19.575 L -10.05 -0.525 L -29.1 -0.525 L -29.1 19.575" />
+          </g>
+        </g>
+        <g
+          id="k52"
+          transform="translate(0,-9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k52KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k52Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">UP</text>
+        </g>
+        <g
+          id="k65"
+          transform="translate(-19.05,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k65KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k65Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">LEFT</text>
+        </g>
+        <g
+          id="k66"
+          transform="translate(0,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k66KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k66Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">DOWN</text>
+        </g>
+        <g
+          id="k67"
+          transform="translate(19.05,9.525)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k67KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k67Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">RGHT</text>
+        </g>
+      </g>
+      <g
+        id="ClusterRight"
+        transform="translate(93.331,-4.815) rotate(-10)">
+        <g
+          id="ClusterRightPerimeter">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M 67.2 60.175 L 28.05 60.175 L 28.05 57.175 L 9 57.175 L 9 52.175 L -9 52.175 L -9 58.175 L -28.05 58.175 L -28.05 63.175 L -67.2 63.175 L -67.2 43.075 L -48.15 43.075 L -48.15 -52.175 L -29.1 -52.175 L -29.1 -57.175 L -10.05 -57.175 L -10.05 -63.175 L 10.05 -63.175 L 10.05 -58.175 L 29.1 -58.175 L 29.1 -55.175 L 67.2 -55.175 L 67.2 60.175" />
+          </g>
+        </g>
+        <g
+          id="k10"
+          transform="translate(-38.1,-42.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k10KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k10Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F7</text>
+        </g>
+        <g
+          id="k11"
+          transform="translate(-19.05,-47.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k11KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k11Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F8</text>
+        </g>
+        <g
+          id="k12"
+          transform="translate(0,-53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k12KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k12Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F9</text>
+        </g>
+        <g
+          id="k13"
+          transform="translate(19.05,-48.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k13KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k13Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F10</text>
+        </g>
+        <g
+          id="k14"
+          transform="translate(38.1,-45.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k14KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k14Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F11</text>
+        </g>
+        <g
+          id="k15"
+          transform="translate(57.15,-45.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k15KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k15Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">F12</text>
+        </g>
+        <g
+          id="k25"
+          transform="translate(-38.1,-23.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k25KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k25Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">^</text>
+          <text
+            id="k25Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">6</text>
+        </g>
+        <g
+          id="k26"
+          transform="translate(-19.05,-28.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k26KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k26Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&amp;</text>
+          <text
+            id="k26Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">7</text>
+        </g>
+        <g
+          id="k27"
+          transform="translate(0,-34.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k27KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k27Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">*</text>
+          <text
+            id="k27Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">8</text>
+        </g>
+        <g
+          id="k28"
+          transform="translate(19.05,-29.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k28KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k28Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">(</text>
+          <text
+            id="k28Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">9</text>
+        </g>
+        <g
+          id="k29"
+          transform="translate(38.1,-26.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k29KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k29Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">)</text>
+          <text
+            id="k29Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">0</text>
+        </g>
+        <g
+          id="k30"
+          transform="translate(57.15,-26.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k30KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k30Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">_</text>
+          <text
+            id="k30Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">-</text>
+        </g>
+        <g
+          id="k40"
+          transform="translate(-38.1,-4.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k40KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k40Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">Y</text>
+        </g>
+        <g
+          id="k41"
+          transform="translate(-19.05,-9.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k41KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k41Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">U</text>
+        </g>
+        <g
+          id="k42"
+          transform="translate(0,-15.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k42KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k42Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">I</text>
+        </g>
+        <g
+          id="k43"
+          transform="translate(19.05,-10.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k43KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k43Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">O</text>
+        </g>
+        <g
+          id="k44"
+          transform="translate(38.1,-7.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k44KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k44Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">P</text>
+        </g>
+        <g
+          id="k45"
+          transform="translate(57.15,-7.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k45KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k45Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">|</text>
+          <text
+            id="k45Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">\</text>
+        </g>
+        <g
+          id="k53"
+          transform="translate(-38.1,15.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k53KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k53Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">H</text>
+        </g>
+        <g
+          id="k54"
+          transform="translate(-19.05,10.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k54KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k54Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">J</text>
+        </g>
+        <g
+          id="k55"
+          transform="translate(0,4.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k55KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k55Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">K</text>
+        </g>
+        <g
+          id="k56"
+          transform="translate(19.05,9.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k56KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k56Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">L</text>
+        </g>
+        <g
+          id="k57"
+          transform="translate(38.1,12.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k57KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k57Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">:</text>
+          <text
+            id="k57Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">;</text>
+        </g>
+        <g
+          id="k58"
+          transform="translate(57.15,12.025)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k58KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k58Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">"</text>
+          <text
+            id="k58Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">'</text>
+        </g>
+        <g
+          id="k68"
+          transform="translate(-38.1,34.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k68KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k68Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">N</text>
+        </g>
+        <g
+          id="k69"
+          transform="translate(-19.05,29.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k69KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k69Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">M</text>
+        </g>
+        <g
+          id="k70"
+          transform="translate(0,23.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k70KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k70Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&lt;</text>
+          <text
+            id="k70Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">,</text>
+        </g>
+        <g
+          id="k71"
+          transform="translate(19.05,28.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k71KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k71Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&gt;</text>
+          <text
+            id="k71Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">.</text>
+        </g>
+        <g
+          id="k72"
+          transform="translate(38.1,31.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k72KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k72Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">?</text>
+          <text
+            id="k72Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">/</text>
+        </g>
+        <g
+          id="k73"
+          transform="translate(57.15,31.075)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k73KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k73Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SHFT</text>
+        </g>
+        <g
+          id="k81"
+          transform="translate(-57.15,53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k81KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k81Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">ENT</text>
+        </g>
+        <g
+          id="k82"
+          transform="translate(-38.1,53.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k82KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k82Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SPC</text>
+        </g>
+        <g
+          id="k83"
+          transform="translate(-19.05,48.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k83KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k83Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">{</text>
+          <text
+            id="k83Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">[</text>
+        </g>
+        <g
+          id="k84"
+          transform="translate(0,42.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k84KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k84Legend0"
+            transform="translate(0,-3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">}</text>
+          <text
+            id="k84Legend1"
+            transform="translate(0,3)"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">]</text>
+        </g>
+        <g
+          id="k85"
+          transform="translate(19.05,47.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k85KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k85Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">ALT</text>
+        </g>
+        <g
+          id="k86"
+          transform="translate(38.1,50.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k86KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k86Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">OS</text>
+        </g>
+        <g
+          id="k87"
+          transform="translate(57.15,50.125)">
+          <g
+            id="">
+            <path
+              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
+          </g>
+          <path
+            id="k87KeycapOverlay"
+            d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
+            style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
+          <text
+            id="k87Legend0"
+            text-anchor="middle"
+            style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">CTRL</text>
+        </g>
+      </g>
+    </g>
+    <g
+      id="PCB">
+      <g
+        id="">
+        <path
+          style="fill:#00ff00;fill-opacity:0.5;stroke:#00ff00;stroke-width:0.5"
+          d="M 0 -45.277 L 28.1 -45.277 L 73.622 -64.474 L 91.447 -67.617 L 149.118 -69.662 L 168.801 41.965 L 132.215 48.417 L 75.519 61.46 L 28.1 69.821 L -28.1 69.821 L -75.519 61.46 L -132.215 48.417 L -168.801 41.965 L -149.118 -69.662 L -91.447 -67.617 L -73.622 -64.474 L -28.1 -45.277 L 0 -45.277" />
+      </g>
+    </g>
+  </g>
+</svg>
