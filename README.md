@@ -9,6 +9,10 @@ repository.
 
 ![Bloomer](http://assets.cozykeys.xyz/images/keyboards/bloomer/bloomer-angle-2_800x800.jpg)
 
+## Firmware
+
+- [Bloomer rev2](https://github.com/cozykeys/qmk_firmware/tree/bloomer_v2)
+
 ## Project Status
 
 ### rev0
