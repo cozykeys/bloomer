@@ -12,6 +12,7 @@ repository.
 ## Firmware
 
 - [Bloomer rev2](https://github.com/cozykeys/qmk_firmware/tree/bloomer_v2)
+- [Bloomer rev3](https://github.com/cozykeys/qmk_firmware/tree/bloomer_v3)
 
 ## Project Status
 
