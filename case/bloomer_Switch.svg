@@ -721,32 +721,14 @@
       </g>
       <g
         id="Center"
-        transform="translate(0,21)">
+        transform="translate(0,26)">
         <g
           id="CenterKeywellCutout1">
           <g
             id="">
             <path
               style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 -53.15 L 29.1 -53.15 L 29.1 -33.05 L -29.1 -33.05 L -29.1 -53.15" />
-          </g>
-        </g>
-        <g
-          id="CenterKeywellCutout2">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 -29.1 L 29.1 -29.1 L 29.1 10.05 L -29.1 10.05 L -29.1 -29.1" />
-          </g>
-        </g>
-        <g
-          id="CenterKeywellCutout3">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 53.15 L 29.1 53.15 L 29.1 33.1 L 10.05 33.1 L 10.05 14 L -10.05 14 L -10.05 33.1 L -29.1 33.1 L -29.1 53.15" />
+              d="M -29.1 48.15 L 29.1 48.15 L 29.1 28.05 L 10.05 28.05 L 10.05 10.05 L 29.1 10.05 L 29.1 -48.15 L -29.1 -48.15 L -29.1 10.05 L -10.05 10.05 L -10.05 28.05 L -29.1 28.05 L -29.1 48.15" />
           </g>
         </g>
         <g
@@ -754,7 +736,7 @@
           transform="translate(-19.05,0)">
           <g
             id="Column06Key00"
-            transform="translate(0,-43.1)">
+            transform="translate(0,-38.1)">
             <g
               id="">
               <path
@@ -770,9 +752,6 @@
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PRSC</text>
           </g>
-          <g
-            id=""
-            transform="translate(0,-31.075)" />
           <g
             id="Column06Key01"
             transform="translate(0,-19.05)">
@@ -812,11 +791,8 @@
             id=""
             transform="translate(0,19.05)" />
           <g
-            id=""
-            transform="translate(0,31.075)" />
-          <g
             id="Column06Key03"
-            transform="translate(0,43.1)">
+            transform="translate(0,38.1)">
             <g
               id="">
               <path
@@ -836,8 +812,8 @@
         <g
           id="Column07">
           <g
-            id="Column07"
-            transform="translate(0,-43.1)">
+            id="Column07Key00"
+            transform="translate(0,-38.1)">
             <g
               id="">
               <path
@@ -845,19 +821,16 @@
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
-              id="Column07KeycapOverlay"
+              id="Column07Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
-              id="Column07Legend0"
+              id="Column07Key00Legend0"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SCLK</text>
           </g>
           <g
-            id=""
-            transform="translate(0,-31.075)" />
-          <g
-            id="Column07"
+            id="Column07Key01"
             transform="translate(0,-19.05)">
             <g
               id="">
@@ -866,16 +839,16 @@
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
-              id="Column07KeycapOverlay"
+              id="Column07Key01KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
-              id="Column07Legend0"
+              id="Column07Key01Legend0"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">HOME</text>
           </g>
           <g
-            id="Column07"
+            id="Column07Key02"
             transform="translate(0,-3.814697E-06)">
             <g
               id="">
@@ -884,20 +857,17 @@
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
-              id="Column07KeycapOverlay"
+              id="Column07Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
-              id="Column07Legend0"
+              id="Column07Key02Legend0"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">END</text>
           </g>
           <g
-            id=""
-            transform="translate(0,12.025)" />
-          <g
-            id="Column07"
-            transform="translate(0,24.05)">
+            id="Column07Key03"
+            transform="translate(0,19.05)">
             <g
               id="">
               <path
@@ -905,17 +875,17 @@
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
-              id="Column07KeycapOverlay"
+              id="Column07Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
-              id="Column07Legend0"
+              id="Column07Key03Legend0"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">UP</text>
           </g>
           <g
-            id="Column07"
-            transform="translate(0,43.1)">
+            id="Column07Key04"
+            transform="translate(0,38.1)">
             <g
               id="">
               <path
@@ -923,11 +893,11 @@
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
-              id="Column07KeycapOverlay"
+              id="Column07Key04KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
-              id="Column07Legend0"
+              id="Column07Key04Legend0"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">DOWN</text>
           </g>
@@ -937,7 +907,7 @@
           transform="translate(19.05,0)">
           <g
             id="Column08Key00"
-            transform="translate(0,-43.1)">
+            transform="translate(0,-38.1)">
             <g
               id="">
               <path
@@ -953,9 +923,6 @@
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PAUS</text>
           </g>
-          <g
-            id=""
-            transform="translate(0,-31.075)" />
           <g
             id="Column08Key01"
             transform="translate(0,-19.05)">
@@ -995,11 +962,8 @@
             id=""
             transform="translate(0,19.05)" />
           <g
-            id=""
-            transform="translate(0,31.075)" />
-          <g
             id="Column08Key03"
-            transform="translate(0,43.1)">
+            transform="translate(0,38.1)">
             <g
               id="">
               <path
