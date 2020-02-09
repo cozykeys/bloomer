@@ -647,6 +647,75 @@
           </Children>
         </Group>
       -->
+        <Group Name="Pcb" XOffset="-175" YOffset="-80">
+          <Children>
+            <Group Name="PcbPerimeter">
+              <Constants>
+                <Constant Name="X01"  Value="27.713" />
+                <Constant Name="Y01"  Value="15.153" />
+                <Constant Name="X02"  Value="85.384" />
+                <Constant Name="Y02"  Value="17.198" />
+                <Constant Name="X03"  Value="103.209" />
+                <Constant Name="Y03"  Value="20.341" />
+                <Constant Name="X04"  Value="138.82" />
+                <Constant Name="Y04"  Value="37.79" />
+                <Constant Name="X05"  Value="211.18" />
+                <Constant Name="Y05"  Value="37.79" />
+                <Constant Name="X06"  Value="246.791" />
+                <Constant Name="Y06"  Value="20.341" />
+                <Constant Name="X07"  Value="264.616" />
+                <Constant Name="Y07"  Value="17.198" />
+                <Constant Name="X08"  Value="322.287" />
+                <Constant Name="Y08"  Value="15.153" />
+                <Constant Name="X09"  Value="341.97" />
+                <Constant Name="Y09"  Value="126.78" />
+                <Constant Name="X10"  Value="305.384" />
+                <Constant Name="Y10"  Value="133.231" />
+                <Constant Name="X11"  Value="248.688" />
+                <Constant Name="Y11"  Value="146.275" />
+                <Constant Name="X12"  Value="212.102" />
+                <Constant Name="Y12"  Value="152.726" />
+                <Constant Name="X13"  Value="203.1" />
+                <Constant Name="Y13"  Value="153.19" />
+                <Constant Name="X14"  Value="146.9" />
+                <Constant Name="Y14"  Value="153.19" />
+                <Constant Name="X15"  Value="137.898" />
+                <Constant Name="Y15"  Value="152.726" />
+                <Constant Name="X16"  Value="101.312" />
+                <Constant Name="Y16"  Value="146.275" />
+                <Constant Name="X17"  Value="44.616" />
+                <Constant Name="Y17"  Value="133.231" />
+                <Constant Name="X18"  Value="8.03" />
+                <Constant Name="Y18"  Value="126.78" />
+              </Constants>
+              <Children>
+              <Path Fill="#00ff00" Stroke="#00ff00" FillOpacity="0.5">
+                  <Components>
+                      <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
+                      <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X03}" Y="${Y03}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X04}" Y="${Y04}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X05}" Y="${Y05}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X06}" Y="${Y06}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X07}" Y="${Y07}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X08}" Y="${Y08}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X09}" Y="${Y09}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X10}" Y="${Y10}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X11}" Y="${Y11}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X12}" Y="${Y12}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X13}" Y="${Y13}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X14}" Y="${Y14}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X15}" Y="${Y15}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X16}" Y="${Y16}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X17}" Y="${Y17}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X18}" Y="${Y18}" /> </AbsoluteLineTo>
+                      <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
+                  </Components>
+              </Path>
+              </Children>
+            </Group>
+          </Children>
+        </Group>
       </Groups>
     </Layer>
     <Layer Name="Middle" ZIndex="3" XOffset="175" YOffset="80">
