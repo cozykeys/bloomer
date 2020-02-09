@@ -6,7 +6,11 @@ bloomer_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # TODO: Is there a better way? Submodule perhaps?
 kbutil_dir="$( dirname "$bloomer_dir" )/kbutil"
+
 kbutil_dll="$kbutil_dir/build/KbUtil.Console/bin/Release/kbutil.dll"
+kbmath_dll="$kbutil_dir/build/KbMath.Console/bin/Release/KbMath.Console.dll"
+
+svg_opener="inkscape"
 
 function error() {
     local msg="$1"
@@ -22,7 +26,6 @@ function generate_render() {
     input="$bloomer_dir/bloomer.xml"
     output="$bloomer_dir/case"
 
-    svg_opener="inkscape"
 
     options="--visual-switch-cutouts --keycap-overlays --keycap-legends"
 
@@ -30,6 +33,30 @@ function generate_render() {
     dotnet "$kbutil_dll" gen-key-bearings "$input" "./keys.json" --debug-svg="./temp.svg"
 
     "$svg_opener" "$output/bloomer_Switch.svg" 
+}
+
+function generate_perimeters() {
+    local vertices_file="temp/pcb_edge_vertices.json"
+    [ ! -f "$vertices_file" ] && \
+        1>&2 echo "Vertices file $vertices_file does not exist" && \
+        exit 1
+
+
+    mkdir -p "temp"
+
+    # Generate the inner perimeter
+    dotnet "$kbmath_dll" expand-vertices \
+        --debug-svg="temp/inner_perimeter.svg" "$vertices_file" "temp/inner_perimeter.json" 1.5
+
+    # Generate the outer perimeter
+    dotnet "$kbmath_dll" expand-vertices \
+        --debug-svg="temp/outer_perimeter.svg" "$vertices_file" "temp/outer_perimeter.json" 11.5
+
+    # Generate the outer perimeter curves
+    dotnet "$kbmath_dll" generate-curves \
+        --debug-svg="temp/outer_perimeter_curves.svg" "temp/outer_perimeter.json" "temp/outer_perimeter_curves.json" 3
+
+    "$svg_opener" "temp/inner_perimeter.svg" "temp/outer_perimeter.svg" "temp/outer_perimeter_curves.svg"
 }
 
 function generate_traces() {
@@ -46,6 +73,8 @@ function print_usage() {
 
 if [ "$action" = "generate-render" ]; then
     generate_render
+elif [ "$action" = "generate-perimeters" ]; then
+    generate_perimeters
 elif [ "$action" = "generate-traces" ]; then
     generate_traces
 elif [ "$action" = "help" ]; then

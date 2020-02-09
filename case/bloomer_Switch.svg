@@ -7,6 +7,99 @@
     id="Switch"
     transform="translate(175,80)">
     <g
+      id="Case"
+      transform="translate(-175,-80)">
+      <g
+        id=""
+        transform="translate(-147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(25,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(147,-68)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(-30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(30,78)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id=""
+        transform="translate(168,50)">
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+        <circle
+          r="1.15"
+          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
+      </g>
+      <g
+        id="CasePerimeter">
+        <g
+          id="">
+          <path
+            style="fill:#7f7f7f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+            d="M 17.604 6.26 Q 18.125 3.306 21.123 3.412 L 83.594 5.628 Q 86.592 5.734 89.546 6.255 L 103.854 8.777 Q 106.808 9.298 109.502 10.618 L 138.792 24.97 Q 141.486 26.29 144.486 26.29 L 205.514 26.29 Q 208.514 26.29 211.208 24.97 L 240.498 10.618 Q 243.192 9.298 246.146 8.777 L 260.454 6.255 Q 263.408 5.734 266.406 5.628 L 328.877 3.412 Q 331.875 3.306 332.396 6.26 L 354.771 133.154 Q 355.292 136.108 352.338 136.629 L 310.627 143.984 Q 307.673 144.505 304.749 145.178 L 253.901 156.876 Q 250.977 157.549 248.023 158.07 L 216.355 163.653 Q 213.401 164.174 210.405 164.329 L 206.392 164.535 Q 203.396 164.69 200.396 164.69 L 149.604 164.69 Q 146.604 164.69 143.608 164.535 L 139.595 164.329 Q 136.599 164.174 133.645 163.653 L 101.977 158.07 Q 99.023 157.549 96.099 156.876 L 45.251 145.178 Q 42.327 144.505 39.373 143.984 L -2.338 136.629 Q -5.292 136.108 -4.771 133.154 L 17.604 6.26" />
+        </g>
+      </g>
+    </g>
+    <g
       id="Outer">
       <g
         id="Left"
@@ -78,7 +171,7 @@
             <path
               id="Column00Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column00Key02Legend0"
               text-anchor="middle"
@@ -96,7 +189,7 @@
             <path
               id="Column00Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column00Key03Legend0"
               text-anchor="middle"
@@ -114,7 +207,7 @@
             <path
               id="Column00Key04KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column00Key04Legend0"
               text-anchor="middle"
@@ -132,7 +225,7 @@
             <path
               id="Column00Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column00Key05Legend0"
               text-anchor="middle"
@@ -250,7 +343,7 @@
             <path
               id="Column01Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column01Key05Legend0"
               text-anchor="middle"
@@ -368,7 +461,7 @@
             <path
               id="Column02Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column02Key05Legend0"
               text-anchor="middle"
@@ -489,6 +582,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column03Key05Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">~</text>
+            <text
+              id="Column03Key05Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">`</text>
           </g>
@@ -508,7 +607,7 @@
             <path
               id="Column04Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column04Key00Legend0"
               text-anchor="middle"
@@ -626,7 +725,7 @@
             <path
               id="Column05Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column05Key00Legend0"
               text-anchor="middle"
@@ -803,7 +902,7 @@
             <path
               id="Column06Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column06Key00Legend0"
               text-anchor="middle"
@@ -824,7 +923,7 @@
             <path
               id="Column06Key01KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column06Key01Legend0"
               text-anchor="middle"
@@ -842,7 +941,7 @@
             <path
               id="Column06Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column06Key02Legend0"
               text-anchor="middle"
@@ -866,7 +965,7 @@
             <path
               id="Column06Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column06Key03Legend0"
               text-anchor="middle"
@@ -887,7 +986,7 @@
             <path
               id="Column07Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column07Key00Legend0"
               text-anchor="middle"
@@ -908,7 +1007,7 @@
             <path
               id="Column07Key01KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column07Key01Legend0"
               text-anchor="middle"
@@ -926,7 +1025,7 @@
             <path
               id="Column07Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column07Key02Legend0"
               text-anchor="middle"
@@ -947,7 +1046,7 @@
             <path
               id="Column07Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column07Key03Legend0"
               text-anchor="middle"
@@ -965,7 +1064,7 @@
             <path
               id="Column07Key04KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column07Key04Legend0"
               text-anchor="middle"
@@ -987,7 +1086,7 @@
             <path
               id="Column08Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column08Key00Legend0"
               text-anchor="middle"
@@ -1008,7 +1107,7 @@
             <path
               id="Column08Key01KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column08Key01Legend0"
               text-anchor="middle"
@@ -1026,7 +1125,7 @@
             <path
               id="Column08Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column08Key02Legend0"
               text-anchor="middle"
@@ -1050,7 +1149,7 @@
             <path
               id="Column08Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column08Key03Legend0"
               text-anchor="middle"
@@ -1111,7 +1210,7 @@
             <path
               id="Column09Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column09Key00Legend0"
               text-anchor="middle"
@@ -1229,7 +1328,7 @@
             <path
               id="Column10Key00KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column10Key00Legend0"
               text-anchor="middle"
@@ -1585,7 +1684,7 @@
             <path
               id="Column12Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column12Key05Legend0"
               text-anchor="middle"
@@ -1715,7 +1814,7 @@
             <path
               id="Column13Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column13Key05Legend0"
               text-anchor="middle"
@@ -1779,7 +1878,7 @@
             <path
               id="Column14Key02KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key02Legend0"
               transform="translate(0,-3)"
@@ -1803,7 +1902,7 @@
             <path
               id="Column14Key03KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key03Legend0"
               transform="translate(0,-3)"
@@ -1827,7 +1926,7 @@
             <path
               id="Column14Key04KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key04Legend0"
               text-anchor="middle"
@@ -1845,7 +1944,7 @@
             <path
               id="Column14Key05KeycapOverlay"
               d="M -9.05,-9.05 h 18.1 v 18.1 h -18.1 v -18.1 h 18.1"
-              style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
+              style="fill:#cfcfcf;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key05Legend0"
               text-anchor="middle"
@@ -1855,109 +1954,7 @@
       </g>
     </g>
     <g
-      id="Case">
-      <g
-        id=""
-        transform="translate(-147,-68)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(-25,-68)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(25,-68)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(147,-68)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(-168,50)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(-30,78)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(30,78)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id=""
-        transform="translate(168,50)">
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-        <circle
-          r="1.15"
-          style="fill:none;stroke:#0000ff;stroke-width:0.01" />
-      </g>
-      <g
-        id="CasePerimeter">
-        <g
-          id="">
-          <path
-            style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
-            d="M 0 -73 L 147 -73 Q 150.711 -73 152 -66 L 173 48 Q 174.125 54.105 165 56 L 35 83 Q 35 83 31 83 L -31 83 Q -35 83 -35 83 L -165 56 Q -174.125 54.105 -173 48 L -152 -66 Q -150.711 -73 -147 -73 L 0 -73" />
-        </g>
-      </g>
-    </g>
-    <g
       id="Pcb"
-      transform="translate(-175,-80)">
-      <g
-        id="PcbPerimeter">
-        <g
-          id="">
-          <path
-            style="fill:#00ff00;fill-opacity:0.5;stroke:#00ff00;stroke-width:0.5"
-            d="M 27.713 15.153 L 85.384 17.198 L 103.209 20.341 L 138.82 37.79 L 211.18 37.79 L 246.791 20.341 L 264.616 17.198 L 322.287 15.153 L 341.97 126.78 L 305.384 133.231 L 248.688 146.275 L 212.102 152.726 L 203.1 153.19 L 146.9 153.19 L 137.898 152.726 L 101.312 146.275 L 44.616 133.231 L 8.03 126.78 L 27.713 15.153" />
-        </g>
-      </g>
-    </g>
+      transform="translate(-175,-80)" />
   </g>
 </svg>
