@@ -17,7 +17,7 @@
           <g
             id="">
             <path
-              style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
+              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
               d="M -0.525 60.175 L 38.625 60.175 L 38.625 57.175 L 57.675 57.175 L 57.675 52.175 L 75.675 52.175 L 75.675 58.175 L 94.725 58.175 L 94.725 63.175 L 133.875 63.175 L 133.875 43.075 L 114.825 43.075 L 114.825 -52.175 L 95.775 -52.175 L 95.775 -57.175 L 76.725 -57.175 L 76.725 -63.175 L 56.625 -63.175 L 56.625 -58.175 L 37.575 -58.175 L 37.575 -55.175 L -0.525 -55.175 L -0.525 60.175" />
           </g>
         </g>
@@ -26,11 +26,11 @@
           transform="translate(-57.15,2.5)">
           <g
             id="Column00Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -44,11 +44,11 @@
           </g>
           <g
             id="Column00Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -57,6 +57,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column00Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">+</text>
+            <text
+              id="Column00Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">=</text>
           </g>
@@ -66,7 +72,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -84,7 +90,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -102,7 +108,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -116,11 +122,11 @@
           </g>
           <g
             id="Column00Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -135,14 +141,14 @@
         </g>
         <g
           id="Column01"
-          transform="translate(-38.1,2.5)">
+          transform="translate(-38.100002,2.5)">
           <g
             id="Column01Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -156,11 +162,11 @@
           </g>
           <g
             id="Column01Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -169,6 +175,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column01Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">!</text>
+            <text
+              id="Column01Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">1</text>
           </g>
@@ -178,7 +190,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -196,7 +208,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -214,7 +226,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -228,11 +240,11 @@
           </g>
           <g
             id="Column01Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -250,11 +262,11 @@
           transform="translate(-19.05,-0.5)">
           <g
             id="Column02Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -268,11 +280,11 @@
           </g>
           <g
             id="Column02Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -281,6 +293,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column02Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">@</text>
+            <text
+              id="Column02Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">2</text>
           </g>
@@ -290,7 +308,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -308,7 +326,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -326,7 +344,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -340,11 +358,11 @@
           </g>
           <g
             id="Column02Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -362,11 +380,11 @@
           transform="translate(0,-5.5)">
           <g
             id="Column03Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -380,11 +398,11 @@
           </g>
           <g
             id="Column03Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -393,6 +411,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column03Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">#</text>
+            <text
+              id="Column03Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">3</text>
           </g>
@@ -402,7 +426,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -420,7 +444,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -438,7 +462,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -452,11 +476,11 @@
           </g>
           <g
             id="Column03Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -471,14 +495,14 @@
         </g>
         <g
           id="Column04"
-          transform="translate(19.05,0.5)">
+          transform="translate(19.050003,0.5)">
           <g
             id="Column04Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -492,11 +516,11 @@
           </g>
           <g
             id="Column04Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -505,6 +529,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column04Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">$</text>
+            <text
+              id="Column04Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">4</text>
           </g>
@@ -514,7 +544,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -532,7 +562,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -550,7 +580,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -564,11 +594,11 @@
           </g>
           <g
             id="Column04Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -583,14 +613,14 @@
         </g>
         <g
           id="Column05"
-          transform="translate(38.10001,5.5)">
+          transform="translate(38.100006,5.5)">
           <g
             id="Column05Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -604,11 +634,11 @@
           </g>
           <g
             id="Column05Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -617,6 +647,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column05Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">%</text>
+            <text
+              id="Column05Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">5</text>
           </g>
@@ -626,7 +662,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -644,7 +680,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -662,7 +698,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -676,11 +712,11 @@
           </g>
           <g
             id="Column05Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -705,7 +741,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -721,14 +757,35 @@
       </g>
       <g
         id="Center"
-        transform="translate(0,26)">
+        transform="translate(0,16.515)">
         <g
-          id="CenterKeywellCutout1">
+          id="CenterKeywellCutout1"
+          transform="translate(0,-85.725)">
           <g
             id="">
             <path
-              style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 48.15 L 29.1 48.15 L 29.1 28.05 L 10.05 28.05 L 10.05 10.05 L 29.1 10.05 L 29.1 -48.15 L -29.1 -48.15 L -29.1 10.05 L -10.05 10.05 L -10.05 28.05 L -29.1 28.05 L -29.1 48.15" />
+              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 48.15 L 29.1 48.15 L 29.1 28.05 L -29.1 28.05 L -29.1 48.15" />
+          </g>
+        </g>
+        <g
+          id="CenterKeywellCutout2"
+          transform="translate(0,-29.1)">
+          <g
+            id="">
+            <path
+              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 39.15 L 29.1 39.15 L 29.1 0 L -29.1 0 L -29.1 39.15" />
+          </g>
+        </g>
+        <g
+          id="CenterKeywellCutout3"
+          transform="translate(0,57.675)">
+          <g
+            id="">
+            <path
+              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+              d="M -29.1 0 L 29.1 0 L 29.1 -20.1 L 10.05 -20.1 L 10.05 -39.15 L -10.05 -39.15 L -10.05 -20.1 L -29.1 -20.1 L -29.1 0" />
           </g>
         </g>
         <g
@@ -736,11 +793,11 @@
           transform="translate(-19.05,0)">
           <g
             id="Column06Key00"
-            transform="translate(0,-38.1)">
+            transform="translate(0,-47.625)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -753,12 +810,15 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PRSC</text>
           </g>
           <g
+            id=""
+            transform="translate(0,-33.3375)" />
+          <g
             id="Column06Key01"
-            transform="translate(0,-19.05)">
+            transform="translate(0,-19.050003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -771,11 +831,12 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">INS</text>
           </g>
           <g
-            id="Column06Key02">
+            id="Column06Key02"
+            transform="translate(0,-3.8146973E-06)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -789,14 +850,17 @@
           </g>
           <g
             id=""
-            transform="translate(0,19.05)" />
+            transform="translate(0,14.287498)" />
+          <g
+            id=""
+            transform="translate(0,28.575005)" />
           <g
             id="Column06Key03"
-            transform="translate(0,38.1)">
+            transform="translate(0,47.625)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -813,11 +877,11 @@
           id="Column07">
           <g
             id="Column07Key00"
-            transform="translate(0,-38.1)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -830,12 +894,15 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">SCLK</text>
           </g>
           <g
+            id=""
+            transform="translate(0,-33.337505)" />
+          <g
             id="Column07Key01"
-            transform="translate(0,-19.05)">
+            transform="translate(0,-19.050007)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -849,11 +916,11 @@
           </g>
           <g
             id="Column07Key02"
-            transform="translate(0,-3.814697E-06)">
+            transform="translate(0,-7.6293945E-06)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -866,12 +933,15 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">END</text>
           </g>
           <g
+            id=""
+            transform="translate(0,14.287495)" />
+          <g
             id="Column07Key03"
-            transform="translate(0,19.05)">
+            transform="translate(0,28.575)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -885,11 +955,11 @@
           </g>
           <g
             id="Column07Key04"
-            transform="translate(0,38.1)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -904,14 +974,14 @@
         </g>
         <g
           id="Column08"
-          transform="translate(19.05,0)">
+          transform="translate(19.050003,0)">
           <g
             id="Column08Key00"
-            transform="translate(0,-38.1)">
+            transform="translate(0,-47.625)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -924,12 +994,15 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PAUS</text>
           </g>
           <g
+            id=""
+            transform="translate(0,-33.3375)" />
+          <g
             id="Column08Key01"
-            transform="translate(0,-19.05)">
+            transform="translate(0,-19.050003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -942,11 +1015,12 @@
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">PGUP</text>
           </g>
           <g
-            id="Column08Key02">
+            id="Column08Key02"
+            transform="translate(0,-3.8146973E-06)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -960,14 +1034,17 @@
           </g>
           <g
             id=""
-            transform="translate(0,19.05)" />
+            transform="translate(0,14.287498)" />
+          <g
+            id=""
+            transform="translate(0,28.575005)" />
           <g
             id="Column08Key03"
-            transform="translate(0,38.1)">
+            transform="translate(0,47.625)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -990,7 +1067,7 @@
           <g
             id="">
             <path
-              style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
+              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
               d="M 133.875 60.175 L 94.725 60.175 L 94.725 57.175 L 75.675 57.175 L 75.675 52.175 L 57.675 52.175 L 57.675 58.175 L 38.625 58.175 L 38.625 63.175 L -0.525 63.175 L -0.525 43.075 L 18.525 43.075 L 18.525 -52.175 L 37.575 -52.175 L 37.575 -57.175 L 56.625 -57.175 L 56.625 -63.175 L 76.725 -63.175 L 76.725 -58.175 L 95.775 -58.175 L 95.775 -55.175 L 133.875 -55.175 L 133.875 60.175" />
           </g>
         </g>
@@ -1006,7 +1083,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1021,14 +1098,14 @@
         </g>
         <g
           id="Column09"
-          transform="translate(-38.1,5.5)">
+          transform="translate(-38.100002,5.5)">
           <g
             id="Column09Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1042,11 +1119,11 @@
           </g>
           <g
             id="Column09Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1055,6 +1132,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column09Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">^</text>
+            <text
+              id="Column09Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">6</text>
           </g>
@@ -1064,7 +1147,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1082,7 +1165,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1100,7 +1183,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1114,11 +1197,11 @@
           </g>
           <g
             id="Column09Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1136,11 +1219,11 @@
           transform="translate(-19.05,0.5)">
           <g
             id="Column10Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1154,11 +1237,11 @@
           </g>
           <g
             id="Column10Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1167,6 +1250,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column10Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&amp;</text>
+            <text
+              id="Column10Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">7</text>
           </g>
@@ -1176,7 +1265,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1194,7 +1283,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1212,7 +1301,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1226,11 +1315,11 @@
           </g>
           <g
             id="Column10Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1239,8 +1328,14 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column10Key05Legend0"
+              transform="translate(0,-3)"
               text-anchor="middle"
-              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">[</text>
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">{</text>
+            <text
+              id="Column10Key05Legend1"
+              transform="translate(0,3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">[</text>
           </g>
         </g>
         <g
@@ -1248,11 +1343,11 @@
           transform="translate(0,-5.5)">
           <g
             id="Column11Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1266,11 +1361,11 @@
           </g>
           <g
             id="Column11Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1279,6 +1374,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column11Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">*</text>
+            <text
+              id="Column11Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">8</text>
           </g>
@@ -1288,7 +1389,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1306,7 +1407,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1324,7 +1425,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1333,16 +1434,22 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column11Key04Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&lt;</text>
+            <text
+              id="Column11Key04Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">,</text>
           </g>
           <g
             id="Column11Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1351,20 +1458,26 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column11Key05Legend0"
+              transform="translate(0,-3)"
               text-anchor="middle"
-              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">]</text>
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">}</text>
+            <text
+              id="Column11Key05Legend1"
+              transform="translate(0,3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">]</text>
           </g>
         </g>
         <g
           id="Column12"
-          transform="translate(19.05,-0.5)">
+          transform="translate(19.050003,-0.5)">
           <g
             id="Column12Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1378,11 +1491,11 @@
           </g>
           <g
             id="Column12Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1391,6 +1504,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column12Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">(</text>
+            <text
+              id="Column12Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">9</text>
           </g>
@@ -1400,7 +1519,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1418,7 +1537,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1436,7 +1555,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1445,16 +1564,22 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column12Key04Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">&gt;</text>
+            <text
+              id="Column12Key04Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">.</text>
           </g>
           <g
             id="Column12Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1469,14 +1594,14 @@
         </g>
         <g
           id="Column13"
-          transform="translate(38.10001,2.5)">
+          transform="translate(38.100006,2.5)">
           <g
             id="Column13Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1490,11 +1615,11 @@
           </g>
           <g
             id="Column13Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1503,6 +1628,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column13Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">)</text>
+            <text
+              id="Column13Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">0</text>
           </g>
@@ -1512,7 +1643,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1530,7 +1661,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1539,6 +1670,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column13Key03Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">:</text>
+            <text
+              id="Column13Key03Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">;</text>
           </g>
@@ -1548,7 +1685,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1557,16 +1694,22 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column13Key04Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">?</text>
+            <text
+              id="Column13Key04Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">/</text>
           </g>
           <g
             id="Column13Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1584,11 +1727,11 @@
           transform="translate(57.15001,2.5)">
           <g
             id="Column14Key00"
-            transform="translate(0,-47.625)">
+            transform="translate(0,-47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1602,11 +1745,11 @@
           </g>
           <g
             id="Column14Key01"
-            transform="translate(0,-28.575)">
+            transform="translate(0,-28.575003)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1615,6 +1758,12 @@
               style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key01Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">_</text>
+            <text
+              id="Column14Key01Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">-</text>
           </g>
@@ -1624,7 +1773,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1633,6 +1782,12 @@
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key02Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">|</text>
+            <text
+              id="Column14Key02Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">\</text>
           </g>
@@ -1642,7 +1797,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1651,6 +1806,12 @@
               style="fill:#56cfff;stroke:#000000;stroke-width:0.5" />
             <text
               id="Column14Key03Legend0"
+              transform="translate(0,-3)"
+              text-anchor="middle"
+              style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">"</text>
+            <text
+              id="Column14Key03Legend1"
+              transform="translate(0,3)"
               text-anchor="middle"
               style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:6px;font-family:sans-serif;font-weight:normal;font-style:normal">'</text>
           </g>
@@ -1660,7 +1821,7 @@
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1674,11 +1835,11 @@
           </g>
           <g
             id="Column14Key05"
-            transform="translate(0,47.625)">
+            transform="translate(0,47.625004)">
             <g
               id="">
               <path
-                style="fill:none;stroke:#0000ff;stroke-width:0.5"
+                style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
                 d="M -7 -7 L 7 -7 L 7 -6 L 7.8 -6 L 7.8 6 L 7 6 L 7 7 L -7 7 L -7 6 L -7.8 6 L -7.8 -6 L -7 -6 L -7 -7" />
             </g>
             <path
@@ -1780,19 +1941,9 @@
         <g
           id="">
           <path
-            style="fill:none;stroke:#0000ff;stroke-width:0.5"
+            style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5"
             d="M 0 -73 L 147 -73 Q 150.711 -73 152 -66 L 173 48 Q 174.125 54.105 165 56 L 35 83 Q 35 83 31 83 L -31 83 Q -35 83 -35 83 L -165 56 Q -174.125 54.105 -173 48 L -152 -66 Q -150.711 -73 -147 -73 L 0 -73" />
         </g>
-      </g>
-    </g>
-    <g
-      id="Elite-C"
-      transform="translate(0,-50)">
-      <g
-        id="">
-        <path
-          style="fill:#5f5f5f;stroke:#000000;stroke-width:0.5"
-          d="M -9 -16.5 L 9 -16.5 L 9 16.5 L -9 16.5 L -9 -16.5" />
       </g>
     </g>
   </g>

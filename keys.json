@@ -1,0 +1,611 @@
+{
+  "Column00Key00": {
+    "Position": {
+      "X": 35.054,
+      "Y": 25.637
+    },
+    "Rotation": 10.0
+  },
+  "Column00Key01": {
+    "Position": {
+      "X": 31.746,
+      "Y": 44.397
+    },
+    "Rotation": 10.0
+  },
+  "Column00Key02": {
+    "Position": {
+      "X": 28.438,
+      "Y": 63.158
+    },
+    "Rotation": 10.0
+  },
+  "Column00Key03": {
+    "Position": {
+      "X": 25.13,
+      "Y": 81.918
+    },
+    "Rotation": 10.0
+  },
+  "Column00Key04": {
+    "Position": {
+      "X": 21.822,
+      "Y": 100.679
+    },
+    "Rotation": 10.0
+  },
+  "Column00Key05": {
+    "Position": {
+      "X": 18.514,
+      "Y": 119.439
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key00": {
+    "Position": {
+      "X": 53.815,
+      "Y": 28.945
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key01": {
+    "Position": {
+      "X": 50.507,
+      "Y": 47.705
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key02": {
+    "Position": {
+      "X": 47.199,
+      "Y": 66.466
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key03": {
+    "Position": {
+      "X": 43.891,
+      "Y": 85.226
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key04": {
+    "Position": {
+      "X": 40.583,
+      "Y": 103.987
+    },
+    "Rotation": 10.0
+  },
+  "Column01Key05": {
+    "Position": {
+      "X": 37.275,
+      "Y": 122.747
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key00": {
+    "Position": {
+      "X": 73.096,
+      "Y": 29.298
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key01": {
+    "Position": {
+      "X": 69.788,
+      "Y": 48.059
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key02": {
+    "Position": {
+      "X": 66.48,
+      "Y": 66.819
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key03": {
+    "Position": {
+      "X": 63.172,
+      "Y": 85.58
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key04": {
+    "Position": {
+      "X": 59.864,
+      "Y": 104.34
+    },
+    "Rotation": 10.0
+  },
+  "Column02Key05": {
+    "Position": {
+      "X": 56.556,
+      "Y": 123.101
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key00": {
+    "Position": {
+      "X": 92.725,
+      "Y": 27.682
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key01": {
+    "Position": {
+      "X": 89.417,
+      "Y": 46.443
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key02": {
+    "Position": {
+      "X": 86.109,
+      "Y": 65.203
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key03": {
+    "Position": {
+      "X": 82.801,
+      "Y": 83.964
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key04": {
+    "Position": {
+      "X": 79.493,
+      "Y": 102.724
+    },
+    "Rotation": 10.0
+  },
+  "Column03Key05": {
+    "Position": {
+      "X": 76.185,
+      "Y": 121.485
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key00": {
+    "Position": {
+      "X": 110.444,
+      "Y": 36.899
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key01": {
+    "Position": {
+      "X": 107.136,
+      "Y": 55.66
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key02": {
+    "Position": {
+      "X": 103.828,
+      "Y": 74.42
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key03": {
+    "Position": {
+      "X": 100.52,
+      "Y": 93.181
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key04": {
+    "Position": {
+      "X": 97.212,
+      "Y": 111.941
+    },
+    "Rotation": 10.0
+  },
+  "Column04Key05": {
+    "Position": {
+      "X": 93.904,
+      "Y": 130.702
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key00": {
+    "Position": {
+      "X": 128.336,
+      "Y": 45.131
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key01": {
+    "Position": {
+      "X": 125.028,
+      "Y": 63.892
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key02": {
+    "Position": {
+      "X": 121.72,
+      "Y": 82.652
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key03": {
+    "Position": {
+      "X": 118.412,
+      "Y": 101.413
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key04": {
+    "Position": {
+      "X": 115.104,
+      "Y": 120.173
+    },
+    "Rotation": 10.0
+  },
+  "Column05Key05": {
+    "Position": {
+      "X": 111.796,
+      "Y": 138.934
+    },
+    "Rotation": 10.0
+  },
+  "Column06Key04": {
+    "Position": {
+      "X": 130.557,
+      "Y": 142.242
+    },
+    "Rotation": 10.0
+  },
+  "Column06Key00": {
+    "Position": {
+      "X": 155.95,
+      "Y": 48.89
+    },
+    "Rotation": 0.0
+  },
+  "Column06Key01": {
+    "Position": {
+      "X": 155.95,
+      "Y": 77.465
+    },
+    "Rotation": 0.0
+  },
+  "Column06Key02": {
+    "Position": {
+      "X": 155.95,
+      "Y": 96.515
+    },
+    "Rotation": 0.0
+  },
+  "Column06Key03": {
+    "Position": {
+      "X": 155.95,
+      "Y": 144.14
+    },
+    "Rotation": 0.0
+  },
+  "Column07Key00": {
+    "Position": {
+      "X": 175.0,
+      "Y": 48.89
+    },
+    "Rotation": 0.0
+  },
+  "Column07Key01": {
+    "Position": {
+      "X": 175.0,
+      "Y": 77.465
+    },
+    "Rotation": 0.0
+  },
+  "Column07Key02": {
+    "Position": {
+      "X": 175.0,
+      "Y": 96.515
+    },
+    "Rotation": 0.0
+  },
+  "Column07Key03": {
+    "Position": {
+      "X": 175.0,
+      "Y": 125.09
+    },
+    "Rotation": 0.0
+  },
+  "Column07Key04": {
+    "Position": {
+      "X": 175.0,
+      "Y": 144.14
+    },
+    "Rotation": 0.0
+  },
+  "Column08Key00": {
+    "Position": {
+      "X": 194.05,
+      "Y": 48.89
+    },
+    "Rotation": 0.0
+  },
+  "Column08Key01": {
+    "Position": {
+      "X": 194.05,
+      "Y": 77.465
+    },
+    "Rotation": 0.0
+  },
+  "Column08Key02": {
+    "Position": {
+      "X": 194.05,
+      "Y": 96.515
+    },
+    "Rotation": 0.0
+  },
+  "Column08Key03": {
+    "Position": {
+      "X": 194.05,
+      "Y": 144.14
+    },
+    "Rotation": 0.0
+  },
+  "Column08Key04": {
+    "Position": {
+      "X": 219.443,
+      "Y": 142.242
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key00": {
+    "Position": {
+      "X": 221.664,
+      "Y": 45.131
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key01": {
+    "Position": {
+      "X": 224.972,
+      "Y": 63.892
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key02": {
+    "Position": {
+      "X": 228.28,
+      "Y": 82.652
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key03": {
+    "Position": {
+      "X": 231.588,
+      "Y": 101.413
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key04": {
+    "Position": {
+      "X": 234.896,
+      "Y": 120.173
+    },
+    "Rotation": -10.0
+  },
+  "Column09Key05": {
+    "Position": {
+      "X": 238.204,
+      "Y": 138.934
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key00": {
+    "Position": {
+      "X": 239.556,
+      "Y": 36.899
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key01": {
+    "Position": {
+      "X": 242.864,
+      "Y": 55.66
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key02": {
+    "Position": {
+      "X": 246.172,
+      "Y": 74.42
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key03": {
+    "Position": {
+      "X": 249.48,
+      "Y": 93.181
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key04": {
+    "Position": {
+      "X": 252.788,
+      "Y": 111.941
+    },
+    "Rotation": -10.0
+  },
+  "Column10Key05": {
+    "Position": {
+      "X": 256.096,
+      "Y": 130.702
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key00": {
+    "Position": {
+      "X": 257.275,
+      "Y": 27.682
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key01": {
+    "Position": {
+      "X": 260.583,
+      "Y": 46.443
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key02": {
+    "Position": {
+      "X": 263.891,
+      "Y": 65.203
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key03": {
+    "Position": {
+      "X": 267.199,
+      "Y": 83.964
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key04": {
+    "Position": {
+      "X": 270.507,
+      "Y": 102.724
+    },
+    "Rotation": -10.0
+  },
+  "Column11Key05": {
+    "Position": {
+      "X": 273.815,
+      "Y": 121.485
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key00": {
+    "Position": {
+      "X": 276.904,
+      "Y": 29.298
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key01": {
+    "Position": {
+      "X": 280.212,
+      "Y": 48.059
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key02": {
+    "Position": {
+      "X": 283.52,
+      "Y": 66.819
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key03": {
+    "Position": {
+      "X": 286.828,
+      "Y": 85.58
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key04": {
+    "Position": {
+      "X": 290.136,
+      "Y": 104.34
+    },
+    "Rotation": -10.0
+  },
+  "Column12Key05": {
+    "Position": {
+      "X": 293.444,
+      "Y": 123.101
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key00": {
+    "Position": {
+      "X": 296.185,
+      "Y": 28.945
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key01": {
+    "Position": {
+      "X": 299.493,
+      "Y": 47.705
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key02": {
+    "Position": {
+      "X": 302.801,
+      "Y": 66.466
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key03": {
+    "Position": {
+      "X": 306.109,
+      "Y": 85.226
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key04": {
+    "Position": {
+      "X": 309.417,
+      "Y": 103.987
+    },
+    "Rotation": -10.0
+  },
+  "Column13Key05": {
+    "Position": {
+      "X": 312.725,
+      "Y": 122.747
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key00": {
+    "Position": {
+      "X": 314.946,
+      "Y": 25.637
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key01": {
+    "Position": {
+      "X": 318.254,
+      "Y": 44.397
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key02": {
+    "Position": {
+      "X": 321.562,
+      "Y": 63.158
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key03": {
+    "Position": {
+      "X": 324.87,
+      "Y": 81.918
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key04": {
+    "Position": {
+      "X": 328.178,
+      "Y": 100.679
+    },
+    "Rotation": -10.0
+  },
+  "Column14Key05": {
+    "Position": {
+      "X": 331.486,
+      "Y": 119.439
+    },
+    "Rotation": -10.0
+  }
+}
