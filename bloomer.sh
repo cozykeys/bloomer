@@ -67,8 +67,9 @@ function print_usage() {
     echo "USAGE: ./bloomer.sh <action> [OPTIONS]"
     echo ""
     echo "Actions:"
-    echo "    generate-render   : Generate an svg render of the keyboard"
-    echo "    generate-traces   : Generate a kicad_pcb file with keyboard's traces"
+    echo "    generate-render       : Generate an svg render of the keyboard"
+    echo "    generate-perimeters   : Calculate case perimeters based on PCB edge cuts"
+    echo "    generate-traces       : Generate a kicad_pcb file with keyboard's traces"
 }
 
 if [ "$action" = "generate-render" ]; then
