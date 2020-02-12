@@ -59,6 +59,21 @@ function generate_perimeters() {
     "$svg_opener" "temp/inner_perimeter.svg" "temp/outer_perimeter.svg" "temp/outer_perimeter_curves.svg"
 }
 
+function generate_pcb() {
+    pcb_dir="$bloomer_dir/pcb"
+
+    input="$bloomer_dir/switches.json"
+    output="$pcb_dir/bloomer.kicad_pcb"
+
+    (
+        cd "$kbutil_dir"
+        make
+    )
+
+    mkdir -p "$pcb_dir"
+    dotnet "$kbutil_dll" gen-pcb "bloomer" "$input" "$output"
+}
+
 function generate_traces() {
     error "Not yet implemented"
 }
@@ -76,6 +91,8 @@ if [ "$action" = "generate-render" ]; then
     generate_render
 elif [ "$action" = "generate-perimeters" ]; then
     generate_perimeters
+elif [ "$action" = "generate-pcb" ]; then
+    generate_pcb
 elif [ "$action" = "generate-traces" ]; then
     generate_traces
 elif [ "$action" = "help" ]; then
