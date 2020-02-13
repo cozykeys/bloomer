@@ -30,33 +30,45 @@ function generate_render() {
     options="--visual-switch-cutouts --keycap-overlays --keycap-legends"
 
     dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
-    dotnet "$kbutil_dll" gen-key-bearings "$input" "./keys.json" --debug-svg="./temp.svg"
+    dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
 
     "$svg_opener" "$output/bloomer_Switch.svg" 
 }
 
 function generate_perimeters() {
-    local vertices_file="temp/pcb_edge_vertices.json"
+    local vertices_file="pcb_edge_vertices.json"
     [ ! -f "$vertices_file" ] && \
         1>&2 echo "Vertices file $vertices_file does not exist" && \
         exit 1
-
 
     mkdir -p "temp"
 
     # Generate the inner perimeter
     dotnet "$kbmath_dll" expand-vertices \
-        --debug-svg="temp/inner_perimeter.svg" "$vertices_file" "temp/inner_perimeter.json" 1.5
+        --debug-svg="temp/inner_perimeter.svg" \
+        "$vertices_file" \
+        "temp/inner_perimeter.json" \
+        1.5
 
     # Generate the outer perimeter
     dotnet "$kbmath_dll" expand-vertices \
-        --debug-svg="temp/outer_perimeter.svg" "$vertices_file" "temp/outer_perimeter.json" 11.5
+        --debug-svg="temp/outer_perimeter.svg" \
+        "$vertices_file" \
+        "temp/outer_perimeter.json" \
+        11.5
 
     # Generate the outer perimeter curves
     dotnet "$kbmath_dll" generate-curves \
-        --debug-svg="temp/outer_perimeter_curves.svg" "temp/outer_perimeter.json" "temp/outer_perimeter_curves.json" 3
+        --output-xml="temp/outer_perimeter_curves.xml" \
+        --debug-svg="temp/outer_perimeter_curves.svg" \
+        "temp/outer_perimeter.json" \
+        "temp/outer_perimeter_curves.json" \
+        3
 
-    "$svg_opener" "temp/inner_perimeter.svg" "temp/outer_perimeter.svg" "temp/outer_perimeter_curves.svg"
+    "$svg_opener" \
+        "temp/inner_perimeter.svg" \
+        "temp/outer_perimeter.svg" \
+        "temp/outer_perimeter_curves.svg"
 }
 
 function generate_pcb() {

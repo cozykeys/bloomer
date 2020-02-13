@@ -15,9 +15,9 @@
     <Constant Name="KeywellFillColor" Value="#5f5f5f" />
   </Constants>
   <Layers>
-    <Layer Name="Switch" ZIndex="3" XOffset="175" YOffset="80">
+    <Layer Name="Switch" ZIndex="3" XOffset="185" YOffset="80">
       <Groups>
-        <Group Name="Case" XOffset="-175" YOffset="-80">
+        <Group Name="Case" XOffset="-185" YOffset="-80">
           <Children>
             <Circle Size="${M2ScrewSize}" XOffset="-147" YOffset="-68" />
             <Circle Size="${M2ScrewSize}" XOffset="-25" YOffset="-68" />
@@ -28,70 +28,46 @@
             <Circle Size="${M2ScrewSize}" XOffset="30" YOffset="78" />
             <Circle Size="${M2ScrewSize}" XOffset="168" YOffset="50" />
             <Group Name="CasePerimeter">
-              <Constants>
-                <Constant Name="X01"  Value="0" />
-                <Constant Name="X02"  Value="147" />
-                <Constant Name="X03"  Value="57.675" />
-                <Constant Name="X04"  Value="75.675" />
-                <Constant Name="X05"  Value="94.725" />
-                <Constant Name="X06"  Value="133.875" />
-                <Constant Name="X07"  Value="114.825" />
-                <Constant Name="X08"  Value="95.775" />
-                <Constant Name="X09"  Value="76.725" />
-                <Constant Name="X10"  Value="56.625" />
-                <Constant Name="X11"  Value="37.575" />
-                <Constant Name="Y01"  Value="60.175" />
-                <Constant Name="Y02"  Value="57.175" />
-                <Constant Name="Y03"  Value="52.175" />
-                <Constant Name="Y04"  Value="58.175" />
-                <Constant Name="Y05"  Value="63.175" />
-                <Constant Name="Y06"  Value="42.925" />
-                <Constant Name="Y07"  Value="-52.175" />
-                <Constant Name="Y08"  Value="-57.175" />
-                <Constant Name="Y09"  Value="-63.175" />
-                <Constant Name="Y10"  Value="-58.175" />
-                <Constant Name="Y11"  Value="-55.175" />
-              </Constants>
               <Children>
                 <Path Stroke="${CaseStrokeColor}" Fill="${CaseFillColor}">
                   <Components>
-                    <AbsoluteMoveTo> <EndPoint X="17.604" Y="6.26" /> </AbsoluteMoveTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="21.123" Y="3.412" /> <ControlPoint X="18.125" Y="3.306" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="83.594" Y="5.628" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="89.546" Y="6.255" /> <ControlPoint X="86.592" Y="5.734" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="103.854" Y="8.777" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="109.502" Y="10.618" /> <ControlPoint X="106.808" Y="9.298" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="138.792" Y="24.97" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="144.486" Y="26.29" /> <ControlPoint X="141.486" Y="26.29" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="205.514" Y="26.29" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="211.208" Y="24.97" /> <ControlPoint X="208.514" Y="26.29" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="240.498" Y="10.618" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="246.146" Y="8.777" /> <ControlPoint X="243.192" Y="9.298" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="260.454" Y="6.255" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="266.406" Y="5.628" /> <ControlPoint X="263.408" Y="5.734" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="328.877" Y="3.412" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="332.396" Y="6.26" /> <ControlPoint X="331.875" Y="3.306" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="354.771" Y="133.154" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="352.338" Y="136.629" /> <ControlPoint X="355.292" Y="136.108" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="310.627" Y="143.984" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="304.749" Y="145.178" /> <ControlPoint X="307.673" Y="144.505" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="253.901" Y="156.876" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="248.023" Y="158.07" /> <ControlPoint X="250.977" Y="157.549" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="216.355" Y="163.653" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="210.405" Y="164.329" /> <ControlPoint X="213.401" Y="164.174" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="206.392" Y="164.535" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="200.396" Y="164.69" /> <ControlPoint X="203.396" Y="164.69" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="149.604" Y="164.69" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="143.608" Y="164.535" /> <ControlPoint X="146.604" Y="164.69" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="139.595" Y="164.329" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="133.645" Y="163.653" /> <ControlPoint X="136.599" Y="164.174" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="101.977" Y="158.07" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="96.099" Y="156.876" /> <ControlPoint X="99.023" Y="157.549" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="45.251" Y="145.178" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="39.373" Y="143.984" /> <ControlPoint X="42.327" Y="144.505" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="-2.338" Y="136.629" /> </AbsoluteLineTo>
-                    <AbsoluteQuadraticCurveTo> <EndPoint X="-4.771" Y="133.154" /> <ControlPoint X="-5.292" Y="136.108" /> </AbsoluteQuadraticCurveTo>
-                    <AbsoluteLineTo> <EndPoint X="17.604" Y="6.26" /> </AbsoluteLineTo>
+                    <AbsoluteMoveTo> <EndPoint X="27.604" Y="6.26" /> </AbsoluteMoveTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="31.123" Y="3.412" /> <ControlPoint X="28.125" Y="3.306" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="93.594" Y="5.627" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="99.546" Y="6.255" /> <ControlPoint X="96.592" Y="5.734" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="113.854" Y="8.777" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="119.502" Y="10.618" /> <ControlPoint X="116.808" Y="9.298" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="148.792" Y="24.97" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="154.486" Y="26.29" /> <ControlPoint X="151.486" Y="26.29" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="215.514" Y="26.29" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="221.208" Y="24.97" /> <ControlPoint X="218.514" Y="26.29" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="250.498" Y="10.618" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="256.146" Y="8.777" /> <ControlPoint X="253.192" Y="9.298" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="270.454" Y="6.255" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="276.406" Y="5.627" /> <ControlPoint X="273.408" Y="5.734" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="338.877" Y="3.412" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="342.396" Y="6.26" /> <ControlPoint X="341.875" Y="3.306" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="364.771" Y="133.154" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="362.338" Y="136.629" /> <ControlPoint X="365.292" Y="136.108" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="320.628" Y="143.984" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="314.75" Y="145.177" /> <ControlPoint X="317.673" Y="144.505" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="263.901" Y="156.876" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="258.023" Y="158.07" /> <ControlPoint X="260.977" Y="157.549" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="226.356" Y="163.653" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="220.405" Y="164.329" /> <ControlPoint X="223.401" Y="164.174" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="216.392" Y="164.536" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="210.396" Y="164.69" /> <ControlPoint X="213.396" Y="164.69" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="159.604" Y="164.69" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="153.608" Y="164.536" /> <ControlPoint X="156.604" Y="164.69" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="149.595" Y="164.329" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="143.644" Y="163.653" /> <ControlPoint X="146.599" Y="164.174" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="111.977" Y="158.07" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="106.099" Y="156.876" /> <ControlPoint X="109.023" Y="157.549" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="55.25" Y="145.177" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="49.372" Y="143.984" /> <ControlPoint X="52.327" Y="144.505" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="7.662" Y="136.629" /> </AbsoluteLineTo>
+                    <AbsoluteQuadraticCurveTo> <EndPoint X="5.229" Y="133.154" /> <ControlPoint X="4.708" Y="136.108" /> </AbsoluteQuadraticCurveTo>
+                    <AbsoluteLineTo> <EndPoint X="27.604" Y="6.26" /> </AbsoluteLineTo>
                   </Components>
                 </Path>
               </Children>
