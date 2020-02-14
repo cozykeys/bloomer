@@ -628,8 +628,7 @@
         </Group>
         <!--
         -->
-        <!--
-        <Group Name="Elite-C" YOffset="-50">
+        <Group Name="Elite-C" YOffset="-50" Visible="false">
           <Constants>
             <Constant Name="X01"  Value="-9" />
             <Constant Name="X02"  Value="9" />
@@ -648,11 +647,9 @@
             </Path>
           </Children>
         </Group>
-      -->
         <Group Name="Pcb" XOffset="-175" YOffset="-80">
           <Children>
-            <!--
-            <Group Name="PcbPerimeter">
+            <Group Name="PcbPerimeter" Visible="False">
               <Constants>
                 <Constant Name="X01" Value="27.713" />  <Constant Name="Y01" Value="15.153" />
                 <Constant Name="X02" Value="85.384" />  <Constant Name="Y02" Value="17.198" />
@@ -699,7 +696,7 @@
                 </Path>
               </Children>
             </Group>
-            <Group Name="PcbPerimeter2">
+            <Group Name="PcbPerimeter2" Visible="False">
               <Constants>
                 <Constant Name="X01" Value="26.462" />  <Constant Name="Y01" Value="13.608" />
                 <Constant Name="X02" Value="85.542" />  <Constant Name="Y02" Value="15.703" />
@@ -746,9 +743,7 @@
                 </Path>
               </Children>
             </Group>
-            -->
-        <!--
-            <Group Name="PcbPerimeter3">
+            <Group Name="PcbPerimeter3" Visible="False">
               <Constants>
                 <Constant Name="X01" Value="18.126" />  <Constant Name="Y01" Value="3.306" />
                 <Constant Name="X02" Value="86.592" />  <Constant Name="Y02" Value="5.734" />
@@ -795,7 +790,6 @@
                 </Path>
               </Children>
             </Group>
-            -->
           </Children>
         </Group>
       </Groups>
