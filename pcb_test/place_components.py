@@ -9,15 +9,9 @@ import math
 
 SCRIPT_PATH = os.path.abspath(__file__)
 foo = os.path.dirname(SCRIPT_PATH)
-bar = os.path.dirname(foo)
-baz = os.path.dirname(bar)
-
-print(foo)
-print(bar)
-print(baz)
+baz = os.path.dirname(foo)
 
 REPO_DIR = baz
-
 
 # index => (column, row)
 pos_lookup_table = {
@@ -52,7 +46,7 @@ def get_switch_data():
         return json.loads(f.read())
 
 def get_pcb_data():
-    pcb_data_file = os.path.join(REPO_DIR, 'pcb_test', 'bloomer', 'bloomer_flipped.kicad_pcb')
+    pcb_data_file = os.path.join(REPO_DIR, 'pcb_test', 'bloomer.kicad_pcb')
     with open(pcb_data_file) as f:
         return f.readlines()
 
@@ -191,6 +185,49 @@ def process_diode_module(switch_data, pcb_data, i):
         
         j += 1
     
+def led_module_get_ref(pcb_data, i):
+    ref_offset = 6
+    match = re.search(r'reference L([0-9]{1,2})', pcb_data[i+ref_offset])
+    if not match:
+        raise Exception('Couldn\'t determine LED module reference')
+    return match.group(1)
+    
+
+def process_led_module(pcb_data, i):
+    # Ensure module line count
+    match = re.search(r'^ *\) *$', pcb_data[i+44])
+    if not match:
+        raise Exception('Module line count doesn\'t match expected!')
+
+    lookup = {
+        '1':   190, '2':   190, '3':   190,
+        '4':    10, '5':    10, '6':    10,
+        '7':   -10, '8':   -10, '9':   -10,
+        '10': -190, '11': -190, '12': -190,
+    }
+
+    # Get the reference, i.e. K1 -> 1
+    ref = led_module_get_ref(pcb_data, i)
+    rot = lookup[ref]
+
+    j = 2
+    while j < 44:
+        line = pcb_data[i+j]
+
+        # Add rotation to lines with "(at X Y)"
+        match = re.search(r'\(at ([0-9\-\.]+) ([0-9\-\.]+)\)', line)
+        if match:
+            pcb_data[i+j] = line.replace(
+                '(at {} {})'.format(match.group(1), match.group(2)),
+                '(at {} {} {})'.format(match.group(1), match.group(2), rot))
+        else:
+            # Add rotation to lines with "(at X Y R)"
+            match = re.search(r'\(at ([0-9\-\.]+) ([0-9\-\.]+) ([0-9\-\.]+)\)', line)
+            if match:
+                # We shouldn't encounter this
+                raise Exception('TODO')
+        
+        j += 1
 
 
 def main():
@@ -202,31 +239,35 @@ def main():
     for i in range(0, len(pcb_data)):
         line = pcb_data[i]
 
-        match = re.search(r'\(module keebs:Mx_Alps_100', line)
-        if match:
-            process_switch_module(switch_data, pcb_data, i)
-            continue
+        #match = re.search(r'\(module keebs:Mx_Alps_100', line)
+        #if match:
+            #process_switch_module(switch_data, pcb_data, i)
+            #continue
 
-        match = re.search(r'\(module keyboard_parts:D_SOD123_axial', line)
-        if match:
-            process_diode_module(switch_data, pcb_data, i)
-            continue
+        #match = re.search(r'\(module keyboard_parts:D_SOD123_axial', line)
+        #if match:
+            #process_diode_module(switch_data, pcb_data, i)
+            #continue
 
-        match = re.search(r'\(module ', line)
-        if match:
-            match = re.search(r'\(at ([0-9\-\.]+) ([0-9\-\.]+)\)', pcb_data[i+1])
-            if match:
-                print("Replacing:")
-                print('(at {} {})'.format(match.group(1), match.group(2)))
-                print("With:")
-                print('(at {} {})'.format(x, y))
-                pcb_data[i+1] = pcb_data[i+1].replace(
-                    '(at {} {})'.format(match.group(1), match.group(2)),
-                    '(at {} {})'.format(x, y))
-                x += 10
-                if x > 200:
-                    x = 20
-                    y += 10
+        #match = re.search(r'\(module LED_SMD:LED_WS2812B_PLCC4_5', line)
+        #if match:
+            #process_led_module(pcb_data, i)
+
+        #match = re.search(r'\(module ', line)
+        #if match:
+            #match = re.search(r'\(at ([0-9\-\.]+) ([0-9\-\.]+)\)', pcb_data[i+1])
+            #if match:
+                #print("Replacing:")
+                #print('(at {} {})'.format(match.group(1), match.group(2)))
+                #print("With:")
+                #print('(at {} {})'.format(x, y))
+                #pcb_data[i+1] = pcb_data[i+1].replace(
+                    #'(at {} {})'.format(match.group(1), match.group(2)),
+                    #'(at {} {})'.format(x, y))
+                #x += 10
+                #if x > 200:
+                    #x = 20
+                    #y += 10
 
 
 
