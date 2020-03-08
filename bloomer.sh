@@ -27,10 +27,19 @@ function generate_render() {
     output="$bloomer_dir/case"
 
 
-    options="--visual-switch-cutouts --keycap-overlays --keycap-legends"
+    options="--visual-switch-cutouts --keycap-overlays --keycap-legends --squash"
 
     dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
     dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
+
+    "$svg_opener" "$output/bloomer.svg"
+}
+
+function generate_ponoko() {
+    input="$bloomer_dir/bloomer.xml"
+    output="$bloomer_dir/case/ponoko"
+
+    dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
 
     "$svg_opener" "$output/bloomer_Switch.svg" 
 }
@@ -95,12 +104,17 @@ function print_usage() {
     echo ""
     echo "Actions:"
     echo "    generate-render       : Generate an svg render of the keyboard"
+    echo "    generate-ponoko       : Generate an svg styled to be cut by Ponoko"
     echo "    generate-perimeters   : Calculate case perimeters based on PCB edge cuts"
-    echo "    generate-traces       : Generate a kicad_pcb file with keyboard's traces"
+    echo "    generate-pcb          : Generate a kicad_pcb file from kbutil templates"
+    echo "    generate-traces       : Generate keyboard's traces to be added to the kicad_pcb"
+    echo "    help                  : Print this help dialog"
 }
 
 if [ "$action" = "generate-render" ]; then
     generate_render
+elif [ "$action" = "generate-ponoko" ]; then
+    generate_ponoko
 elif [ "$action" = "generate-perimeters" ]; then
     generate_perimeters
 elif [ "$action" = "generate-pcb" ]; then
