@@ -2,6 +2,9 @@
 render:
 	./bloomer.sh generate-render
 
+ponoko:
+	./bloomer.sh generate-ponoko
+
 perimeters:
 	./bloomer.sh generate-perimeters
 
