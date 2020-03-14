@@ -681,6 +681,8 @@ def print_column_attachment_segments(switches):
     for c in range(1,6):
         vectors.append(project_from_switch(switches[r][c], -x, y3))
         vectors.append(project_from_switch(switches[r][c],  x, y3))
+    vectors.append(Vec2(138.43 + (1.27 * 0), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 0)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -695,6 +697,8 @@ def print_column_attachment_segments(switches):
     for c in range(2,6):
         vectors.append(project_from_switch(switches[r][c], -x, y2))
         vectors.append(project_from_switch(switches[r][c],  x, y2))
+    vectors.append(Vec2(138.43 + (1.27 * 1), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 1)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -709,6 +713,8 @@ def print_column_attachment_segments(switches):
     for c in range(3,6):
         vectors.append(project_from_switch(switches[r][c], -x, y1))
         vectors.append(project_from_switch(switches[r][c],  x, y1))
+    vectors.append(Vec2(138.43 + (1.27 * 2), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 2)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -726,6 +732,8 @@ def print_column_attachment_segments(switches):
     for c in range(4,6):
         vectors.append(project_from_switch(switches[r][c], -x, y3))
         vectors.append(project_from_switch(switches[r][c],  x, y3))
+    vectors.append(Vec2(138.43 + (1.27 * 3), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 3)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -740,6 +748,8 @@ def print_column_attachment_segments(switches):
     for c in range(5,6):
         vectors.append(project_from_switch(switches[r][c], -x, y2))
         vectors.append(project_from_switch(switches[r][c],  x, y2))
+    vectors.append(Vec2(138.43 + (1.27 * 4), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 4)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -751,6 +761,8 @@ def print_column_attachment_segments(switches):
     vectors = []
     vectors.append(project_from_switch(switches[r][5], col_x, y1))
     vectors.append(project_from_switch(switches[r][5], x, y1))
+    vectors.append(Vec2(138.43 + (1.27 * 5), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 5)))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
