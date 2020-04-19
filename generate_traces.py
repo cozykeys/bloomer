@@ -682,7 +682,8 @@ def print_column_attachment_segments(switches):
         vectors.append(project_from_switch(switches[r][c], -x, y3))
         vectors.append(project_from_switch(switches[r][c],  x, y3))
     vectors.append(Vec2(138.43 + (1.27 * 0), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 0)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37))
+    vectors.append(Vec2(149.24, 112.37))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -698,11 +699,17 @@ def print_column_attachment_segments(switches):
         vectors.append(project_from_switch(switches[r][c], -x, y2))
         vectors.append(project_from_switch(switches[r][c],  x, y2))
     vectors.append(Vec2(138.43 + (1.27 * 1), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 1)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
         Segment(v1, v2).print(net_id, 'B.Cu')
+    vectors.append(Vec2(vectors[-1].x, 112.37 + (.8 * 1)))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'F.Cu')
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
+    vectors.append(Vec2(149.24, vectors[-1].y))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'B.Cu')
     print_via(vectors[0].x, vectors[0].y, net_id)
 
     # Column 2
@@ -714,11 +721,17 @@ def print_column_attachment_segments(switches):
         vectors.append(project_from_switch(switches[r][c], -x, y1))
         vectors.append(project_from_switch(switches[r][c],  x, y1))
     vectors.append(Vec2(138.43 + (1.27 * 2), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 2)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
         Segment(v1, v2).print(net_id, 'B.Cu')
+    vectors.append(Vec2(vectors[-1].x, 112.37 + (.8 * 2)))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'F.Cu')
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
+    vectors.append(Vec2(149.24, vectors[-1].y))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'B.Cu')
     print_via(vectors[0].x, vectors[0].y, net_id)
 
     # Columns 3, 4, and 5 are attached to the center between rows 1 and 2
@@ -733,11 +746,17 @@ def print_column_attachment_segments(switches):
         vectors.append(project_from_switch(switches[r][c], -x, y3))
         vectors.append(project_from_switch(switches[r][c],  x, y3))
     vectors.append(Vec2(138.43 + (1.27 * 3), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 3)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
         Segment(v1, v2).print(net_id, 'B.Cu')
+    vectors.append(Vec2(vectors[-1].x, 112.37 + (.8 * 3)))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'F.Cu')
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
+    vectors.append(Vec2(149.24, vectors[-1].y))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'B.Cu')
     print_via(vectors[0].x, vectors[0].y, net_id)
 
     # Column 4
@@ -749,11 +768,17 @@ def print_column_attachment_segments(switches):
         vectors.append(project_from_switch(switches[r][c], -x, y2))
         vectors.append(project_from_switch(switches[r][c],  x, y2))
     vectors.append(Vec2(138.43 + (1.27 * 4), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 4)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
         Segment(v1, v2).print(net_id, 'B.Cu')
+    vectors.append(Vec2(vectors[-1].x, 112.37 + (.8 * 4 )))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'F.Cu')
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
+    vectors.append(Vec2(149.24, vectors[-1].y))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'B.Cu')
     print_via(vectors[0].x, vectors[0].y, net_id)
 
     # Column 5
@@ -762,11 +787,17 @@ def print_column_attachment_segments(switches):
     vectors.append(project_from_switch(switches[r][5], col_x, y1))
     vectors.append(project_from_switch(switches[r][5], x, y1))
     vectors.append(Vec2(138.43 + (1.27 * 5), vectors[len(vectors) - 1].y))
-    vectors.append(Vec2(vectors[len(vectors) - 1].x, 115.57 - (1.27 * 5)))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
         Segment(v1, v2).print(net_id, 'B.Cu')
+    vectors.append(Vec2(vectors[-1].x, 112.37 + (.8 * 5)))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'F.Cu')
+    print_via(vectors[-1].x, vectors[-1].y, net_id)
+    vectors.append(Vec2(149.24, vectors[-1].y))
+    Segment(vectors[-2], vectors[-1]).print(net_id, 'B.Cu')
     print_via(vectors[0].x, vectors[0].y, net_id)
 
     # Columns 9, 10, and 11 are attached to the center between rows 2 and 3
@@ -777,6 +808,8 @@ def print_column_attachment_segments(switches):
     vectors = []
     vectors.append(project_from_switch(switches[r][9], col_x, y1))
     vectors.append(project_from_switch(switches[r][9], -x, y1))
+    vectors.append(Vec2(231.57 - (1.27 * 5), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -791,6 +824,8 @@ def print_column_attachment_segments(switches):
     for c in [9]:
         vectors.append(project_from_switch(switches[r][c],  x, y2))
         vectors.append(project_from_switch(switches[r][c], -x, y2))
+    vectors.append(Vec2(231.57 - (1.27 * 4), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -805,6 +840,8 @@ def print_column_attachment_segments(switches):
     for c in [10,9]:
         vectors.append(project_from_switch(switches[r][c],  x, y3))
         vectors.append(project_from_switch(switches[r][c], -x, y3))
+    vectors.append(Vec2(231.57 - (1.27 * 3), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -822,6 +859,8 @@ def print_column_attachment_segments(switches):
     for c in [11,10,9]:
         vectors.append(project_from_switch(switches[r][c],  x, y1))
         vectors.append(project_from_switch(switches[r][c], -x, y1))
+    vectors.append(Vec2(231.57 - (1.27 * 2), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -836,6 +875,8 @@ def print_column_attachment_segments(switches):
     for c in [12,11,10,9]:
         vectors.append(project_from_switch(switches[r][c],  x, y2))
         vectors.append(project_from_switch(switches[r][c], -x, y2))
+    vectors.append(Vec2(231.57 - (1.27 * 1), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
@@ -850,6 +891,8 @@ def print_column_attachment_segments(switches):
     for c in [13,12,11,10,9]:
         vectors.append(project_from_switch(switches[r][c],  x, y3))
         vectors.append(project_from_switch(switches[r][c], -x, y3))
+    vectors.append(Vec2(231.57 - (1.27 * 0), vectors[len(vectors) - 1].y))
+    vectors.append(Vec2(vectors[len(vectors) - 1].x, 112.37 - 1.27))
     for i in range(0, len(vectors) - 1):
         v1 = vectors[i]
         v2 = vectors[i+1]
