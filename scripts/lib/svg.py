@@ -33,7 +33,10 @@ class SvgWriter:
         print(self._write())
 
     def _write(self) -> str:
-        lines = ["<svg>"]
+        lines = [
+            '<?xml version="1.0" encoding="utf-8"?>',
+            '<svg width="375mm" height="175mm" viewBox="0 0 375 175" xmlns="http://www.w3.org/2000/svg">',
+        ]
         for e in self.elements:
             lines += e[0].to_svg(e[1])
         lines.append("</svg>")
