@@ -1,4 +1,5 @@
-<svg height="175" width="375">
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="375mm" height="175mm" viewBox="0 0 375 175" xmlns="http://www.w3.org/2000/svg">
 <path style="fill-opacity: 0.0; stroke: #7f007f; stroke-width: 0.25" d="M 37.328 14.603 L 56.088 17.911 L 52.78 36.671 L 34.02 33.363 L 37.328 14.603" />
 <path style="fill-opacity: 0.0; stroke: #7f007f; stroke-width: 0.25" d="M 56.089 17.911 L 74.849 21.219 L 71.541 39.979 L 52.781 36.671 L 56.089 17.911" />
 <path style="fill-opacity: 0.0; stroke: #7f007f; stroke-width: 0.25" d="M 75.37 18.264 L 94.13 21.572 L 90.822 40.332 L 72.062 37.024 L 75.37 18.264" />
