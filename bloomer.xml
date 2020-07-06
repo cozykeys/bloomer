@@ -15,7 +15,7 @@
     <Constant Name="KeywellFillColor" Value="#5f5f5f" />
   </Constants>
   <Layers>
-    <Layer Name="Top" ZIndex="5" XOffset="185" YOffset="80">
+    <Layer Name="top" ZIndex="5" XOffset="185" YOffset="80">
       <Groups>
         <Group Name="CasePerimeter" XOffset="-185" YOffset="-80">
           <Children>
@@ -238,7 +238,7 @@
         </Group>
       </Groups>
     </Layer>
-    <Layer Name="Switch" ZIndex="4" XOffset="185" YOffset="80">
+    <Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">
       <Groups>
         <Group Name="Case" XOffset="-185" YOffset="-80">
           <Children>
@@ -853,7 +853,7 @@
         </Group>
         <!--
         -->
-        <Group Name="Elite-C" YOffset="-50" Visible="false">
+        <Group Name="Elite-C" YOffset="-34.327" Visible="true">
           <Constants>
             <Constant Name="X01"  Value="-9" />
             <Constant Name="X02"  Value="9" />
@@ -1020,7 +1020,7 @@
         </Group>
       </Groups>
     </Layer>
-    <Layer Name="UpperMiddle" ZIndex="3" XOffset="185" YOffset="80">
+    <Layer Name="upper_middle" ZIndex="3" XOffset="185" YOffset="80">
       <Groups>
         <Group Name="CasePerimeter" XOffset="-185" YOffset="-80">
           <Children>
@@ -1116,7 +1116,7 @@
         </Group>
       </Groups>
     </Layer>
-    <Layer Name="LowerMiddle" ZIndex="2" XOffset="185" YOffset="80">
+    <Layer Name="lower_middle" ZIndex="2" XOffset="185" YOffset="80">
       <Groups>
         <Group Name="CasePerimeter" XOffset="-185" YOffset="-80">
           <Children>
@@ -1212,7 +1212,7 @@
         </Group>
       </Groups>
     </Layer>
-    <Layer Name="Bottom" ZIndex="1" XOffset="185" YOffset="80">
+    <Layer Name="bottom" ZIndex="1" XOffset="185" YOffset="80">
       <Groups>
         <Group Name="CasePerimeter" XOffset="-185" YOffset="-80">
           <Children>
