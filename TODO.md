@@ -1,9 +1,11 @@
-# TODO
+# Bloomer v4.0 TODO List
 
-- [x] Swap K40 <-> K41 and K50 <-> K51
-- [x] Place RGB LEDs
-- [ ] Place other components
-- [ ] Generate traces
-    - [ ] Switch matrix
-    - [ ] RGB LED
+- Layout finalization
+    - [x] Finalize Switch Positions
+    - [ ] Finalize PCB edge cuts
+- Case
+    - [ ] Design all case layers
+    - [ ] Order case from Ponoko
+- PCB
+    - [ ] Create schematic
 

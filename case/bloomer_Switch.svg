@@ -105,16 +105,6 @@
         id="Left"
         transform="translate(-91.5,0) rotate(10)">
         <g
-          id="LeftKeywellPerimeter"
-          transform="translate(-66.675,0)">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -0.525 60.175 L 38.625 60.175 L 38.625 57.175 L 57.675 57.175 L 57.675 52.175 L 75.675 52.175 L 75.675 58.175 L 94.725 58.175 L 94.725 63.175 L 133.875 63.175 L 133.875 43.075 L 114.825 43.075 L 114.825 -52.175 L 95.775 -52.175 L 95.775 -57.175 L 76.725 -57.175 L 76.725 -63.175 L 56.625 -63.175 L 56.625 -58.175 L 37.575 -58.175 L 37.575 -55.175 L -0.525 -55.175 L -0.525 60.175" />
-          </g>
-        </g>
-        <g
           id="Column00"
           transform="translate(-57.15,2.5)">
           <g
@@ -858,36 +848,6 @@
         id="Center"
         transform="translate(0,16.515)">
         <g
-          id="CenterKeywellCutout1"
-          transform="translate(0,-85.725)">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 48.15 L 29.1 48.15 L 29.1 28.05 L -29.1 28.05 L -29.1 48.15" />
-          </g>
-        </g>
-        <g
-          id="CenterKeywellCutout2"
-          transform="translate(0,-29.1)">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 39.15 L 29.1 39.15 L 29.1 0 L -29.1 0 L -29.1 39.15" />
-          </g>
-        </g>
-        <g
-          id="CenterKeywellCutout3"
-          transform="translate(0,57.675)">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 0 L 29.1 0 L 29.1 -20.1 L 10.05 -20.1 L 10.05 -39.15 L -10.05 -39.15 L -10.05 -20.1 L -29.1 -20.1 L -29.1 0" />
-          </g>
-        </g>
-        <g
           id="Column06"
           transform="translate(-19.05,0)">
           <g
@@ -1160,16 +1120,6 @@
       <g
         id="Right"
         transform="translate(91.5,0) rotate(-10)">
-        <g
-          id="RightKeywellPerimeter"
-          transform="translate(-66.675,0)">
-          <g
-            id="">
-            <path
-              style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M 133.875 60.175 L 94.725 60.175 L 94.725 57.175 L 75.675 57.175 L 75.675 52.175 L 57.675 52.175 L 57.675 58.175 L 38.625 58.175 L 38.625 63.175 L -0.525 63.175 L -0.525 43.075 L 18.525 43.075 L 18.525 -52.175 L 37.575 -52.175 L 37.575 -57.175 L 56.625 -57.175 L 56.625 -63.175 L 76.725 -63.175 L 76.725 -58.175 L 95.775 -58.175 L 95.775 -55.175 L 133.875 -55.175 L 133.875 60.175" />
-          </g>
-        </g>
         <g
           id="Column08"
           transform="translate(-57.15,5.5)">
