@@ -2,6 +2,9 @@
 render:
 	./bloomer.sh generate-render
 
+case:
+	./bloomer.sh generate-case
+
 ponoko:
 	./bloomer.sh generate-ponoko
 

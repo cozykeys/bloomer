@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import os
 import argparse
 import math
 from typing import List, Dict, Tuple
@@ -53,21 +54,30 @@ def scratch(args: argparse.Namespace) -> int:
     sd = SwitchData()
     switches = sd.get_switches()
 
-    edge_vertices = [
+    vertices = [
         sd.get_corner((0, 0), Corner.TOP_LEFT),
+        sd.get_corner((0, 3), Corner.TOP_LEFT),
+        sd.get_corner((0, 3), Corner.TOP_RIGHT),
+        sd.get_corner((0, 4), Corner.TOP_RIGHT),
+        sd.get_corner((0, 10), Corner.TOP_LEFT),
+        sd.get_corner((0, 11), Corner.TOP_LEFT),
+        sd.get_corner((0, 11), Corner.TOP_RIGHT),
         sd.get_corner((0, 14), Corner.TOP_RIGHT),
         sd.get_corner((5, 14), Corner.BOTTOM_RIGHT),
+        sd.get_corner((5, 13), Corner.BOTTOM_LEFT),
+        sd.get_corner((5, 9), Corner.BOTTOM_RIGHT),
+        sd.get_corner((4, 8), Corner.BOTTOM_LEFT),
+        sd.get_corner((5, 8), Corner.BOTTOM_RIGHT),
+        sd.get_corner((5, 6), Corner.BOTTOM_LEFT),
+        sd.get_corner((4, 6), Corner.BOTTOM_RIGHT),
+        sd.get_corner((5, 5), Corner.BOTTOM_LEFT),
+        sd.get_corner((5, 1), Corner.BOTTOM_RIGHT),
         sd.get_corner((5, 0), Corner.BOTTOM_LEFT),
     ]
 
-    perimeter = Polygon2D(
-        [
-            Vector2D(edge_vertices[0][0], edge_vertices[0][1]),
-            Vector2D(edge_vertices[1][0], edge_vertices[1][1]),
-            Vector2D(edge_vertices[2][0], edge_vertices[2][1]),
-            Vector2D(edge_vertices[3][0], edge_vertices[3][1]),
-        ]
-    )
+    print("{} -> {}".format(vertices[3], vertices[4]))
+
+    perimeter = Polygon2D([ Vector2D(v[0], v[1]) for v in vertices ])
 
     svg_writer = SvgWriter()
 
@@ -88,5 +98,8 @@ def scratch(args: argparse.Namespace) -> int:
     svg_writer.append_element(perimeter, SvgStyle(SVG_STYLE_POLY))
 
     svg_writer.write_to_file("{}/temp/render.svg".format(bloomer_dir))
+
+    with open(os.path.join(bloomer_dir, "temp", "pcb_edge_vertices.json"), "w") as f:
+        f.write(json.dumps(vertices, indent="    "))
 
     return 0
