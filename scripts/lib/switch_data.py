@@ -2,9 +2,11 @@
 
 import json
 import os
+import math
 
 from .common import Corner
 from .util import get_bloomer_repo_dir
+from .geometry import Polygon2D, Vector2D
 
 
 class SwitchData:
@@ -56,14 +58,23 @@ class SwitchData:
         """
         d = 9.525
         s = self.get_switch_by_coord(coord[0], coord[1])
+        p = Polygon2D(
+            [
+                Vector2D(s["x"] - d, s["y"] - d),
+                Vector2D(s["x"] + d, s["y"] - d),
+                Vector2D(s["x"] + d, s["y"] + d),
+                Vector2D(s["x"] - d, s["y"] + d),
+            ]
+        ).rotated_around(math.radians(s["rotation"]), Vector2D(s["x"], s["y"]))
+
         if corner == Corner.TOP_LEFT:
-            return (round(s["x"] - d, 3), round(s["y"] - d, 3))
+            return (round(p.vertices[0].x, 3), round(p.vertices[0].y, 3))
         elif corner == Corner.TOP_RIGHT:
-            return (round(s["x"] + d, 3), round(s["y"] - d, 3))
-        elif corner == Corner.BOTTOM_LEFT:
-            return (round(s["x"] - d, 3), round(s["y"] + d, 3))
+            return (round(p.vertices[1].x, 3), round(p.vertices[1].y, 3))
         elif corner == Corner.BOTTOM_RIGHT:
-            return (round(s["x"] + d, 3), round(s["y"] + d, 3))
+            return (round(p.vertices[2].x, 3), round(p.vertices[2].y, 3))
+        elif corner == Corner.BOTTOM_LEFT:
+            return (round(p.vertices[3].x, 3), round(p.vertices[3].y, 3))
 
     def get_midpoint(self, s1_coord, s2_coord):
         """TODO
