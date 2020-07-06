@@ -4,3 +4,4 @@
 *.FCStd1
 temp/
 pcb/fp-info-cache
+tags

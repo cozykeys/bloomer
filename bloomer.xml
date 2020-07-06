@@ -853,7 +853,7 @@
         </Group>
         <!--
         -->
-        <Group Name="Elite-C" YOffset="-34.327" Visible="true">
+        <Group Name="Elite-C" YOffset="-31.448" Visible="true">
           <Constants>
             <Constant Name="X01"  Value="-9" />
             <Constant Name="X02"  Value="9" />
