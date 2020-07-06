@@ -206,9 +206,7 @@ class BloomerKicadPluginAction(pcbnew.ActionPlugin):
         reset_switch_id = "SW1"
         reset_switch = pcb.FindModuleByReference(reset_switch_id)
         if reset_switch == None:
-            self.log_warn(
-                "No reset_switch with id {} found".format(reset_switch_id)
-            )
+            self.log_warn("No reset_switch with id {} found".format(reset_switch_id))
         self.set_reset_switch_position(reset_switch)
 
         # TODO: NYI
@@ -506,13 +504,15 @@ class BloomerKicadPluginAction(pcbnew.ActionPlugin):
             pcb.Add(segment)
 
     def setup_text(self, pcb):
-        texts = [
-            Text(
-                text="Left",
-                position=Position(130.9875, 28.702, 0),
-                size=TextSize(2.0, 2.0, 0.3),
-            )
-        ],
+        texts = (
+            [
+                Text(
+                    text="Left",
+                    position=Position(130.9875, 28.702, 0),
+                    size=TextSize(2.0, 2.0, 0.3),
+                )
+            ],
+        )
 
         for d in pcb.GetDrawings():
             if type(d) == pcbnew.TEXTE_PCB:
@@ -545,50 +545,52 @@ class BloomerKicadPluginAction(pcbnew.ActionPlugin):
             pcb.Add(t)
 
     def setup_graphics(self, pcb):
-        graphics = [
-            Graphic(
-                reference="G1",
-                footprint="oshw-logo-small",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X + 55.05, 95, 0),
-                layer=pcbnew.F_SilkS,
-            ),
-            Graphic(
-                reference="G2",
-                footprint="oshw-logo-small",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X + 55.05, 95, 180),
-                layer=pcbnew.B_SilkS,
-            ),
-            Graphic(
-                reference="G3",
-                footprint="qmk-badge",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X - 38.0935, 25.654, 0),
-                layer=pcbnew.F_SilkS,
-            ),
-            Graphic(
-                reference="G4",
-                footprint="qmk-badge",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X - 38.0935, 25.654, 180),
-                layer=pcbnew.B_SilkS,
-            ),
-            Graphic(
-                reference="G5",
-                footprint="bloomer-attribution-small",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X, 136, 0),
-                layer=pcbnew.F_SilkS,
-            ),
-            Graphic(
-                reference="G6",
-                footprint="bloomer-attribution-small",
-                library=COZY_FOOTPRINT_LIBRARY_PATH,
-                position=Position(MID_X, 136, 180),
-                layer=pcbnew.B_SilkS,
-            ),
-        ],
+        graphics = (
+            [
+                Graphic(
+                    reference="G1",
+                    footprint="oshw-logo-small",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X + 55.05, 95, 0),
+                    layer=pcbnew.F_SilkS,
+                ),
+                Graphic(
+                    reference="G2",
+                    footprint="oshw-logo-small",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X + 55.05, 95, 180),
+                    layer=pcbnew.B_SilkS,
+                ),
+                Graphic(
+                    reference="G3",
+                    footprint="qmk-badge",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X - 38.0935, 25.654, 0),
+                    layer=pcbnew.F_SilkS,
+                ),
+                Graphic(
+                    reference="G4",
+                    footprint="qmk-badge",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X - 38.0935, 25.654, 180),
+                    layer=pcbnew.B_SilkS,
+                ),
+                Graphic(
+                    reference="G5",
+                    footprint="bloomer-attribution-small",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X, 136, 0),
+                    layer=pcbnew.F_SilkS,
+                ),
+                Graphic(
+                    reference="G6",
+                    footprint="bloomer-attribution-small",
+                    library=COZY_FOOTPRINT_LIBRARY_PATH,
+                    position=Position(MID_X, 136, 180),
+                    layer=pcbnew.B_SilkS,
+                ),
+            ],
+        )
 
         for g in graphics:
             module = pcb.FindModuleByReference(g.reference)
