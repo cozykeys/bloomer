@@ -29,8 +29,8 @@ function generate_render() {
 
     options="--visual-switch-cutouts --keycap-overlays --keycap-legends --squash"
 
-    dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
-    dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
+    kbutil gen-svg $options "$input" "$output"
+    kbutil gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
 
     "$svg_opener" "$output/bloomer.svg"
 }
