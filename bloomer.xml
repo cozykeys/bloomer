@@ -1,26 +1,58 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Keyboard Name="bloomer" Version="1.0.0">
+<?xml version='1.0' encoding='UTF-8' ?>
+<Keyboard
+    Name="bloomer"
+    Version="1.0.0">
     <Constants>
-        <Constant Name="AlphaFillColor" Value="#ffffff" />
-        <Constant Name="AlphaLegendColor" Value="#000000" />
-        <Constant Name="ModFillColor" Value="#cfcfcf" />
-        <Constant Name="ModLegendColor" Value="#000000" />
-        <Constant Name="KeycapBorderColor" Value="#000000" />
-        <Constant Name="M2SpacerSize" Value="3.563" />
-        <Constant Name="M2ScrewSize" Value="2.3" />
-        <Constant Name="KeycapDiameterMm1u" Value="18.1" />
-        <Constant Name="KeyMarginMillimeters" Value="0.475" />
-        <Constant Name="CaseFillColor" Value="#7f7f7f" />
-        <Constant Name="CaseStrokeColor" Value="#000000" />
-        <Constant Name="KeywellFillColor" Value="#5f5f5f" />
+        <Constant
+            Name="AlphaFillColor"
+            Value="#ffffff" />
+        <Constant
+            Name="AlphaLegendColor"
+            Value="#000000" />
+        <Constant
+            Name="ModFillColor"
+            Value="#cfcfcf" />
+        <Constant
+            Name="ModLegendColor"
+            Value="#000000" />
+        <Constant
+            Name="KeycapBorderColor"
+            Value="#000000" />
+        <Constant
+            Name="M2SpacerSize"
+            Value="3.563" />
+        <Constant
+            Name="M2ScrewSize"
+            Value="2.3" />
+        <Constant
+            Name="KeycapDiameterMm1u"
+            Value="18.1" />
+        <Constant
+            Name="KeyMarginMillimeters"
+            Value="0.475" />
+        <Constant
+            Name="CaseFillColor"
+            Value="#7f7f7f" />
+        <Constant
+            Name="CaseStrokeColor"
+            Value="#000000" />
+        <Constant
+            Name="KeywellFillColor"
+            Value="#5f5f5f" />
     </Constants>
     <Layers>
-        <!--<Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">-->
-        <Layer Name="switch" ZIndex="4">
+        <!--   <Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">  -->
+        <Layer
+            Name="switch"
+            ZIndex="4">
             <Groups>
-                <Group Name="Clusters">
+                <Group
+                    Name="Clusters">
                     <Children>
-                        <Group Name="LeftCluster" Rotation="10" XOffset="-91.5">
+                        <Group
+                            Name="LeftCluster"
+                            Rotation="10"
+                            XOffset="-91.5">
                             <Children>
                                 <Key
                                     Name="k01"
@@ -92,11 +124,11 @@
                                     Margin="${KeyMarginMillimeters}"
                                     Fill="${ModFillColor}"
                                     Stroke="${KeycapBorderColor}">
-                                <Legend
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"
-                                    Text="F5"
-                                    FontSize="4" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F5"
+                                        FontSize="4" />
                                 </Key>
                                 <Key
                                     Name="k06"
@@ -641,973 +673,1027 @@
                                         Text="DEL"
                                         FontSize="4" />
                                 </Key>
-              </Children>
-            </Group>
-            <Stack Name="Center" YOffset="16.515">
-              <Children>
-                <Group Name="CenterKeywellCutout1" XOffset="28.575" YOffset="-85.725" Visible="false">
-                  <Constants>
-                    <Constant Name="X01"  Value="-29.1" />
-                    <Constant Name="X02"  Value="29.1" />
-                    <Constant Name="Y01"  Value="48.15" />
-                    <Constant Name="Y02"  Value="28.05" />
-                  </Constants>
-                  <Children>
-                    <Path Fill="${KeywellFillColor}" Stroke="${CaseStrokeColor}">
-                      <Components>
-                        <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y01}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
-                      </Components>
-                    </Path>
-                  </Children>
+                            </Children>
+                        </Group>
+                        <Stack
+                            Name="Center"
+                            YOffset="16.515">
+                            <Children>
+                                <Group
+                                    Name="CenterKeywellCutout1"
+                                    XOffset="28.575"
+                                    YOffset="-85.725"
+                                    Visible="false">
+                                    <Constants>
+                                        <Constant
+                                            Name="X01"
+                                            Value="-29.1" />
+                                        <Constant
+                                            Name="X02"
+                                            Value="29.1" />
+                                        <Constant
+                                            Name="Y01"
+                                            Value="48.15" />
+                                        <Constant
+                                            Name="Y02"
+                                            Value="28.05" />
+                                    </Constants>
+                                    <Children>
+                                        <Path
+                                            Fill="${KeywellFillColor}"
+                                            Stroke="${CaseStrokeColor}">
+                                            <Components>
+                                                <AbsoluteMoveTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteMoveTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                            </Components>
+                                        </Path>
+                                    </Children>
+                                </Group>
+                                <Group
+                                    Name="CenterKeywellCutout2"
+                                    XOffset="28.575"
+                                    YOffset="-29.1"
+                                    Visible="false">
+                                    <Constants>
+                                        <Constant
+                                            Name="X01"
+                                            Value="-29.1" />
+                                        <Constant
+                                            Name="X02"
+                                            Value="29.1" />
+                                        <Constant
+                                            Name="Y01"
+                                            Value="39.15" />
+                                        <Constant
+                                            Name="Y02"
+                                            Value="0" />
+                                    </Constants>
+                                    <Children>
+                                        <Path
+                                            Fill="${KeywellFillColor}"
+                                            Stroke="${CaseStrokeColor}">
+                                            <Components>
+                                                <AbsoluteMoveTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteMoveTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                            </Components>
+                                        </Path>
+                                    </Children>
+                                </Group>
+                                <Group
+                                    Name="CenterKeywellCutout3"
+                                    XOffset="28.575"
+                                    YOffset="57.675"
+                                    Visible="false">
+                                    <Constants>
+                                        <Constant
+                                            Name="X01"
+                                            Value="-29.1" />
+                                        <Constant
+                                            Name="X02"
+                                            Value="29.1" />
+                                        <Constant
+                                            Name="X03"
+                                            Value="10.05" />
+                                        <Constant
+                                            Name="X04"
+                                            Value="-10.05" />
+                                        <Constant
+                                            Name="Y01"
+                                            Value="0" />
+                                        <Constant
+                                            Name="Y02"
+                                            Value="-20.1" />
+                                        <Constant
+                                            Name="Y03"
+                                            Value="-39.15" />
+                                    </Constants>
+                                    <Children>
+                                        <Path
+                                            Fill="${KeywellFillColor}"
+                                            Stroke="${CaseStrokeColor}">
+                                            <Components>
+                                                <AbsoluteMoveTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteMoveTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                            </Components>
+                                        </Path>
+                                    </Children>
+                                </Group>
+                                <Stack
+                                    Name="Column06"
+                                    Orientation="Vertical">
+                                    <Children>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="PRSC"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="INS"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="CAPS"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Spacer
+                                            Height="19.05" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="LEFT"
+                                                FontSize="4" />
+                                        </Key>
+                                    </Children>
+                                </Stack>
+                                <Stack
+                                    Name="Column07"
+                                    Orientation="Vertical">
+                                    <Children>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="SCLK"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="HOME"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="END"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="UP"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="DOWN"
+                                                FontSize="4" />
+                                        </Key>
+                                    </Children>
+                                </Stack>
+                                <Stack
+                                    Name="Column08"
+                                    Orientation="Vertical">
+                                    <Children>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="PAUS"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="PGUP"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="PGDN"
+                                                FontSize="4" />
+                                        </Key>
+                                        <Spacer
+                                            Height="9.525" />
+                                        <Spacer
+                                            Height="19.05" />
+                                        <Key
+                                            Name="kXX"
+                                            Width="${KeycapDiameterMm1u}"
+                                            Height="${KeycapDiameterMm1u}"
+                                            Margin="${KeyMarginMillimeters}"
+                                            Fill="${ModFillColor}"
+                                            Stroke="${KeycapBorderColor}">
+                                            <Legend
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Text="RGHT"
+                                                FontSize="4" />
+                                        </Key>
+                                    </Children>
+                                </Stack>
+                            </Children>
+                        </Stack>
+                        <Group
+                            Name="RightCluster"
+                            Rotation="-10"
+                            XOffset="91.5">
+                        <Children>
+                                <Key
+                                    Name="k10"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F7"
+                                        FontSize="4" />
+                                </Key>
+
+                                <Key
+                                    Name="k11"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F8"
+                                        FontSize="4" />
+                                </Key>
+
+                                <Key
+                                    Name="k12"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F9"
+                                        FontSize="4" />
+                                </Key>
+
+                                <Key
+                                    Name="k13"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F10"
+                                        FontSize="4" />
+                                </Key>
+
+                                <Key
+                                    Name="k14"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F11"
+                                        FontSize="4" />
+                                </Key>
+
+                                <Key
+                                    Name="k15"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="F12"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="ENT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="^"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="6"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="Y"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="H"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="N"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="SPC"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="&amp;"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="7"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="U"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="J"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="M"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="{"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="["
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="*"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="8"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="I"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="K"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="&lt;"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=","
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="}"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="]"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="("
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="9"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="O"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="L"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="&gt;"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="."
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="ALT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=")"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="0"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="P"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=":"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=";"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="?"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="/"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="OS"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="_"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="-"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="|"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="\"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text='"'
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="'"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="SHFT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="kXX"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="CTRL"
+                                        FontSize="4" />
+                                </Key>
+                            </Children>
+                        </Group>
+                    </Children>
                 </Group>
-                <Group Name="CenterKeywellCutout2" XOffset="28.575" YOffset="-29.1" Visible="false">
-                  <Constants>
-                    <Constant Name="X01"  Value="-29.1" />
-                    <Constant Name="X02"  Value="29.1" />
-                    <Constant Name="Y01"  Value="39.15" />
-                    <Constant Name="Y02"  Value="0" />
-                  </Constants>
-                  <Children>
-                    <Path Fill="${KeywellFillColor}" Stroke="${CaseStrokeColor}">
-                      <Components>
-                        <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y01}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
-                      </Components>
-                    </Path>
-                  </Children>
-                </Group>
-                <Group Name="CenterKeywellCutout3" XOffset="28.575" YOffset="57.675" Visible="false">
-                  <Constants>
-                    <Constant Name="X01"  Value="-29.1" />
-                    <Constant Name="X02"  Value="29.1" />
-                    <Constant Name="X03"  Value="10.05" />
-                    <Constant Name="X04"  Value="-10.05" />
-                    <Constant Name="Y01"  Value="0" />
-                    <Constant Name="Y02"  Value="-20.1" />
-                    <Constant Name="Y03"  Value="-39.15" />
-                  </Constants>
-                  <Children>
-                    <Path Fill="${KeywellFillColor}" Stroke="${CaseStrokeColor}">
-                      <Components>
-                        <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y01}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X03}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X03}" Y="${Y03}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X04}" Y="${Y03}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X04}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
-                      </Components>
-                    </Path>
-                  </Children>
-                </Group>
-                <Stack Name="Column06" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${ModFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="PRSC"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="INS"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="CAPS"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Spacer Height="19.05" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="LEFT"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column07" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${ModFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="SCLK"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="HOME"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="END"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="UP"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="DOWN"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column08" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${ModFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="PAUS"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="PGUP"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="PGDN"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Spacer Height="9.525" />
-                    <Spacer Height="19.05" />
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="RGHT"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-              </Children>
-            </Stack>
-            <Stack Name="Right" Rotation="-10" XOffset="91.5">
-              <Children>
-                <!-- TODO Remove from this layer -->
-                <Group Name="RightKeywellPerimeter" Visible="false">
-                  <Constants>
-                    <Constant Name="X01"  Value="133.875" />
-                    <Constant Name="X02"  Value="94.725" />
-                    <Constant Name="X03"  Value="75.675" />
-                    <Constant Name="X04"  Value="57.675" />
-                    <Constant Name="X05"  Value="38.625" />
-                    <Constant Name="X06"  Value="-0.525" />
-                    <Constant Name="X07"  Value="18.525" />
-                    <Constant Name="X08"  Value="37.575" />
-                    <Constant Name="X09"  Value="56.625" />
-                    <Constant Name="X10"  Value="76.725" />
-                    <Constant Name="X11"  Value="95.775" />
-                    <Constant Name="Y01"  Value="60.175" />
-                    <Constant Name="Y02"  Value="57.175" />
-                    <Constant Name="Y03"  Value="52.175" />
-                    <Constant Name="Y04"  Value="58.175" />
-                    <Constant Name="Y05"  Value="63.175" />
-                    <Constant Name="Y06"  Value="43.075" />
-                    <Constant Name="Y07"  Value="-52.175" />
-                    <Constant Name="Y08"  Value="-57.175" />
-                    <Constant Name="Y09"  Value="-63.175" />
-                    <Constant Name="Y10"  Value="-58.175" />
-                    <Constant Name="Y11"  Value="-55.175" />
-                  </Constants>
-                  <Children>
-                    <Path Fill="${KeywellFillColor}" Stroke="${CaseStrokeColor}">
-                      <Components>
-                        <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y01}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X03}" Y="${Y02}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X03}" Y="${Y03}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X04}" Y="${Y03}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X04}" Y="${Y04}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X05}" Y="${Y04}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X05}" Y="${Y05}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X06}" Y="${Y05}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X06}" Y="${Y06}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X07}" Y="${Y06}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X07}" Y="${Y07}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X08}" Y="${Y07}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X08}" Y="${Y08}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X09}" Y="${Y08}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X09}" Y="${Y09}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X10}" Y="${Y09}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X10}" Y="${Y10}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X11}" Y="${Y10}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X11}" Y="${Y11}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y11}" /> </AbsoluteLineTo>
-                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
-                      </Components>
-                    </Path>
-                  </Children>
-                </Group>
-                <Stack Name="Column08" YOffset="5.5" Orientation="Vertical">
-                  <Children>
-                    <Spacer Height="95.25" Width="19.05" />
-                    <!-- This is "Key04" because 1 through 4 are defined above. -->
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="ENT"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column09" YOffset="5.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${ModFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F7"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="^"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="6"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="Y"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="H"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="N"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="SPC"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column10" YOffset="0.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${ModFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F8"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="&amp;"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="7"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="U"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="J"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="M"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="{"
-                        FontSize="4"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="["
-                        FontSize="4"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column11" YOffset="-5.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${AlphaFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F9"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="*"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="8"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="I"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="K"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="&lt;"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text=","
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="}"
-                        FontSize="4"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="]"
-                        FontSize="4"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column12" YOffset="-0.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${AlphaFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F10"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="("
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="9"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="O"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="L"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="&gt;"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="."
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="ALT"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column13" YOffset="2.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${AlphaFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F11"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text=")"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="0"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="P"
-                        FontSize="6"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text=":"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text=";"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="?"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="/"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="OS"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-                <Stack Name="Column14" YOffset="2.5" Orientation="Vertical">
-                  <Children>
-                      <Key
-                          Name="kXX"
-                          Width="${KeycapDiameterMm1u}"
-                          Height="${KeycapDiameterMm1u}"
-                          Margin="${KeyMarginMillimeters}"
-                          Fill="${AlphaFillColor}"
-                          Stroke="${KeycapBorderColor}">
-                      <Legend
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Text="F12"
-                          FontSize="4"
-                          />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${AlphaFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="_"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="-"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="|"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="\"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="&quot;"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="-3" />
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="'"
-                        FontSize="6"
-                        Color="${AlphaLegendColor}" YOffset="3" />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="SHFT"
-                        FontSize="4"
-                        />
-                    </Key>
-                    <Key
-                        Name="kXX"
-                        Width="${KeycapDiameterMm1u}"
-                        Height="${KeycapDiameterMm1u}"
-                        Margin="${KeyMarginMillimeters}"
-                        Fill="${ModFillColor}"
-                        Stroke="${KeycapBorderColor}">
-                    <Legend
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="CTRL"
-                        FontSize="4"
-                        />
-                    </Key>
-                  </Children>
-                </Stack>
-              </Children>
-            </Stack>
-          </Children>
-        </Group>
-      </Groups>
-    </Layer>
-  </Layers>
+            </Groups>
+        </Layer>
+    </Layers>
 </Keyboard>
