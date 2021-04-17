@@ -23,6 +23,7 @@ function error() {
 }
 
 function generate_render() {
+    #input="$bloomer_dir/bloomer_test.xml"
     input="$bloomer_dir/bloomer.xml"
     #input="$bloomer_dir/bloomer_beautified.xml"
     output="$bloomer_dir/case"

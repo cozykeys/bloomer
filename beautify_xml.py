@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import sys
+
 #import xml.etree.ElementTree as ET
 import lxml.etree as ET
 from xml.sax.saxutils import quoteattr
@@ -60,6 +62,9 @@ def process_element(element, indent):
 def main():
     # Read the file
     root = ET.parse("bloomer.xml").getroot()
+
+    # Read from stdin
+    #root = ET.fromstring('\n'.join([l for l in sys.stdin]))
 
     # There isn't a way to print this using the standard xml.etree.ElementTree
     # library so just hard code it. See:

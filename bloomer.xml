@@ -41,7 +41,7 @@
             Value="#5f5f5f" />
     </Constants>
     <Layers>
-        <!--   <Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">  -->
+        <!--       <Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">      -->
         <Layer
             Name="switch"
             ZIndex="4">
@@ -50,14 +50,208 @@
                     Name="Clusters">
                     <Children>
                         <Group
-                            Name="LeftCluster"
+                            Name="ClusterLeft"
                             Rotation="10"
                             XOffset="-91.5">
                             <Children>
+                                <Group
+                                    Name="CluserLeftPerimeter"
+                                    XOffset="-66.675">
+                                    <Constants>
+                                        <Constant
+                                            Name="X01"
+                                            Value="-0.525" />
+                                        <Constant
+                                            Name="X02"
+                                            Value="38.625" />
+                                        <Constant
+                                            Name="X03"
+                                            Value="57.675" />
+                                        <Constant
+                                            Name="X04"
+                                            Value="75.675" />
+                                        <Constant
+                                            Name="X05"
+                                            Value="94.725" />
+                                        <Constant
+                                            Name="X06"
+                                            Value="133.875" />
+                                        <Constant
+                                            Name="X07"
+                                            Value="114.825" />
+                                        <Constant
+                                            Name="X08"
+                                            Value="95.775" />
+                                        <Constant
+                                            Name="X09"
+                                            Value="76.725" />
+                                        <Constant
+                                            Name="X10"
+                                            Value="56.625" />
+                                        <Constant
+                                            Name="X11"
+                                            Value="37.575" />
+                                        <Constant
+                                            Name="Y01"
+                                            Value="60.175" />
+                                        <Constant
+                                            Name="Y02"
+                                            Value="57.175" />
+                                        <Constant
+                                            Name="Y03"
+                                            Value="52.175" />
+                                        <Constant
+                                            Name="Y04"
+                                            Value="58.175" />
+                                        <Constant
+                                            Name="Y05"
+                                            Value="63.175" />
+                                        <Constant
+                                            Name="Y06"
+                                            Value="43.075" />
+                                        <Constant
+                                            Name="Y07"
+                                            Value="-52.175" />
+                                        <Constant
+                                            Name="Y08"
+                                            Value="-57.175" />
+                                        <Constant
+                                            Name="Y09"
+                                            Value="-63.175" />
+                                        <Constant
+                                            Name="Y10"
+                                            Value="-58.175" />
+                                        <Constant
+                                            Name="Y11"
+                                            Value="-55.175" />
+                                    </Constants>
+                                    <Children>
+                                        <Path
+                                            Stroke="${CaseStrokeColor}">
+                                            <Components>
+                                                <AbsoluteMoveTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteMoveTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y04}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X05}"
+                                                        Y="${Y04}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X05}"
+                                                        Y="${Y05}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X06}"
+                                                        Y="${Y05}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X06}"
+                                                        Y="${Y06}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X07}"
+                                                        Y="${Y06}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X07}"
+                                                        Y="${Y07}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X08}"
+                                                        Y="${Y07}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X08}"
+                                                        Y="${Y08}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X09}"
+                                                        Y="${Y08}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X09}"
+                                                        Y="${Y09}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X10}"
+                                                        Y="${Y09}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X10}"
+                                                        Y="${Y10}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X11}"
+                                                        Y="${Y10}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X11}"
+                                                        Y="${Y11}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y11}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                            </Components>
+                                        </Path>
+                                    </Children>
+                                </Group>
                                 <Key
                                     Name="k01"
                                     XOffset="-57.15"
-                                    YOffset="-47.625"
+                                    YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -73,7 +267,7 @@
                                 <Key
                                     Name="k02"
                                     XOffset="-38.1"
-                                    YOffset="-47.625"
+                                    YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -88,7 +282,7 @@
                                 <Key
                                     Name="k03"
                                     XOffset="-19.05"
-                                    YOffset="-47.625"
+                                    YOffset="-48.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -103,7 +297,7 @@
                                 <Key
                                     Name="k04"
                                     XOffset="0"
-                                    YOffset="-47.625"
+                                    YOffset="-53.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -118,7 +312,7 @@
                                 <Key
                                     Name="k05"
                                     XOffset="19.05"
-                                    YOffset="-47.625"
+                                    YOffset="-47.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -133,7 +327,7 @@
                                 <Key
                                     Name="k06"
                                     XOffset="38.1"
-                                    YOffset="-47.625"
+                                    YOffset="-42.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -148,7 +342,7 @@
                                 <Key
                                     Name="k16"
                                     XOffset="-57.15"
-                                    YOffset="-28.575"
+                                    YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -172,7 +366,7 @@
                                 <Key
                                     Name="k17"
                                     XOffset="-38.1"
-                                    YOffset="-28.575"
+                                    YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -196,7 +390,7 @@
                                 <Key
                                     Name="k18"
                                     XOffset="-19.05"
-                                    YOffset="-28.575"
+                                    YOffset="-29.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -220,7 +414,7 @@
                                 <Key
                                     Name="k19"
                                     XOffset="0"
-                                    YOffset="-28.575"
+                                    YOffset="-34.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -244,7 +438,7 @@
                                 <Key
                                     Name="k20"
                                     XOffset="19.05"
-                                    YOffset="-28.575"
+                                    YOffset="-28.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -268,7 +462,7 @@
                                 <Key
                                     Name="k21"
                                     XOffset="38.1"
-                                    YOffset="-28.575"
+                                    YOffset="-23.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -292,7 +486,7 @@
                                 <Key
                                     Name="k31"
                                     XOffset="-57.15"
-                                    YOffset="-9.525"
+                                    YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -307,7 +501,7 @@
                                 <Key
                                     Name="k32"
                                     XOffset="-38.1"
-                                    YOffset="-9.525"
+                                    YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -322,7 +516,7 @@
                                 <Key
                                     Name="k33"
                                     XOffset="-19.05"
-                                    YOffset="-9.525"
+                                    YOffset="-10.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -337,7 +531,7 @@
                                 <Key
                                     Name="k34"
                                     XOffset="0"
-                                    YOffset="-9.525"
+                                    YOffset="-15.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -352,7 +546,7 @@
                                 <Key
                                     Name="k35"
                                     XOffset="19.05"
-                                    YOffset="-9.525"
+                                    YOffset="-9.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -367,7 +561,7 @@
                                 <Key
                                     Name="k36"
                                     XOffset="38.1"
-                                    YOffset="-9.525"
+                                    YOffset="-4.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -382,7 +576,7 @@
                                 <Key
                                     Name="k46"
                                     XOffset="-57.15"
-                                    YOffset="9.525"
+                                    YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -397,7 +591,7 @@
                                 <Key
                                     Name="k47"
                                     XOffset="-38.1"
-                                    YOffset="9.525"
+                                    YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -412,7 +606,7 @@
                                 <Key
                                     Name="k48"
                                     XOffset="-19.05"
-                                    YOffset="9.525"
+                                    YOffset="9.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -427,7 +621,7 @@
                                 <Key
                                     Name="k49"
                                     XOffset="0"
-                                    YOffset="9.525"
+                                    YOffset="4.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -442,7 +636,7 @@
                                 <Key
                                     Name="k50"
                                     XOffset="19.05"
-                                    YOffset="9.525"
+                                    YOffset="10.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -457,7 +651,7 @@
                                 <Key
                                     Name="k51"
                                     XOffset="38.1"
-                                    YOffset="9.525"
+                                    YOffset="15.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -472,7 +666,7 @@
                                 <Key
                                     Name="k59"
                                     XOffset="-57.15"
-                                    YOffset="28.575"
+                                    YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -487,7 +681,7 @@
                                 <Key
                                     Name="k60"
                                     XOffset="-38.1"
-                                    YOffset="28.575"
+                                    YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -502,7 +696,7 @@
                                 <Key
                                     Name="k61"
                                     XOffset="-19.05"
-                                    YOffset="28.575"
+                                    YOffset="28.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -517,7 +711,7 @@
                                 <Key
                                     Name="k62"
                                     XOffset="0"
-                                    YOffset="28.575"
+                                    YOffset="23.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -532,7 +726,7 @@
                                 <Key
                                     Name="k63"
                                     XOffset="19.05"
-                                    YOffset="28.575"
+                                    YOffset="29.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -547,7 +741,7 @@
                                 <Key
                                     Name="k64"
                                     XOffset="38.1"
-                                    YOffset="28.575"
+                                    YOffset="34.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -562,7 +756,7 @@
                                 <Key
                                     Name="k74"
                                     XOffset="-57.15"
-                                    YOffset="47.625"
+                                    YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -577,7 +771,7 @@
                                 <Key
                                     Name="k75"
                                     XOffset="-38.1"
-                                    YOffset="47.625"
+                                    YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -592,7 +786,7 @@
                                 <Key
                                     Name="k76"
                                     XOffset="-19.05"
-                                    YOffset="47.625"
+                                    YOffset="47.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -607,7 +801,7 @@
                                 <Key
                                     Name="k77"
                                     XOffset="0"
-                                    YOffset="47.625"
+                                    YOffset="42.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -631,7 +825,7 @@
                                 <Key
                                     Name="k78"
                                     XOffset="19.05"
-                                    YOffset="47.625"
+                                    YOffset="48.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -646,7 +840,7 @@
                                 <Key
                                     Name="k79"
                                     XOffset="38.1"
-                                    YOffset="47.625"
+                                    YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -661,7 +855,7 @@
                                 <Key
                                     Name="k80"
                                     XOffset="57.15"
-                                    YOffset="47.625"
+                                    YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -675,15 +869,13 @@
                                 </Key>
                             </Children>
                         </Group>
-                        <Stack
-                            Name="Center"
-                            YOffset="16.515">
+                        <Group
+                            Name="ClusterCenterTop"
+                            YOffset="-30">
                             <Children>
                                 <Group
-                                    Name="CenterKeywellCutout1"
-                                    XOffset="28.575"
-                                    YOffset="-85.725"
-                                    Visible="false">
+                                    Name="ClusterCenterTopPerimeter"
+                                    YOffset="-38.1">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -700,7 +892,6 @@
                                     </Constants>
                                     <Children>
                                         <Path
-                                            Fill="${KeywellFillColor}"
                                             Stroke="${CaseStrokeColor}">
                                             <Components>
                                                 <AbsoluteMoveTo>
@@ -732,11 +923,60 @@
                                         </Path>
                                     </Children>
                                 </Group>
+                                <Key
+                                    Name="k07"
+                                    XOffset="-19.05"
+                                    YOffset="0"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="PRSC"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k08"
+                                    XOffset="0"
+                                    YOffset="0"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="SCLK"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k09"
+                                    XOffset="19.05"
+                                    YOffset="0"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="PAUS"
+                                        FontSize="4" />
+                                </Key>
+                            </Children>
+                        </Group>
+                        <Group
+                            Name="ClusterCenterMiddle"
+                            YOffset="0">
+                            <Children>
                                 <Group
-                                    Name="CenterKeywellCutout2"
-                                    XOffset="28.575"
-                                    YOffset="-29.1"
-                                    Visible="false">
+                                    Name="ClusterCenterMiddlePerimeter"
+                                    YOffset="-19.575">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -753,7 +993,6 @@
                                     </Constants>
                                     <Children>
                                         <Path
-                                            Fill="${KeywellFillColor}"
                                             Stroke="${CaseStrokeColor}">
                                             <Components>
                                                 <AbsoluteMoveTo>
@@ -785,11 +1024,105 @@
                                         </Path>
                                     </Children>
                                 </Group>
+                                <Key
+                                    Name="k22"
+                                    XOffset="-19.05"
+                                    YOffset="-9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="INS"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k23"
+                                    XOffset="0"
+                                    YOffset="-9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="HOME"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k24"
+                                    XOffset="19.05"
+                                    YOffset="-9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="PGUP"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k37"
+                                    XOffset="-19.05"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="CAPS"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k38"
+                                    XOffset="0"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="END"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k39"
+                                    XOffset="19.05"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="PGDN"
+                                        FontSize="4" />
+                                </Key>
+                            </Children>
+                        </Group>
+                        <Group
+                            Name="ClusterCenterBottom"
+                            YOffset="70">
+                            <Children>
                                 <Group
-                                    Name="CenterKeywellCutout3"
-                                    XOffset="28.575"
-                                    YOffset="57.675"
-                                    Visible="false">
+                                    Name="ClusterCenterBottomPerimeter"
+                                    YOffset="19.575">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -815,7 +1148,6 @@
                                     </Constants>
                                     <Children>
                                         <Path
-                                            Fill="${KeywellFillColor}"
                                             Stroke="${CaseStrokeColor}">
                                             <Components>
                                                 <AbsoluteMoveTo>
@@ -867,218 +1199,271 @@
                                         </Path>
                                     </Children>
                                 </Group>
-                                <Stack
-                                    Name="Column06"
-                                    Orientation="Vertical">
-                                    <Children>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="PRSC"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="INS"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="CAPS"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Spacer
-                                            Height="19.05" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="LEFT"
-                                                FontSize="4" />
-                                        </Key>
-                                    </Children>
-                                </Stack>
-                                <Stack
-                                    Name="Column07"
-                                    Orientation="Vertical">
-                                    <Children>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="SCLK"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="HOME"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="END"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="UP"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="DOWN"
-                                                FontSize="4" />
-                                        </Key>
-                                    </Children>
-                                </Stack>
-                                <Stack
-                                    Name="Column08"
-                                    Orientation="Vertical">
-                                    <Children>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="PAUS"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="PGUP"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="PGDN"
-                                                FontSize="4" />
-                                        </Key>
-                                        <Spacer
-                                            Height="9.525" />
-                                        <Spacer
-                                            Height="19.05" />
-                                        <Key
-                                            Name="kXX"
-                                            Width="${KeycapDiameterMm1u}"
-                                            Height="${KeycapDiameterMm1u}"
-                                            Margin="${KeyMarginMillimeters}"
-                                            Fill="${ModFillColor}"
-                                            Stroke="${KeycapBorderColor}">
-                                            <Legend
-                                                HorizontalAlignment="Center"
-                                                VerticalAlignment="Center"
-                                                Text="RGHT"
-                                                FontSize="4" />
-                                        </Key>
-                                    </Children>
-                                </Stack>
+                                <Key
+                                    Name="k52"
+                                    XOffset="0"
+                                    YOffset="-9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="UP"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k65"
+                                    XOffset="-19.05"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="LEFT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k66"
+                                    XOffset="0"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="DOWN"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k67"
+                                    XOffset="19.05"
+                                    YOffset="9.525"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="RGHT"
+                                        FontSize="4" />
+                                </Key>
                             </Children>
-                        </Stack>
+                        </Group>
                         <Group
-                            Name="RightCluster"
+                            Name="ClusterRight"
                             Rotation="-10"
                             XOffset="91.5">
-                        <Children>
+                            <Children>
+                                <Group
+                                    Name="ClusterRightPerimeter"
+                                    XOffset="-66.675">
+                                    <Constants>
+                                        <Constant
+                                            Name="X01"
+                                            Value="133.875" />
+                                        <Constant
+                                            Name="X02"
+                                            Value="94.725" />
+                                        <Constant
+                                            Name="X03"
+                                            Value="75.675" />
+                                        <Constant
+                                            Name="X04"
+                                            Value="57.675" />
+                                        <Constant
+                                            Name="X05"
+                                            Value="38.625" />
+                                        <Constant
+                                            Name="X06"
+                                            Value="-0.525" />
+                                        <Constant
+                                            Name="X07"
+                                            Value="18.525" />
+                                        <Constant
+                                            Name="X08"
+                                            Value="37.575" />
+                                        <Constant
+                                            Name="X09"
+                                            Value="56.625" />
+                                        <Constant
+                                            Name="X10"
+                                            Value="76.725" />
+                                        <Constant
+                                            Name="X11"
+                                            Value="95.775" />
+                                        <Constant
+                                            Name="Y01"
+                                            Value="60.175" />
+                                        <Constant
+                                            Name="Y02"
+                                            Value="57.175" />
+                                        <Constant
+                                            Name="Y03"
+                                            Value="52.175" />
+                                        <Constant
+                                            Name="Y04"
+                                            Value="58.175" />
+                                        <Constant
+                                            Name="Y05"
+                                            Value="63.175" />
+                                        <Constant
+                                            Name="Y06"
+                                            Value="43.075" />
+                                        <Constant
+                                            Name="Y07"
+                                            Value="-52.175" />
+                                        <Constant
+                                            Name="Y08"
+                                            Value="-57.175" />
+                                        <Constant
+                                            Name="Y09"
+                                            Value="-63.175" />
+                                        <Constant
+                                            Name="Y10"
+                                            Value="-58.175" />
+                                        <Constant
+                                            Name="Y11"
+                                            Value="-55.175" />
+                                    </Constants>
+                                    <Children>
+                                        <Path
+                                            Stroke="${CaseStrokeColor}">
+                                            <Components>
+                                                <AbsoluteMoveTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteMoveTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X02}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y02}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X03}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y03}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X04}"
+                                                        Y="${Y04}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X05}"
+                                                        Y="${Y04}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X05}"
+                                                        Y="${Y05}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X06}"
+                                                        Y="${Y05}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X06}"
+                                                        Y="${Y06}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X07}"
+                                                        Y="${Y06}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X07}"
+                                                        Y="${Y07}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X08}"
+                                                        Y="${Y07}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X08}"
+                                                        Y="${Y08}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X09}"
+                                                        Y="${Y08}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X09}"
+                                                        Y="${Y09}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X10}"
+                                                        Y="${Y09}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X10}"
+                                                        Y="${Y10}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X11}"
+                                                        Y="${Y10}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X11}"
+                                                        Y="${Y11}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y11}" />
+                                                </AbsoluteLineTo>
+                                                <AbsoluteLineTo>
+                                                    <EndPoint
+                                                        X="${X01}"
+                                                        Y="${Y01}" />
+                                                </AbsoluteLineTo>
+                                            </Components>
+                                        </Path>
+                                    </Children>
+                                </Group>
                                 <Key
                                     Name="k10"
+                                    XOffset="-38.1"
+                                    YOffset="-42.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1090,9 +1475,10 @@
                                         Text="F7"
                                         FontSize="4" />
                                 </Key>
-
                                 <Key
                                     Name="k11"
+                                    XOffset="-19.05"
+                                    YOffset="-47.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1104,9 +1490,10 @@
                                         Text="F8"
                                         FontSize="4" />
                                 </Key>
-
                                 <Key
                                     Name="k12"
+                                    XOffset="0.0"
+                                    YOffset="-53.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1118,9 +1505,10 @@
                                         Text="F9"
                                         FontSize="4" />
                                 </Key>
-
                                 <Key
                                     Name="k13"
+                                    XOffset="19.05"
+                                    YOffset="-48.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1132,9 +1520,10 @@
                                         Text="F10"
                                         FontSize="4" />
                                 </Key>
-
                                 <Key
                                     Name="k14"
+                                    XOffset="38.1"
+                                    YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1146,9 +1535,10 @@
                                         Text="F11"
                                         FontSize="4" />
                                 </Key>
-
                                 <Key
                                     Name="k15"
+                                    XOffset="57.15"
+                                    YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1161,20 +1551,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="ENT"
-                                        FontSize="4" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k25"
+                                    XOffset="-38.1"
+                                    YOffset="-23.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1196,59 +1575,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="Y"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="H"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="N"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="SPC"
-                                        FontSize="4" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k26"
+                                    XOffset="-19.05"
+                                    YOffset="-28.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1270,68 +1599,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="U"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="J"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="M"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="{"
-                                        FontSize="4"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="["
-                                        FontSize="4"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k27"
+                                    XOffset="0.0"
+                                    YOffset="-34.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1353,77 +1623,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="I"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="K"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="&lt;"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text=","
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="}"
-                                        FontSize="4"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="]"
-                                        FontSize="4"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k28"
+                                    XOffset="19.05"
+                                    YOffset="-29.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1445,68 +1647,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="O"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="L"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="&gt;"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="."
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${ModFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="ALT"
-                                        FontSize="4" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k29"
+                                    XOffset="38.1"
+                                    YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1528,77 +1671,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="P"
-                                        FontSize="6" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text=":"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text=";"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${AlphaFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="?"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="-3" />
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="/"
-                                        FontSize="6"
-                                        Color="${AlphaLegendColor}"
-                                        YOffset="3" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
-                                    Width="${KeycapDiameterMm1u}"
-                                    Height="${KeycapDiameterMm1u}"
-                                    Margin="${KeyMarginMillimeters}"
-                                    Fill="${ModFillColor}"
-                                    Stroke="${KeycapBorderColor}">
-                                    <Legend
-                                        HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        Text="OS"
-                                        FontSize="4" />
-                                </Key>
-                                <Key
-                                    Name="kXX"
+                                    Name="k30"
+                                    XOffset="57.15"
+                                    YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1620,7 +1695,84 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
+                                    Name="k40"
+                                    XOffset="-38.1"
+                                    YOffset="-4.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="Y"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k41"
+                                    XOffset="-19.05"
+                                    YOffset="-9.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="U"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k42"
+                                    XOffset="0.0"
+                                    YOffset="-15.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="I"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k43"
+                                    XOffset="19.05"
+                                    YOffset="-10.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="O"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k44"
+                                    XOffset="38.1"
+                                    YOffset="-7.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="P"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k45"
+                                    XOffset="57.15"
+                                    YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1642,7 +1794,93 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
+                                    Name="k53"
+                                    XOffset="-38.1"
+                                    YOffset="15.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="H"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k54"
+                                    XOffset="-19.05"
+                                    YOffset="10.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="J"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k55"
+                                    XOffset="0.0"
+                                    YOffset="4.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="K"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k56"
+                                    XOffset="19.05"
+                                    YOffset="9.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="L"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k57"
+                                    XOffset="38.1"
+                                    YOffset="12.025"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=":"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=";"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k58"
+                                    XOffset="57.15"
+                                    YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1664,7 +1902,111 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
+                                    Name="k68"
+                                    XOffset="-38.1"
+                                    YOffset="34.075"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="N"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k69"
+                                    XOffset="-19.05"
+                                    YOffset="29.075"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="M"
+                                        FontSize="6" />
+                                </Key>
+                                <Key
+                                    Name="k70"
+                                    XOffset="0.0"
+                                    YOffset="23.075"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="&lt;"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text=","
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k71"
+                                    XOffset="19.05"
+                                    YOffset="28.075"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="&gt;"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="."
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k72"
+                                    XOffset="38.1"
+                                    YOffset="31.075"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="?"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="/"
+                                        FontSize="6"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k73"
+                                    XOffset="57.15"
+                                    YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
@@ -1677,7 +2019,117 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="kXX"
+                                    Name="k81"
+                                    XOffset="-57.15"
+                                    YOffset="53.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="ENT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k82"
+                                    XOffset="-38.1"
+                                    YOffset="53.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="SPC"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k83"
+                                    XOffset="-19.05"
+                                    YOffset="48.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="{"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="["
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k84"
+                                    XOffset="0.0"
+                                    YOffset="42.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${AlphaFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="}"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="-3" />
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="]"
+                                        FontSize="4"
+                                        Color="${AlphaLegendColor}"
+                                        YOffset="3" />
+                                </Key>
+                                <Key
+                                    Name="k85"
+                                    XOffset="19.05"
+                                    YOffset="47.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="ALT"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k86"
+                                    XOffset="38.1"
+                                    YOffset="50.125"
+                                    Width="${KeycapDiameterMm1u}"
+                                    Height="${KeycapDiameterMm1u}"
+                                    Margin="${KeyMarginMillimeters}"
+                                    Fill="${ModFillColor}"
+                                    Stroke="${KeycapBorderColor}">
+                                    <Legend
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Text="OS"
+                                        FontSize="4" />
+                                </Key>
+                                <Key
+                                    Name="k87"
+                                    XOffset="57.15"
+                                    YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
                                     Height="${KeycapDiameterMm1u}"
                                     Margin="${KeyMarginMillimeters}"
