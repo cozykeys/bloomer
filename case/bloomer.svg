@@ -731,7 +731,7 @@
       </g>
       <g
         id="ClusterCenterTop"
-        transform="translate(0,-30)">
+        transform="translate(0,-17.473)">
         <g
           id="ClusterCenterTopPerimeter"
           transform="translate(0,-38.1)">
@@ -798,7 +798,7 @@
       </g>
       <g
         id="ClusterCenterMiddle"
-        transform="translate(0,10)">
+        transform="translate(0,21.501)">
         <g
           id="ClusterCenterMiddlePerimeter"
           transform="translate(0,-19.575)">
@@ -1006,7 +1006,7 @@
       </g>
       <g
         id="ClusterRight"
-        transform="translate(94.983,13.939) rotate(-10)">
+        transform="translate(93.331,13.939) rotate(-10)">
         <g
           id="ClusterRightPerimeter"
           transform="translate(-66.675,0)">
