@@ -52,7 +52,9 @@
                         <Group
                             Name="ClusterLeft"
                             Rotation="10"
-                            XOffset="-91.5">
+                            YOffset="13.955"
+                            XOffset="-94.157">
+
                             <Children>
                                 <Group
                                     Name="CluserLeftPerimeter"
@@ -972,7 +974,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterMiddle"
-                            YOffset="0">
+                            YOffset="10">
                             <Children>
                                 <Group
                                     Name="ClusterCenterMiddlePerimeter"
@@ -1264,7 +1266,8 @@
                         <Group
                             Name="ClusterRight"
                             Rotation="-10"
-                            XOffset="91.5">
+                            XOffset="94.983"
+                            YOffset="13.939">
                             <Children>
                                 <Group
                                     Name="ClusterRightPerimeter"
