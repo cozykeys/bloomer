@@ -873,7 +873,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterTop"
-                            YOffset="-30">
+                            YOffset="-17.473">
                             <Children>
                                 <Group
                                     Name="ClusterCenterTopPerimeter"
@@ -974,7 +974,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterMiddle"
-                            YOffset="10">
+                            YOffset="21.501">
                             <Children>
                                 <Group
                                     Name="ClusterCenterMiddlePerimeter"
@@ -1266,7 +1266,7 @@
                         <Group
                             Name="ClusterRight"
                             Rotation="-10"
-                            XOffset="94.983"
+                            XOffset="93.331"
                             YOffset="13.939">
                             <Children>
                                 <Group
