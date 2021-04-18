@@ -9,15 +9,14 @@
       id="Clusters">
       <g
         id="ClusterLeft"
-        transform="translate(-94.157,13.955) rotate(10)">
+        transform="translate(-93.331,13.939) rotate(10)">
         <g
-          id="CluserLeftPerimeter"
-          transform="translate(-66.675,0)">
+          id="CluserLeftPerimeter">
           <g
             id="">
             <path
               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -0.525 60.175 L 38.625 60.175 L 38.625 57.175 L 57.675 57.175 L 57.675 52.175 L 75.675 52.175 L 75.675 58.175 L 94.725 58.175 L 94.725 63.175 L 133.875 63.175 L 133.875 43.075 L 114.825 43.075 L 114.825 -52.175 L 95.775 -52.175 L 95.775 -57.175 L 76.725 -57.175 L 76.725 -63.175 L 56.625 -63.175 L 56.625 -58.175 L 37.575 -58.175 L 37.575 -55.175 L -0.525 -55.175 L -0.525 60.175" />
+              d="M -67.2 60.175 L -28.05 60.175 L -28.05 57.175 L -9 57.175 L -9 52.175 L 9 52.175 L 9 58.175 L 28.05 58.175 L 28.05 63.175 L 67.2 63.175 L 67.2 43.075 L 48.15 43.075 L 48.15 -52.175 L 29.1 -52.175 L 29.1 -57.175 L 10.05 -57.175 L 10.05 -63.175 L -10.05 -63.175 L -10.05 -58.175 L -29.1 -58.175 L -29.1 -55.175 L -67.2 -55.175 L -67.2 60.175" />
           </g>
         </g>
         <g
@@ -733,13 +732,12 @@
         id="ClusterCenterTop"
         transform="translate(0,-17.473)">
         <g
-          id="ClusterCenterTopPerimeter"
-          transform="translate(0,-38.1)">
+          id="ClusterCenterTopPerimeter">
           <g
             id="">
             <path
               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 48.15 L 29.1 48.15 L 29.1 28.05 L -29.1 28.05 L -29.1 48.15" />
+              d="M -29.1 10.05 L 29.1 10.05 L 29.1 -10.05 L -29.1 -10.05 L -29.1 10.05" />
           </g>
         </g>
         <g
@@ -800,13 +798,12 @@
         id="ClusterCenterMiddle"
         transform="translate(0,21.501)">
         <g
-          id="ClusterCenterMiddlePerimeter"
-          transform="translate(0,-19.575)">
+          id="ClusterCenterMiddlePerimeter">
           <g
             id="">
             <path
               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 39.15 L 29.1 39.15 L 29.1 0 L -29.1 0 L -29.1 39.15" />
+              d="M -29.1 19.575 L 29.1 19.575 L 29.1 -19.575 L -29.1 -19.575 L -29.1 19.575" />
           </g>
         </g>
         <g
@@ -922,13 +919,12 @@
         id="ClusterCenterBottom"
         transform="translate(0,70)">
         <g
-          id="ClusterCenterBottomPerimeter"
-          transform="translate(0,19.575)">
+          id="ClusterCenterBottomPerimeter">
           <g
             id="">
             <path
               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M -29.1 0 L 29.1 0 L 29.1 -20.1 L 10.05 -20.1 L 10.05 -39.15 L -10.05 -39.15 L -10.05 -20.1 L -29.1 -20.1 L -29.1 0" />
+              d="M -29.1 19.575 L 29.1 19.575 L 29.1 -0.525 L 10.05 -0.525 L 10.05 -19.575 L -10.05 -19.575 L -10.05 -0.525 L -29.1 -0.525 L -29.1 19.575" />
           </g>
         </g>
         <g
@@ -1008,13 +1004,12 @@
         id="ClusterRight"
         transform="translate(93.331,13.939) rotate(-10)">
         <g
-          id="ClusterRightPerimeter"
-          transform="translate(-66.675,0)">
+          id="ClusterRightPerimeter">
           <g
             id="">
             <path
               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-              d="M 133.875 60.175 L 94.725 60.175 L 94.725 57.175 L 75.675 57.175 L 75.675 52.175 L 57.675 52.175 L 57.675 58.175 L 38.625 58.175 L 38.625 63.175 L -0.525 63.175 L -0.525 43.075 L 18.525 43.075 L 18.525 -52.175 L 37.575 -52.175 L 37.575 -57.175 L 56.625 -57.175 L 56.625 -63.175 L 76.725 -63.175 L 76.725 -58.175 L 95.775 -58.175 L 95.775 -55.175 L 133.875 -55.175 L 133.875 60.175" />
+              d="M 67.2 60.175 L 28.05 60.175 L 28.05 57.175 L 9 57.175 L 9 52.175 L -9 52.175 L -9 58.175 L -28.05 58.175 L -28.05 63.175 L -67.2 63.175 L -67.2 43.075 L -48.15 43.075 L -48.15 -52.175 L -29.1 -52.175 L -29.1 -57.175 L -10.05 -57.175 L -10.05 -63.175 L 10.05 -63.175 L 10.05 -58.175 L 29.1 -58.175 L 29.1 -55.175 L 67.2 -55.175 L 67.2 60.175" />
           </g>
         </g>
         <g

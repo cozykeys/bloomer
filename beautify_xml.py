@@ -35,7 +35,7 @@ def is_comment(element):
     return isinstance(element, ET._Comment)
 
 def print_comment(element, indent):
-    print("{}<!-- {} -->".format(indent, element.text))
+    print("{}<!--{}-->".format(indent, element.text))
 
 def process_element(element, indent):
     if is_comment(element):
