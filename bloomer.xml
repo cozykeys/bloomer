@@ -41,7 +41,7 @@
             Value="#5f5f5f" />
     </Constants>
     <Layers>
-        <!--       <Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">      -->
+        <!--<Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">-->
         <Layer
             Name="switch"
             ZIndex="4">
@@ -52,47 +52,45 @@
                         <Group
                             Name="ClusterLeft"
                             Rotation="10"
-                            YOffset="13.955"
-                            XOffset="-94.157">
-
+                            XOffset="-93.331"
+                            YOffset="13.939">
                             <Children>
                                 <Group
-                                    Name="CluserLeftPerimeter"
-                                    XOffset="-66.675">
+                                    Name="CluserLeftPerimeter">
                                     <Constants>
                                         <Constant
                                             Name="X01"
-                                            Value="-0.525" />
+                                            Value="-67.2" />
                                         <Constant
                                             Name="X02"
-                                            Value="38.625" />
+                                            Value="-28.05" />
                                         <Constant
                                             Name="X03"
-                                            Value="57.675" />
+                                            Value="-9.0" />
                                         <Constant
                                             Name="X04"
-                                            Value="75.675" />
+                                            Value="9.0" />
                                         <Constant
                                             Name="X05"
-                                            Value="94.725" />
+                                            Value="28.05" />
                                         <Constant
                                             Name="X06"
-                                            Value="133.875" />
+                                            Value="67.2" />
                                         <Constant
                                             Name="X07"
-                                            Value="114.825" />
+                                            Value="48.15" />
                                         <Constant
                                             Name="X08"
-                                            Value="95.775" />
+                                            Value="29.1" />
                                         <Constant
                                             Name="X09"
-                                            Value="76.725" />
+                                            Value="10.05" />
                                         <Constant
                                             Name="X10"
-                                            Value="56.625" />
+                                            Value="-10.05" />
                                         <Constant
                                             Name="X11"
-                                            Value="37.575" />
+                                            Value="-29.1" />
                                         <Constant
                                             Name="Y01"
                                             Value="60.175" />
@@ -876,8 +874,7 @@
                             YOffset="-17.473">
                             <Children>
                                 <Group
-                                    Name="ClusterCenterTopPerimeter"
-                                    YOffset="-38.1">
+                                    Name="ClusterCenterTopPerimeter">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -887,10 +884,10 @@
                                             Value="29.1" />
                                         <Constant
                                             Name="Y01"
-                                            Value="48.15" />
+                                            Value="10.05" />
                                         <Constant
                                             Name="Y02"
-                                            Value="28.05" />
+                                            Value="-10.05" />
                                     </Constants>
                                     <Children>
                                         <Path
@@ -977,8 +974,7 @@
                             YOffset="21.501">
                             <Children>
                                 <Group
-                                    Name="ClusterCenterMiddlePerimeter"
-                                    YOffset="-19.575">
+                                    Name="ClusterCenterMiddlePerimeter">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -988,10 +984,10 @@
                                             Value="29.1" />
                                         <Constant
                                             Name="Y01"
-                                            Value="39.15" />
+                                            Value="19.575" />
                                         <Constant
                                             Name="Y02"
-                                            Value="0" />
+                                            Value="-19.575" />
                                     </Constants>
                                     <Children>
                                         <Path
@@ -1123,8 +1119,7 @@
                             YOffset="70">
                             <Children>
                                 <Group
-                                    Name="ClusterCenterBottomPerimeter"
-                                    YOffset="19.575">
+                                    Name="ClusterCenterBottomPerimeter">
                                     <Constants>
                                         <Constant
                                             Name="X01"
@@ -1140,13 +1135,13 @@
                                             Value="-10.05" />
                                         <Constant
                                             Name="Y01"
-                                            Value="0" />
+                                            Value="19.575" />
                                         <Constant
                                             Name="Y02"
-                                            Value="-20.1" />
+                                            Value="-0.525" />
                                         <Constant
                                             Name="Y03"
-                                            Value="-39.15" />
+                                            Value="-19.575" />
                                     </Constants>
                                     <Children>
                                         <Path
@@ -1270,42 +1265,41 @@
                             YOffset="13.939">
                             <Children>
                                 <Group
-                                    Name="ClusterRightPerimeter"
-                                    XOffset="-66.675">
+                                    Name="ClusterRightPerimeter">
                                     <Constants>
                                         <Constant
                                             Name="X01"
-                                            Value="133.875" />
+                                            Value="67.2" />
                                         <Constant
                                             Name="X02"
-                                            Value="94.725" />
+                                            Value="28.05" />
                                         <Constant
                                             Name="X03"
-                                            Value="75.675" />
+                                            Value="9.0" />
                                         <Constant
                                             Name="X04"
-                                            Value="57.675" />
+                                            Value="-9.0" />
                                         <Constant
                                             Name="X05"
-                                            Value="38.625" />
+                                            Value="-28.05" />
                                         <Constant
                                             Name="X06"
-                                            Value="-0.525" />
+                                            Value="-67.2" />
                                         <Constant
                                             Name="X07"
-                                            Value="18.525" />
+                                            Value="-48.15" />
                                         <Constant
                                             Name="X08"
-                                            Value="37.575" />
+                                            Value="-29.1" />
                                         <Constant
                                             Name="X09"
-                                            Value="56.625" />
+                                            Value="-10.05" />
                                         <Constant
                                             Name="X10"
-                                            Value="76.725" />
+                                            Value="10.05" />
                                         <Constant
                                             Name="X11"
-                                            Value="95.775" />
+                                            Value="29.1" />
                                         <Constant
                                             Name="Y01"
                                             Value="60.175" />
