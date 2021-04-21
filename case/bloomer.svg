@@ -9,7 +9,7 @@
       id="Clusters">
       <g
         id="ClusterLeft"
-        transform="translate(-93.331,13.939) rotate(10)">
+        transform="translate(-93.331,-4.815) rotate(10)">
         <g
           id="CluserLeftPerimeter">
           <g
@@ -730,7 +730,7 @@
       </g>
       <g
         id="ClusterCenterTop"
-        transform="translate(0,-17.473)">
+        transform="translate(0,-36.227)">
         <g
           id="ClusterCenterTopPerimeter">
           <g
@@ -796,7 +796,7 @@
       </g>
       <g
         id="ClusterCenterMiddle"
-        transform="translate(0,21.501)">
+        transform="translate(0,2.747)">
         <g
           id="ClusterCenterMiddlePerimeter">
           <g
@@ -917,7 +917,7 @@
       </g>
       <g
         id="ClusterCenterBottom"
-        transform="translate(0,70)">
+        transform="translate(0,51.246)">
         <g
           id="ClusterCenterBottomPerimeter">
           <g
@@ -1002,7 +1002,7 @@
       </g>
       <g
         id="ClusterRight"
-        transform="translate(93.331,13.939) rotate(-10)">
+        transform="translate(93.331,-4.815) rotate(-10)">
         <g
           id="ClusterRightPerimeter">
           <g
@@ -1762,6 +1762,15 @@
             text-anchor="middle"
             style="fill:#000000;dominant-baseline:central;text-anchor:middle;font-size:4px;font-family:sans-serif;font-weight:normal;font-style:normal">CTRL</text>
         </g>
+      </g>
+    </g>
+    <g
+      id="PCB">
+      <g
+        id="">
+        <path
+          style="fill:#00ff00;fill-opacity:0.5;stroke:#00ff00;stroke-width:0.5"
+          d="M 0 -45.277 L 28.1 -45.277 L 73.622 -64.474 L 91.447 -67.617 L 149.118 -69.662 L 168.801 41.965 L 132.215 48.417 L 75.519 61.46 L 28.1 69.821 L -28.1 69.821 L -75.519 61.46 L -132.215 48.417 L -168.801 41.965 L -149.118 -69.662 L -91.447 -67.617 L -73.622 -64.474 L -28.1 -45.277 L 0 -45.277" />
       </g>
     </g>
   </g>

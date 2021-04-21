@@ -12,6 +12,8 @@ kbmath_dll="$kbutil_dir/build/KbMath.Console/bin/Release/KbMath.Console.dll"
 
 svg_opener="inkscape"
 
+mkdir -p "$bloomer_dir/temp"
+
 function error() {
     local msg="$1"
 
