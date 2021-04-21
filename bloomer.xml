@@ -41,7 +41,18 @@
             Value="#5f5f5f" />
     </Constants>
     <Layers>
-        <!--<Layer Name="switch" ZIndex="4" XOffset="185" YOffset="80">-->
+        <!--
+        Height, width, XOffset, and YOffset were set up based on the key
+        cluster locations/sizes but will likely need to be updated once the case
+        is finalized.
+        -->
+        <!--<Layer
+            Name="switch"
+            ZIndex="4"
+            Height="181.642"
+            Width="379.918"
+            XOffset="189.959"
+            YOffset="90.821">-->
         <Layer
             Name="switch"
             ZIndex="4">
@@ -53,7 +64,7 @@
                             Name="ClusterLeft"
                             Rotation="10"
                             XOffset="-93.331"
-                            YOffset="13.939">
+                            YOffset="-4.815">
                             <Children>
                                 <Group
                                     Name="CluserLeftPerimeter">
@@ -871,7 +882,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterTop"
-                            YOffset="-17.473">
+                            YOffset="-36.227">
                             <Children>
                                 <Group
                                     Name="ClusterCenterTopPerimeter">
@@ -971,7 +982,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterMiddle"
-                            YOffset="21.501">
+                            YOffset="2.747">
                             <Children>
                                 <Group
                                     Name="ClusterCenterMiddlePerimeter">
@@ -1116,7 +1127,7 @@
                         </Group>
                         <Group
                             Name="ClusterCenterBottom"
-                            YOffset="70">
+                            YOffset="51.246">
                             <Children>
                                 <Group
                                     Name="ClusterCenterBottomPerimeter">
@@ -1262,7 +1273,7 @@
                             Name="ClusterRight"
                             Rotation="-10"
                             XOffset="93.331"
-                            YOffset="13.939">
+                            YOffset="-4.815">
                             <Children>
                                 <Group
                                     Name="ClusterRightPerimeter">
@@ -2140,6 +2151,109 @@
                                 </Key>
                             </Children>
                         </Group>
+                    </Children>
+                </Group>
+                <Group
+                    Name="PCB">
+                    <Children>
+                        <Path
+                            Fill="#00ff00"
+                            Stroke="#00ff00"
+                            FillOpacity="0.5"
+                            Visible="True">
+                            <Components>
+                                <AbsoluteMoveTo>
+                                    <EndPoint
+                                        X="0"
+                                        Y="-45.277" />
+                                </AbsoluteMoveTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="28.100"
+                                        Y="-45.277" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="73.622"
+                                        Y="-64.474" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="91.447"
+                                        Y="-67.617" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="149.118"
+                                        Y="-69.662" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="168.801"
+                                        Y="41.965" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="132.215"
+                                        Y="48.417" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="75.519"
+                                        Y="61.460" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="28.100"
+                                        Y="69.821" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-28.100"
+                                        Y="69.821" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-75.519"
+                                        Y="61.460" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-132.215"
+                                        Y="48.417" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-168.801"
+                                        Y="41.965" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-149.118"
+                                        Y="-69.662" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-91.447"
+                                        Y="-67.617" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-73.622"
+                                        Y="-64.474" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="-28.100"
+                                        Y="-45.277" />
+                                </AbsoluteLineTo>
+                                <AbsoluteLineTo>
+                                    <EndPoint
+                                        X="0"
+                                        Y="-45.277" />
+                                </AbsoluteLineTo>
+                            </Components>
+                        </Path>
                     </Children>
                 </Group>
             </Groups>
