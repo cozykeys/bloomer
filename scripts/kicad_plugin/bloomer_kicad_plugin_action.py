@@ -156,6 +156,18 @@ class BloomerKicadPluginAction(pcbnew.ActionPlugin):
 
         self.switch_data = SwitchData()
 
+        # TODO: Components to implement
+        # C1 - C20
+        # D01 - D87
+        # J1 - J3
+        # K01 - K87
+        # L1 - L12
+        # R1 - R6
+        # SW1
+        # U1
+        # Y1
+
+
         # TODO: NYI
         # Set switch and diode positions
         key_count = 87
