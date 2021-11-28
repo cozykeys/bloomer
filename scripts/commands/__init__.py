@@ -6,6 +6,10 @@ def add_command_parsers(subparsers: argparse._SubParsersAction) -> None:
 
     add_expand_vertices_parser(subparsers)
 
+    from .generate_traces import add_generate_traces_parser
+
+    add_generate_traces_parser(subparsers)
+
     from .scratch import add_scratch_parser
 
     add_scratch_parser(subparsers)

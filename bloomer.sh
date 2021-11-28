@@ -5,7 +5,7 @@ action="$1"
 bloomer_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # TODO: Is there a better way? Submodule perhaps?
-kbutil_dir="$( dirname "$bloomer_dir" )/kbutil"
+kbutil_dir="$( dirname "$bloomer_dir" )/resources/kbutil"
 
 kbutil_dll="$kbutil_dir/build/KbUtil.Console/bin/Release/kbutil.dll"
 kbmath_dll="$kbutil_dir/build/KbMath.Console/bin/Release/KbMath.Console.dll"
@@ -25,16 +25,14 @@ function error() {
 }
 
 function generate_render() {
-    #input="$bloomer_dir/bloomer_test.xml"
     input="$bloomer_dir/bloomer.xml"
-    #input="$bloomer_dir/bloomer_beautified.xml"
     output="$bloomer_dir/case"
 
 
     options="--visual-switch-cutouts --keycap-overlays --keycap-legends --squash"
 
-    kbutil gen-svg $options "$input" "$output"
-    kbutil gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
+    dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
+    dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
 
     "$svg_opener" "$output/bloomer.svg"
 }

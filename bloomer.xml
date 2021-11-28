@@ -55,7 +55,9 @@
             YOffset="90.821">-->
         <Layer
             Name="switch"
-            ZIndex="4">
+            ZIndex="4"
+            XOffset="200"
+            YOffset="100">
             <Groups>
                 <Group
                     Name="Clusters">
@@ -260,7 +262,9 @@
                                     </Children>
                                 </Group>
                                 <Key
-                                    Name="k01"
+                                    Name="k00"
+                                    Row="0"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -276,7 +280,9 @@
                                         Color="${AlphaLegendColor}" />
                                 </Key>
                                 <Key
-                                    Name="k02"
+                                    Name="k01"
+                                    Row="0"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -291,7 +297,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k03"
+                                    Name="k02"
+                                    Row="0"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="-48.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -306,7 +314,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k04"
+                                    Name="k03"
+                                    Row="0"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="-53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -321,7 +331,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k05"
+                                    Name="k04"
+                                    Row="0"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="-47.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -336,7 +348,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k06"
+                                    Name="k05"
+                                    Row="0"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="-42.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -351,7 +365,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k16"
+                                    Name="k15"
+                                    Row="1"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -375,7 +391,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k17"
+                                    Name="k16"
+                                    Row="1"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -399,7 +417,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k18"
+                                    Name="k17"
+                                    Row="1"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="-29.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -423,7 +443,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k19"
+                                    Name="k18"
+                                    Row="1"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="-34.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -447,7 +469,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k20"
+                                    Name="k19"
+                                    Row="1"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="-28.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -471,7 +495,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k21"
+                                    Name="k20"
+                                    Row="1"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="-23.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -495,7 +521,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k31"
+                                    Name="k30"
+                                    Row="2"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -510,7 +538,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k32"
+                                    Name="k31"
+                                    Row="2"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -525,7 +555,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k33"
+                                    Name="k32"
+                                    Row="2"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="-10.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -540,7 +572,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k34"
+                                    Name="k33"
+                                    Row="2"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="-15.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -555,7 +589,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k35"
+                                    Name="k34"
+                                    Row="2"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="-9.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -570,7 +606,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k36"
+                                    Name="k35"
+                                    Row="2"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="-4.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -585,7 +623,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k46"
+                                    Name="k45"
+                                    Row="3"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -600,7 +640,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k47"
+                                    Name="k46"
+                                    Row="3"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -615,7 +657,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k48"
+                                    Name="k47"
+                                    Row="3"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="9.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -630,7 +674,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k49"
+                                    Name="k48"
+                                    Row="3"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="4.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -645,7 +691,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k50"
+                                    Name="k49"
+                                    Row="3"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="10.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -660,7 +708,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k51"
+                                    Name="k50"
+                                    Row="3"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="15.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -675,7 +725,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k59"
+                                    Name="k58"
+                                    Row="4"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -690,7 +742,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k60"
+                                    Name="k59"
+                                    Row="4"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -705,7 +759,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k61"
+                                    Name="k60"
+                                    Row="4"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="28.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -720,7 +776,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k62"
+                                    Name="k61"
+                                    Row="4"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="23.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -735,7 +793,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k63"
+                                    Name="k62"
+                                    Row="4"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="29.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -750,7 +810,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k64"
+                                    Name="k63"
+                                    Row="4"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="34.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -765,7 +827,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k74"
+                                    Name="k73"
+                                    Row="5"
+                                    Column="0"
                                     XOffset="-57.15"
                                     YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -780,7 +844,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k75"
+                                    Name="k74"
+                                    Row="5"
+                                    Column="1"
                                     XOffset="-38.1"
                                     YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -795,7 +861,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k76"
+                                    Name="k75"
+                                    Row="5"
+                                    Column="2"
                                     XOffset="-19.05"
                                     YOffset="47.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -810,7 +878,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k77"
+                                    Name="k76"
+                                    Row="5"
+                                    Column="3"
                                     XOffset="0"
                                     YOffset="42.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -834,7 +904,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k78"
+                                    Name="k77"
+                                    Row="5"
+                                    Column="4"
                                     XOffset="19.05"
                                     YOffset="48.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -849,7 +921,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k79"
+                                    Name="k78"
+                                    Row="5"
+                                    Column="5"
                                     XOffset="38.1"
                                     YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -864,7 +938,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k80"
+                                    Name="k79"
+                                    Row="5"
+                                    Column="6"
                                     XOffset="57.15"
                                     YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -934,7 +1010,9 @@
                                     </Children>
                                 </Group>
                                 <Key
-                                    Name="k07"
+                                    Name="k06"
+                                    Row="0"
+                                    Column="6"
                                     XOffset="-19.05"
                                     YOffset="0"
                                     Width="${KeycapDiameterMm1u}"
@@ -949,7 +1027,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k08"
+                                    Name="k07"
+                                    Row="0"
+                                    Column="7"
                                     XOffset="0"
                                     YOffset="0"
                                     Width="${KeycapDiameterMm1u}"
@@ -964,7 +1044,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k09"
+                                    Name="k08"
+                                    Row="0"
+                                    Column="8"
                                     XOffset="19.05"
                                     YOffset="0"
                                     Width="${KeycapDiameterMm1u}"
@@ -1034,7 +1116,9 @@
                                     </Children>
                                 </Group>
                                 <Key
-                                    Name="k22"
+                                    Name="k21"
+                                    Row="1"
+                                    Column="6"
                                     XOffset="-19.05"
                                     YOffset="-9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1049,7 +1133,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k23"
+                                    Name="k22"
+                                    Row="1"
+                                    Column="7"
                                     XOffset="0"
                                     YOffset="-9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1064,7 +1150,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k24"
+                                    Name="k23"
+                                    Row="1"
+                                    Column="8"
                                     XOffset="19.05"
                                     YOffset="-9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1079,7 +1167,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k37"
+                                    Name="k36"
+                                    Row="2"
+                                    Column="6"
                                     XOffset="-19.05"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1094,7 +1184,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k38"
+                                    Name="k37"
+                                    Row="2"
+                                    Column="7"
                                     XOffset="0"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1109,7 +1201,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k39"
+                                    Name="k38"
+                                    Row="2"
+                                    Column="8"
                                     XOffset="19.05"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1208,7 +1302,9 @@
                                     </Children>
                                 </Group>
                                 <Key
-                                    Name="k52"
+                                    Name="k51"
+                                    Row="3"
+                                    Column="7"
                                     XOffset="0"
                                     YOffset="-9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1223,7 +1319,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k65"
+                                    Name="k64"
+                                    Row="4"
+                                    Column="6"
                                     XOffset="-19.05"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1238,7 +1336,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k66"
+                                    Name="k65"
+                                    Row="4"
+                                    Column="7"
                                     XOffset="0"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1253,7 +1353,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k67"
+                                    Name="k66"
+                                    Row="4"
+                                    Column="8"
                                     XOffset="19.05"
                                     YOffset="9.525"
                                     Width="${KeycapDiameterMm1u}"
@@ -1469,7 +1571,9 @@
                                     </Children>
                                 </Group>
                                 <Key
-                                    Name="k10"
+                                    Name="k09"
+                                    Row="0"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="-42.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1484,7 +1588,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k11"
+                                    Name="k10"
+                                    Row="0"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="-47.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1499,7 +1605,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k12"
+                                    Name="k11"
+                                    Row="0"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="-53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1514,7 +1622,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k13"
+                                    Name="k12"
+                                    Row="0"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="-48.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1529,7 +1639,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k14"
+                                    Name="k13"
+                                    Row="0"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1544,7 +1656,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k15"
+                                    Name="k14"
+                                    Row="0"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="-45.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -1559,7 +1673,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k25"
+                                    Name="k24"
+                                    Row="1"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="-23.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1583,7 +1699,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k26"
+                                    Name="k25"
+                                    Row="1"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="-28.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1607,7 +1725,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k27"
+                                    Name="k26"
+                                    Row="1"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="-34.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1631,7 +1751,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k28"
+                                    Name="k27"
+                                    Row="1"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="-29.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1655,7 +1777,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k29"
+                                    Name="k28"
+                                    Row="1"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1679,7 +1803,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k30"
+                                    Name="k29"
+                                    Row="1"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="-26.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1703,7 +1829,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k40"
+                                    Name="k39"
+                                    Row="2"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="-4.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1718,7 +1846,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k41"
+                                    Name="k40"
+                                    Row="2"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="-9.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1733,7 +1863,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k42"
+                                    Name="k41"
+                                    Row="2"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="-15.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1748,7 +1880,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k43"
+                                    Name="k42"
+                                    Row="2"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="-10.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1763,7 +1897,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k44"
+                                    Name="k43"
+                                    Row="2"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1778,7 +1914,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k45"
+                                    Name="k44"
+                                    Row="2"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="-7.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1802,7 +1940,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k53"
+                                    Name="k52"
+                                    Row="3"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="15.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1817,7 +1957,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k54"
+                                    Name="k53"
+                                    Row="3"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="10.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1832,7 +1974,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k55"
+                                    Name="k54"
+                                    Row="3"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="4.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1847,7 +1991,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k56"
+                                    Name="k55"
+                                    Row="3"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="9.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1862,7 +2008,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k57"
+                                    Name="k56"
+                                    Row="3"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1886,7 +2034,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k58"
+                                    Name="k57"
+                                    Row="3"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="12.025"
                                     Width="${KeycapDiameterMm1u}"
@@ -1910,7 +2060,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k68"
+                                    Name="k67"
+                                    Row="4"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="34.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1925,7 +2077,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k69"
+                                    Name="k68"
+                                    Row="4"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="29.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1940,7 +2094,9 @@
                                         FontSize="6" />
                                 </Key>
                                 <Key
-                                    Name="k70"
+                                    Name="k69"
+                                    Row="4"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="23.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1964,7 +2120,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k71"
+                                    Name="k70"
+                                    Row="4"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="28.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -1988,7 +2146,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k72"
+                                    Name="k71"
+                                    Row="4"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -2012,7 +2172,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k73"
+                                    Name="k72"
+                                    Row="4"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="31.075"
                                     Width="${KeycapDiameterMm1u}"
@@ -2027,7 +2189,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k81"
+                                    Name="k80"
+                                    Row="5"
+                                    Column="8"
                                     XOffset="-57.15"
                                     YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2042,7 +2206,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k82"
+                                    Name="k81"
+                                    Row="5"
+                                    Column="9"
                                     XOffset="-38.1"
                                     YOffset="53.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2057,7 +2223,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k83"
+                                    Name="k82"
+                                    Row="5"
+                                    Column="10"
                                     XOffset="-19.05"
                                     YOffset="48.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2081,7 +2249,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k84"
+                                    Name="k83"
+                                    Row="5"
+                                    Column="11"
                                     XOffset="0.0"
                                     YOffset="42.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2105,7 +2275,9 @@
                                         YOffset="3" />
                                 </Key>
                                 <Key
-                                    Name="k85"
+                                    Name="k84"
+                                    Row="5"
+                                    Column="12"
                                     XOffset="19.05"
                                     YOffset="47.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2120,7 +2292,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k86"
+                                    Name="k85"
+                                    Row="5"
+                                    Column="13"
                                     XOffset="38.1"
                                     YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2135,7 +2309,9 @@
                                         FontSize="4" />
                                 </Key>
                                 <Key
-                                    Name="k87"
+                                    Name="k86"
+                                    Row="5"
+                                    Column="14"
                                     XOffset="57.15"
                                     YOffset="50.125"
                                     Width="${KeycapDiameterMm1u}"
@@ -2162,96 +2338,22 @@
                             FillOpacity="0.5"
                             Visible="True">
                             <Components>
-                                <AbsoluteMoveTo>
-                                    <EndPoint
-                                        X="0"
-                                        Y="-45.277" />
-                                </AbsoluteMoveTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="28.100"
-                                        Y="-45.277" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="73.622"
-                                        Y="-64.474" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="91.447"
-                                        Y="-67.617" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="149.118"
-                                        Y="-69.662" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="168.801"
-                                        Y="41.965" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="132.215"
-                                        Y="48.417" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="75.519"
-                                        Y="61.460" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="28.100"
-                                        Y="69.821" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-28.100"
-                                        Y="69.821" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-75.519"
-                                        Y="61.460" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-132.215"
-                                        Y="48.417" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-168.801"
-                                        Y="41.965" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-149.118"
-                                        Y="-69.662" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-91.447"
-                                        Y="-67.617" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-73.622"
-                                        Y="-64.474" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="-28.100"
-                                        Y="-45.277" />
-                                </AbsoluteLineTo>
-                                <AbsoluteLineTo>
-                                    <EndPoint
-                                        X="0"
-                                        Y="-45.277" />
-                                </AbsoluteLineTo>
+                                <AbsoluteMoveTo> <EndPoint X="0" Y="-64.474" /> </AbsoluteMoveTo>
+                                <AbsoluteLineTo> <EndPoint X="73.622" Y="-64.474" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="91.447" Y="-67.617" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="149.118" Y="-69.662" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="168.801" Y="41.965" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="132.215" Y="48.417" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="75.519" Y="61.460" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="28.100" Y="69.821" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-28.100" Y="69.821" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-75.519" Y="61.460" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-132.215" Y="48.417" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-168.801" Y="41.965" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-149.118" Y="-69.662" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-91.447" Y="-67.617" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="-73.622" Y="-64.474" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="0" Y="-64.474" /> </AbsoluteLineTo>
                             </Components>
                         </Path>
                     </Children>
