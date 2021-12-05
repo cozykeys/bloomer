@@ -26,7 +26,7 @@ def setcwd() -> None:
 
     base_dir = get_bloomer_repo_dir()
 
-    print("Changing current working directory to {}".format(base_dir))
+    #print("Changing current working directory to {}".format(base_dir))
     os.chdir(base_dir)
 
 

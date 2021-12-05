@@ -481,47 +481,221 @@ def diode_rows(sd):
         build_path(start, movements).print_segments("B.Cu", net_id)
 
 def columns_to_center(sd):
-    #base_theta = 2.206
-    #key = sd.get_switch_by_id("k14")
-    #start = Point(key["x"], key["y"])
-    #movements = [
-        #(6.422, base_theta + math.radians(-10)),
-    #]
-    #build_path(start, movements).print_segments("F.Cu", net_ids['/col14'])
 
-    net_id = net_ids['/col14']
-    start = Point(340.891816, 57.742188).project(6.44 + 1.0 * 1.27, math.radians(80))
+    net_id = net_ids['/col0']
+    start = Point(51.603949, 56.418989).project(6.44 + 1.27, math.radians(100))
     print(format_via(start.x, start.y, net_id))
     movements = [
-        (19.05 * 2.0 - 2.0 * 1.27, math.radians(170.0)),
+        (12.0725 + 19.05 + 1.27 + 0.635, math.radians(10)),
+        (3.0, math.radians(280)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(280)),
+        (19.05 - 1.27, math.radians(10)),
+        (6.0, math.radians(100)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(100)),
+        (19.05 + 2.54, math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col1']
+    start = Point(70.364949, 59.726989).project(6.44 + 1.27 + (0 * 0.635) + 1.27, math.radians(100))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(10.0)),
+        (0.635, math.radians(280.0)),
+        (12.0725 + 1.27, math.radians(10)),
+        (3.0, math.radians(280)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(280)),
+        (19.05 - 2.54, math.radians(10)),
+        (6.0, math.radians(100)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(100)),
+        (19.05 + 2.54 + (1.0 * 0.635), math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col2']
+    start = Point(89.645949, 60.080989).project(6.44 + 1.27 + (1.0 * 0.635) + 1.27, math.radians(100))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(10.0)),
+        (0.635, math.radians(280.0)),
+        (12.0725 + 1.27 + 0.635, math.radians(10)),
+        (5.0, math.radians(280)),
+        (19.05 - 2.54 - 1.27, math.radians(10)),
+        (6.0, math.radians(100)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(100)),
+        (19.05 + 2.54 + (2.0 * 0.635), math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col3']
+    start = Point(109.274949, 58.464989).project(6.44 + 1.27 + (2 * 0.635) + 1.27, math.radians(100))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(10.0)),
+        (0.635, math.radians(280.0)),
+        (9.525, math.radians(10)),
+        (6.0, math.radians(100)),
+        (19.05, math.radians(10)),
+        (5.0, math.radians(100)),
+        (19.05 + 2.54 + (3.0 * 0.635), math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col4']
+    start = Point(126.993949, 67.681989).project(6.44 + 1.27 + (3 * 0.635) + 1.27, math.radians(100))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(10.0)),
+        (0.635, math.radians(280.0)),
+        (9.525 - 0.635, math.radians(10)),
+        (5.0, math.radians(100)),
+        (19.05 + 2.54 + (4.0 * 0.635), math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col5']
+    start = Point(144.885949, 75.913989).project(6.44 + 1.27 + (4 * 0.635) + 1.27, math.radians(100))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(10.0)),
+        (0.635, math.radians(280.0)),
+        (9.525 + 2.54 + 2.54 - 0.635, math.radians(10)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col14']
+    start = Point(340.891816, 57.742188).project(6.44 + 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (4.4525 + 19.05 + 1.27 + 0.635, math.radians(170.0)),
         (3.0, math.radians(170.0 + 90.0)),
         (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 + 90.0)),
+        (19.05 - 1.27, math.radians(170.0)),
+        (6.0, math.radians(170.0 - 90.0)),
+        (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 - 90.0)),
+        (19.05 + 2.54, math.radians(170.0)),
     ]
     build_path(start, movements).print_segments("B.Cu", net_id)
 
     net_id = net_ids['/col13']
-    start = Point(322.130816, 61.050188).project(6.44 + 2.0 * 1.27, math.radians(80))
+    start = Point(322.130816, 61.050188).project(6.44 + 1.27 + (0 * 0.635) + 1.27, math.radians(80))
     print(format_via(start.x, start.y, net_id))
     movements = [
         (1.27, math.radians(170.0)),
         (0.635, math.radians(170.0 + 90.0)),
-        (19.05 - 2.0 * 1.27, math.radians(170.0)),
+        (4.4525 + 1.27, math.radians(170.0)),
         (3.0, math.radians(170.0 + 90.0)),
+        (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 + 90.0)),
+        (19.05 - 1.27 - 1.27, math.radians(170.0)),
+        (6.0, math.radians(170.0 - 90.0)),
+        (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 - 90.0)),
+        (19.05 + 2.54 + 0.635, math.radians(170.0)),
     ]
     build_path(start, movements).print_segments("B.Cu", net_id)
 
     net_id = net_ids['/col12']
-    start = Point(302.849816, 61.404188).project(6.44 + 3.0 * 1.27, math.radians(80))
+    start = Point(302.849816, 61.404188).project(6.44 + 1.27 + (1.0 * 0.635) + 1.27, math.radians(80))
     print(format_via(start.x, start.y, net_id))
     movements = [
+        (1.27, math.radians(170.0)),
+        (0.635, math.radians(170.0 + 90.0)),
+        (4.4525 + 1.27 + 0.635, math.radians(170.0)),
+        (5.0, math.radians(170.0 + 90.0)),
+        (19.05 - 1.27 - 1.27 - 1.27, math.radians(170.0)),
+        (6.0, math.radians(170.0 - 90.0)),
         (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 - 90.0)),
+        (19.05 + 2.54 + 0.635 + 0.635, math.radians(170.0)),
     ]
     build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col11']
+    start = Point(283.220816, 59.788188).project(6.44 + 1.27 + (2.0 * 0.635) + 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(170.0)),
+        (0.635, math.radians(170.0 + 90.0)),
+        (2.54 - 0.635, math.radians(170.0)),
+        (6.0, math.radians(170.0 - 90.0)),
+        (19.05, math.radians(170.0)),
+        (5.0, math.radians(170.0 - 90.0)),
+        (19.05 + 2.54 + 1.27 + 0.635, math.radians(170.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col10']
+    start = Point(265.501816, 69.005188).project(6.44 + 1.27 + (3.0 * 0.635) + 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(170.0)),
+        (0.635, math.radians(170.0 + 90.0)),
+        (2.54 - 1.27, math.radians(170.0)),
+        (5.0, math.radians(170.0 - 90.0)),
+        (19.05 + 2.54 + 1.27 + 1.27, math.radians(170.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col9']
+    start = Point(247.609816, 77.237188).project(6.44 + 1.27 + (4.0 * 0.635) + 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(170.0)),
+        (0.635, math.radians(170.0 + 90.0)),
+        (2.54 * 2.0 + 1.27, math.radians(170.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+def leds_to_caps(sd):
+    net_id = net_ids["VCC"]
+
+    path = Path([Point(252.283942, 67.69587), Point(254.785262, 67.25516)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(287.894942, 50.24687), Point(290.396262, 49.80616)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(326.804942, 51.50887), Point(329.306262, 51.06816)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(335.767058, 130.553129), Point(333.265738, 130.99384)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(296.857058, 129.29113), Point(294.355738, 129.73184)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(261.246057, 146.73913), Point(258.744738, 147.17984)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(133.928384, 145.888254), Point(131.426738, 145.44716)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(98.317384, 128.440254), Point(95.815738, 127.99916)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(59.407384, 129.702253), Point(56.905738, 129.261159)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(78.020616, 52.359746), Point(80.522262, 52.80084)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(116.930616, 51.097746), Point(119.432262, 51.53884)])
+    path.print_segments("B.Cu", net_id)
+
+    path = Path([Point(152.541616, 68.546746), Point(155.043262, 68.98784)])
+    path.print_segments("B.Cu", net_id)
 
 
 def generate_traces(args: argparse.Namespace) -> int:
     bloomer_dir = get_bloomer_repo_dir()
-    print("Bloomer repo directory: {}".format(bloomer_dir))
 
     sd = SwitchData()
     columns(sd)
@@ -529,6 +703,7 @@ def generate_traces(args: argparse.Namespace) -> int:
     diode_rows(sd)
 
     columns_to_center(sd)
+    leds_to_caps(sd)
 
 
     return 0
