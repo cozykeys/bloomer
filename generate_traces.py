@@ -250,12 +250,12 @@ def calculate_column_segments(switches):
             project_from_switch(s0, dx, dy),
             project_from_switch(s1, dx, dy))
 
-    for c in [6,8]:
-        s0 = switches[0][c]
-        s1 = switches[3][c]
-        segments[c] = Segment(
-            project_from_switch(s0, dx, dy),
-            project_from_switch(s1, dx, dy))
+    #for c in [6,8]:
+        #s0 = switches[0][c]
+        #s1 = switches[3][c]
+        #segments[c] = Segment(
+            #project_from_switch(s0, dx, dy),
+            #project_from_switch(s1, dx, dy))
 
     s0 = switches[0][7]
     s1 = switches[4][7]
@@ -384,11 +384,11 @@ def print_row_segments(switches):
             project_from_switch(switches[r][8], 8.0, 3.9))
         segment.print(net_id, "B.Cu")
 
-    net_id = net_ids['/row5']
-    segment = Segment(
-        project_from_switch(switches[3][6], 8.0, 3.9),
-        project_from_switch(switches[3][8], 8.0, 3.9))
-    segment.print(net_id, "B.Cu")
+    #net_id = net_ids['/row5']
+    #segment = Segment(
+        #project_from_switch(switches[3][6], 8.0, 3.9),
+        #project_from_switch(switches[3][8], 8.0, 3.9))
+    #segment.print(net_id, "B.Cu")
 
 
 def calculate_vcc_column_segments(switches):
@@ -1440,7 +1440,7 @@ def print_rgb_data_attachment_segments(switches):
 
 def main():
     raw_switch_data = []
-    with open('switches.json', 'r') as f:
+    with open('data/switches.json', 'r') as f:
         raw_switch_data = json.loads(f.read())
 
     switches = {}

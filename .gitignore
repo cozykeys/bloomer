@@ -2,6 +2,8 @@
 *.kicad_pcb-bak
 *.pyc
 *.FCStd1
-temp/
 pcb/fp-info-cache
 tags
+
+# TODO: Add this back in
+#temp/

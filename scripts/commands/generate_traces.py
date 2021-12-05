@@ -153,6 +153,11 @@ class Point:
         self.x = x
         self.y = y
 
+    def project(self, distance, theta):
+        return Point(
+            self.x + distance * math.cos(theta),
+            self.y + distance * math.sin(theta))
+
 class Path:
     def __init__(self, points):
         self.points = points
@@ -186,6 +191,15 @@ def add_generate_traces_parser(subparsers: argparse._SubParsersAction) -> None:
         "gen-traces", help="Generate traces for PCB"
     )
     parser.set_defaults(func=generate_traces)
+
+
+def format_via(x, y, net_id):
+  at_str     = '(at {} {})'.format(x, y)
+  size_str   = '(size 0.8)'
+  drill_str  = '(drill 0.4)'
+  layers_str = '(layers F.Cu B.Cu)'
+  net_str    = '(net {})'.format(net_id)
+  return '(via {} {} {} {} {})'.format(at_str, size_str, drill_str, layers_str, net_str)
 
 
 def format_segment(start, end, layer, net_id):
@@ -466,6 +480,45 @@ def diode_rows(sd):
             movements.append((19.05 - 1.27,  math.radians(170)))  # p9
         build_path(start, movements).print_segments("B.Cu", net_id)
 
+def columns_to_center(sd):
+    #base_theta = 2.206
+    #key = sd.get_switch_by_id("k14")
+    #start = Point(key["x"], key["y"])
+    #movements = [
+        #(6.422, base_theta + math.radians(-10)),
+    #]
+    #build_path(start, movements).print_segments("F.Cu", net_ids['/col14'])
+
+    net_id = net_ids['/col14']
+    start = Point(340.891816, 57.742188).project(6.44 + 1.0 * 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (19.05 * 2.0 - 2.0 * 1.27, math.radians(170.0)),
+        (3.0, math.radians(170.0 + 90.0)),
+        (19.05, math.radians(170.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col13']
+    start = Point(322.130816, 61.050188).project(6.44 + 2.0 * 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (1.27, math.radians(170.0)),
+        (0.635, math.radians(170.0 + 90.0)),
+        (19.05 - 2.0 * 1.27, math.radians(170.0)),
+        (3.0, math.radians(170.0 + 90.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+    net_id = net_ids['/col12']
+    start = Point(302.849816, 61.404188).project(6.44 + 3.0 * 1.27, math.radians(80))
+    print(format_via(start.x, start.y, net_id))
+    movements = [
+        (19.05, math.radians(170.0)),
+    ]
+    build_path(start, movements).print_segments("B.Cu", net_id)
+
+
 def generate_traces(args: argparse.Namespace) -> int:
     bloomer_dir = get_bloomer_repo_dir()
     print("Bloomer repo directory: {}".format(bloomer_dir))
@@ -475,6 +528,7 @@ def generate_traces(args: argparse.Namespace) -> int:
     switch_to_diodes(sd)
     diode_rows(sd)
 
+    columns_to_center(sd)
 
 
     return 0

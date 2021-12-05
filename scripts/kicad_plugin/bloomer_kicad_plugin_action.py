@@ -334,8 +334,8 @@ class BloomerKicadPluginAction(pcbnew.ActionPlugin):
             "R6":  (  207.01,  50.8, 0 ), # TODO: Finalize position
 
             # Other Components
-            "OLED1": ( MID_X,   46.99,   0 ), # TODO: Finalize position
-            "SW1":   ( MID_X,   78.4975, 0 ), # TODO: Finalize position
+            "OLED1": ( MID_X,   42.248,  0 ),
+            "SW1":   ( MID_X,   78.4975, 0 ),
             "MCU1":  ( 168.91, 135.89,   0 ), # TODO: Finalize position
             "Y1":    ( 168.91, 123.19,   0 ), # TODO: Finalize position
             "USB1":  ( MID_X,   36.0,    0 ), # TODO: Finalize position
