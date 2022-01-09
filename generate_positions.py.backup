@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+
+import json
+import os
+import argparse
+import math
+from typing import List, Dict, Tuple
+from lib import (
+    SvgStyle,
+    SvgWriter,
+    Vector2D,
+    Segment2D,
+    Polygon2D,
+    get_bloomer_repo_dir,
+    SwitchData,
+    Corner,
+)
+
+
+def add_generate_positions_parser(subparsers: argparse._SubParsersAction) -> None:
+    parser = subparsers.add_parser(
+        "gen-positions", help="Generate positions for PCB components"
+    )
+    parser.set_defaults(func=generate_positions)
+
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    @staticmethod
+    def from_switch(switch):
+        return Point(switch["x"], switch["y"])
+
+    def project(self, distance, theta):
+        return Point(
+            self.x + distance * math.cos(theta), self.y + distance * math.sin(theta)
+        )
+
+
+def generate_led_positions(sd):
+    led_positions = {}
+
+    led_positions["LED1"] = (
+        Point.from_switch(sd.get_switch_by_id("k10")).project(9.525, math.radians(260)),
+        190,
+    )
+
+    led_positions["LED2"] = (
+        Point.from_switch(sd.get_switch_by_id("k12")).project(9.525, math.radians(260)),
+        190,
+    )
+
+    led_positions["LED3"] = (
+        Point.from_switch(sd.get_switch_by_id("k57"))
+        .project(9.525, math.radians(260))
+        .project(9.525 - 2.75 - 0.635, math.radians(350)),
+        100,
+    )
+
+    led_positions["LED4"] = (
+        Point.from_switch(sd.get_switch_by_id("k84")).project(9.525, math.radians(80)),
+        10,
+    )
+
+    led_positions["LED5"] = (
+        Point.from_switch(sd.get_switch_by_id("k82")).project(9.525, math.radians(80)),
+        10,
+    )
+
+    led_positions["LED6"] = (
+        Point.from_switch(sd.get_switch_by_id("k80"))
+        .project(9.525 - 2.75 - 0.635, math.radians(80))
+        .project(9.525 + 3.65 + 0.635, math.radians(170)),
+        10,
+    )
+
+    led_positions["LED7"] = (
+        Point.from_switch(sd.get_switch_by_id("k79"))
+        .project(9.525 - 2.75 - 0.635, math.radians(100))
+        .project(9.525 + 3.65 + 0.635, math.radians(10)),
+        350,
+    )
+
+    led_positions["LED8"] = (
+        Point.from_switch(sd.get_switch_by_id("k77")).project(9.525, math.radians(100)),
+        350,
+    )
+
+    led_positions["LED9"] = (
+        Point.from_switch(sd.get_switch_by_id("k75")).project(9.525, math.radians(100)),
+        350,
+    )
+
+    led_positions["LED10"] = (
+        Point.from_switch(sd.get_switch_by_id("k45"))
+        .project(9.525, math.radians(280))
+        .project(9.525 - 2.75 - 0.635, math.radians(190)),
+        260,
+    )
+
+    led_positions["LED11"] = (
+        Point.from_switch(sd.get_switch_by_id("k02")).project(9.525, math.radians(280)),
+        170,
+    )
+
+    led_positions["LED12"] = (
+        Point.from_switch(sd.get_switch_by_id("k04")).project(9.525, math.radians(280)),
+        170,
+    )
+
+    return led_positions
+
+
+def generate_led_capacitor_positions(led_positions):
+    led_cap_positions = {}
+
+    led_cap_positions["C9"] = (
+        (
+            led_positions["LED1"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C10"] = (
+        (
+            led_positions["LED2"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C11"] = (
+        (
+            led_positions["LED3"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C12"] = (
+        (
+            led_positions["LED4"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C13"] = (
+        (
+            led_positions["LED5"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C14"] = (
+        (
+            led_positions["LED6"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C15"] = (
+        (
+            led_positions["LED7"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C16"] = (
+        (
+            led_positions["LED8"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C17"] = (
+        (
+            led_positions["LED9"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C18"] = (
+        (
+            led_positions["LED10"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C19"] = (
+        (
+            led_positions["LED11"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    led_cap_positions["C20"] = (
+        (
+            led_positions["LED12"][0]
+            .project(2.45 + 2.54 + 1.0375, math.radians(350))
+            .project(1.6, math.radians(260))
+        ),
+        190,
+    )
+
+    return led_cap_positions
+
+
+def generate_positions(args: argparse.Namespace) -> int:
+    sd = SwitchData()
+
+    component_positions = {}
+
+    led_positions = generate_led_positions(sd)
+    led_cap_positions = generate_led_capacitor_positions(led_positions)
+
+    component_positions.update(led_positions)
+    component_positions.update(led_cap_positions)
+
+    for name in component_positions:
+        (position, rotation) = component_positions[name]
+        print(
+            '"{}": ({}, {}, {}),'.format(
+                name, round(position.x, 3), round(position.y, 3), rotation
+            )
+        )
+
+    return 0

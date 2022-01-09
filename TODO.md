@@ -1,10 +1,18 @@
 # Bloomer v4.0 TODO List
 
-- [ ] Add LEDs and OLED back to schematic (oof)
-- [ ] Fix up USB-C situation (Errors in pcbnew)
-    - Consider just switching to micro usb?
-- [ ] Set up edge cuts in kicad plugin
-- [ ] Continue on traces
+- [x] Place remaining components
+    - MCU, capacitors, resistors
+- [x] Add M2 spacer holes to pcb
+- [ ] Generate scripted traces
+    - Rows to vias
+    - Columns to vias
+    - LEDs
+- [ ] Draw remaining traces by hand
+    - Connect everything to MCU
+- [ ] Add ground planes
+- [ ] Move silk text so it's readable
+    - Primarily on capacitors and resistors; show their values
+- [ ] Add graphics and attributions
 
 
 Parts:

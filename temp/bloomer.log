@@ -1,5 +1,5 @@
 Pcbnew window found!
-Running Bloomer KiCad plugin version 0.0.8
+Running Bloomer KiCad plugin version 0.0.9
 Running wxPython version 4.0.7 gtk3 (phoenix) wxWidgets 3.0.4
 Logging to directory /home/pewing/src/github/cozykeys/bloomer/temp/bloomer.log
 Loading switch data
@@ -177,6 +177,14 @@ Setting position of key K85
 Setting position of diode D85
 Setting position of key K86
 Setting position of diode D86
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
+Found a drawing on Edge.Cuts layer
 Found a drawing on Edge.Cuts layer
 Found a drawing on Edge.Cuts layer
 Found a drawing on Edge.Cuts layer

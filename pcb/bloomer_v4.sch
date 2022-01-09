@@ -2944,10 +2944,6 @@ F 3 "" H 2350 6450 50  0001 C CNN
 	1    2350 6450
 	0    1    1    0   
 $EndComp
-Text Label 2350 6750 2    50   ~ 0
-scl
-Text Label 2350 6850 2    50   ~ 0
-sda
 Text Label 2350 5050 2    50   ~ 0
 col5
 Text Label 2350 5750 2    50   ~ 0
@@ -3852,41 +3848,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 4700 1050 4700
 Connection ~ 1200 4700
-$Comp
-L Connector_Generic:Conn_01x04 OLED1
-U 1 1 62126141
-P 7300 5400
-F 0 "OLED1" H 7218 5717 50  0000 C CNN
-F 1 "Conn_01x04" H 7218 5626 50  0000 C CNN
-F 2 "cozy-parts:hiletgo_128x32_oled" H 7300 5400 50  0001 C CNN
-F 3 "~" H 7300 5400 50  0001 C CNN
-	1    7300 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0137
-U 1 1 6214F827
-P 7500 5300
-F 0 "#PWR0137" H 7500 5050 50  0001 C CNN
-F 1 "GND" V 7505 5172 50  0000 R CNN
-F 2 "" H 7500 5300 50  0001 C CNN
-F 3 "" H 7500 5300 50  0001 C CNN
-	1    7500 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR0138
-U 1 1 62150385
-P 7500 5400
-F 0 "#PWR0138" H 7500 5250 50  0001 C CNN
-F 1 "VCC" V 7515 5528 50  0000 L CNN
-F 2 "" H 7500 5400 50  0001 C CNN
-F 3 "" H 7500 5400 50  0001 C CNN
-	1    7500 5400
-	0    1    1    0   
-$EndComp
-Text Label 7500 5500 0    50   ~ 0
-scl
-Text Label 7500 5600 0    50   ~ 0
-sda
+NoConn ~ 2350 6850
+NoConn ~ 2350 6750
 $EndSCHEMATC
