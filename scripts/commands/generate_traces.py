@@ -1334,11 +1334,11 @@ def leds_vcc_data(sd):
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
         [ (1.3675, math.radians(80.0)), ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
-        [ (0.635 + 0.635, math.radians(350.0)) ],
+        [ (0.635 + 0.635 + 0.934474387893085, math.radians(350.0)) ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(260.0)) ],
-        [ (1.27 + ANGLE_DELTA, math.radians(260.0)) ],
-        [ ((2.0 * 0.635) - ANGLE_DELTA, math.radians(350.0)), ((2.0 * 0.635) - ANGLE_DELTA, math.radians(260.0)) ],
-        [ (4.0, math.radians(350.0)) ],
+        [ ((2.0 * 0.635) + 1.27, math.radians(350.0)), ((2.0 * 0.635) + 1.27, math.radians(260.0)) ],
+        #[ (4.0 - (1.27 + ANGLE_DELTA), math.radians(350.0)) ],
+        [ (4.0 - (1.1975 + 1.27), math.radians(350.0)) ],
         [ (3.18125, math.radians(350.0)), (3.18125, math.radians(260.0)) ],
         [ (11.0 + ANGLE_DELTA, math.radians(350.0)) ],
         [ (6.0 + 1.28125 + 1.27, math.radians(350.0)), (6.0 + 1.28125 + 1.27, math.radians(260.0)) ],
@@ -1354,10 +1354,9 @@ def leds_vcc_data(sd):
         [ (0.635, math.radians(350.0)) ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
         [ (2.54, math.radians(350.0)) ],
+        [ (0.635 + 1.1975 + 1.27, math.radians(350.0)), (0.635 + 1.1975 + 1.27, math.radians(260.0)) ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(260.0)) ],
-        [ (1.1975 + 1.27, math.radians(260.0)) ],
-        [ (0.635, math.radians(350.0)), (0.635, math.radians(260.0)) ],
-        [ (4.0, math.radians(350.0)) ],
+        [ (4.0 - (1.1975 + 1.27), math.radians(350.0)) ],
         [ (3.18125, math.radians(350.0)), (3.18125, math.radians(260.0)) ],
         [ (11.0 + ANGLE_DELTA, math.radians(350.0)) ],
         [ (6.0 + 1.91625, math.radians(350.0)), (6.0 + 1.91625, math.radians(260.0)) ],
@@ -1374,10 +1373,13 @@ def leds_vcc_data(sd):
         [ (1.3675, math.radians(80.0)), ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
         [ (1.27, math.radians(350.0)) ],
-        [ (0.5625, math.radians(350.0)), (0.5625, math.radians(80.0)) ],
-        [ (0.635, math.radians(350.0)) ],
-
-        # TODO: Connect to LED3
+        [ (0.5625 + 3.0825, math.radians(350.0)), (0.5625 + 3.0825, math.radians(80.0)) ],
+        [ (19.05 - 1.27, math.radians(350.0)) ],
+        [ (3.0, math.radians(350.0)), (3.0, math.radians(80.0)) ],
+        [ (2.040525612106915 - (2.0 * ANGLE_DELTA), math.radians(350.0)) ],
+        [ (3.8225 - 1.27, math.radians(350.0)), (3.8225 - 1.27, math.radians(260.0)) ],
+        [ (3.8930256121069107 + 1.27, math.radians(350.0)) ],
+        [ (1.27, math.radians(350.0)), (1.27, math.radians(80.0)) ],
     ]
     build_path_2(start, movements).print_segments("B.Cu", net_id)
 
@@ -1387,8 +1389,13 @@ def leds_vcc_data(sd):
     movements = [
         [ (0.635, math.radians(350.0)) ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
-        [ (2.4675, math.radians(350.0)) ],
-        [ (0.635, math.radians(350.0)) ],
+        [ (2.4675 - ANGLE_DELTA, math.radians(350.0)) ],
+        [ (3.0825, math.radians(350.0)), (3.0825, math.radians(80.0)) ],
+        [ (19.05 - 1.27, math.radians(350.0)) ],
+        [ (3.0, math.radians(350.0)), (3.0, math.radians(80.0)) ],
+        [ (2.040525612106915, math.radians(350.0)) ],
+        [ (1.9175, math.radians(350.0)), (1.9175, math.radians(260.0)) ],
+        [ (1.905, math.radians(350.0)) ],
 
         # TODO: Connect to LED3
     ]
@@ -1402,15 +1409,29 @@ def leds_vcc_data(sd):
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
         [ (1.3675, math.radians(80.0)), ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
-        [ (0.635, math.radians(350.0)) ],
-        [ (0.635, math.radians(350.0)) ],
-        [ (0.635, math.radians(350.0)), (0.635, math.radians(260.0)) ],
-        [ (TODO_1, math.radians(260.0)), ],
-        
-
-        # TODO: Connect to LED4
+        [ (1.27, math.radians(350.0)) ],
+        [ (0.5625 + 0.635 + 1.905, math.radians(350.0)), (0.5625 + 0.635 + 1.905, math.radians(80.0)) ],
+        #[ (0.635, math.radians(80.0)) ],
+        #[ (0.635, math.radians(350.0)) ],
     ]
-    build_path_2(start, movements).print_segments("B.Cu", net_id)
+    path = build_path_2(start, movements)
+    path.print_segments("B.Cu", net_id)
+    via_1 = path.points[len(path.points) - 1]
+    print(format_via(via_1.x, via_1.y, net_id))
+
+    via_2 = via_1.project(19.05 * 3.0 + (4.75 * 2.0) + 1.905, math.radians(80.0))
+    print(format_via(via_2.x, via_2.y, net_id))
+
+    print(format_segment(via_1, via_2, "F.Cu", net_id))
+
+    start = via_2
+    movements = [
+        [ (2.54, math.radians(170.0)), (2.54, math.radians(80.0)) ],
+        [ (1.27, math.radians(80.0)) ],
+        [ (0.635, math.radians(170.0)), (0.635, math.radians(80.0)) ],
+        [ (0.635, math.radians(170.0)) ],
+    ]
+    path = build_path_2(start, movements).print_segments("B.Cu", net_id)
 
     # LED3 data to LED4 data
     net_id = net_ids['"Net-(LED3-Pad2)"']
@@ -1418,13 +1439,30 @@ def leds_vcc_data(sd):
     movements = [
         [ (0.635, math.radians(350.0)) ],
         [ (0.635, math.radians(350.0)), (0.635, math.radians(80.0)) ],
-        [ (2.54, math.radians(350.0)) ],
-        [ (0.635, math.radians(350.0)), (0.635, math.radians(260.0)) ],
-        [ (TODO_2, math.radians(260.0)), ],
-
-        # TODO: Connect to LED4
+        [ (2.4675 - ANGLE_DELTA, math.radians(350.0)) ],
+        [ (1.905 - (0.635 / 2.0), math.radians(350.0)), (1.905 - (0.635 / 2.0), math.radians(80.0)) ],
+        [ (1.27, math.radians(80.0)) ],
+        #[ (0.635, math.radians(350.0)) ],
     ]
-    build_path_2(start, movements).print_segments("B.Cu", net_id)
+    path = build_path_2(start, movements)
+    path.print_segments("B.Cu", net_id)
+    via_1 = path.points[len(path.points) - 1]
+    print(format_via(via_1.x, via_1.y, net_id))
+
+    via_2 = via_1.project(19.05 * 3.0 + (4.75 * 2.0), math.radians(80.0))
+    print(format_via(via_2.x, via_2.y, net_id))
+
+    print(format_segment(via_1, via_2, "F.Cu", net_id))
+
+    start = via_2
+    movements = [
+        [ (2.54, math.radians(170.0)), (2.54, math.radians(80.0)) ],
+        [ (1.27, math.radians(80.0)) ],
+        [ (0.635, math.radians(170.0)), (0.635, math.radians(80.0)) ],
+        [ (0.635, math.radians(170.0)) ],
+    ]
+    path = build_path_2(start, movements).print_segments("B.Cu", net_id)
+
 
 def generate_traces(args: argparse.Namespace) -> int:
     sd = SwitchData()
@@ -1435,9 +1473,9 @@ def generate_traces(args: argparse.Namespace) -> int:
 
     rows_to_center(sd)
     #rows_clusters(sd) # This is intentionally removed because I don't like it
-    #center_vias(sd) # TODO: Uncomment, it's just slow so I'm removing while iterating elsewhere
+    center_vias(sd)
 
-    leds_vcc_data(sd)
+    #leds_vcc_data(sd)
 
     # TODO: Connect LED data/VCC lines
 
