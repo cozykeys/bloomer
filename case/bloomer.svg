@@ -1766,6 +1766,16 @@
       </g>
     </g>
     <g
+      id="Elite-C"
+      transform="translate(0,-31.448)">
+      <g
+        id="">
+        <path
+          style="fill:#5f5f5f;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+          d="M -9 -16.5 L 9 -16.5 L 9 16.5 L -9 16.5 L -9 -16.5" />
+      </g>
+    </g>
+    <g
       id="PCB">
       <g
         id="">

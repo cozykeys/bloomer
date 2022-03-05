@@ -2329,6 +2329,25 @@
                         </Group>
                     </Children>
                 </Group>
+                <Group Name="Elite-C" YOffset="-31.448" Visible="false">
+                  <Constants>
+                    <Constant Name="X01"  Value="-9" />
+                    <Constant Name="X02"  Value="9" />
+                    <Constant Name="Y01"  Value="-16.5" />
+                    <Constant Name="Y02"  Value="16.5" />
+                  </Constants>
+                  <Children>
+                    <Path Fill="${KeywellFillColor}" Stroke="${CaseStrokeColor}">
+                      <Components>
+                        <AbsoluteMoveTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteMoveTo>
+                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y01}" /> </AbsoluteLineTo>
+                        <AbsoluteLineTo> <EndPoint X="${X02}" Y="${Y02}" /> </AbsoluteLineTo>
+                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y02}" /> </AbsoluteLineTo>
+                        <AbsoluteLineTo> <EndPoint X="${X01}" Y="${Y01}" /> </AbsoluteLineTo>
+                      </Components>
+                    </Path>
+                  </Children>
+                </Group>
                 <Group
                     Name="PCB">
                     <Children>

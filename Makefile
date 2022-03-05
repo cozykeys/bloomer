@@ -1,19 +1,23 @@
-
+.PHONY: render
 render:
-	./bloomer.sh generate-render
+	./bloomer.sh render
 
+.PHONY: case
 case:
-	./bloomer.sh generate-case
+	./bloomer.sh case
 
+.PHONY: ponoko
 ponoko:
-	./bloomer.sh generate-ponoko
+	./bloomer.sh ponoko
 
+.PHONY: perimeters
 perimeters:
-	./bloomer.sh generate-perimeters
+	./bloomer.sh perimeters
 
+.PHONY: kicad_pcb
 kicad_pcb:
-	./bloomer.sh generate-pcb
+	./bloomer.sh pcb
 
+.PHONY: traces
 traces:
-	./bloomer.sh generate-traces
-
+	./bloomer.sh traces

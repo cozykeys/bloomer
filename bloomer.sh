@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-action="$1"
+cmd="$1"
 
 bloomer_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
@@ -24,7 +24,7 @@ function error() {
     exit 1
 }
 
-function generate_render() {
+function cmd_render() {
     input="$bloomer_dir/bloomer.xml"
     output="$bloomer_dir/case"
 
@@ -37,12 +37,12 @@ function generate_render() {
     "$svg_opener" "$output/bloomer.svg"
 }
 
-function generate_case() {
+function cmd_case() {
     input="$bloomer_dir/bloomer.xml"
     output="$bloomer_dir/case"
 
 
-    options="--visual-switch-cutouts --keycap-overlays --keycap-legends"
+    options=""
 
     dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
     dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
@@ -50,7 +50,7 @@ function generate_case() {
     "$svg_opener" "$output/bloomer_switch.svg"
 }
 
-function generate_ponoko() {
+function cmd_ponoko() {
     input="$bloomer_dir/bloomer.xml"
     output="$bloomer_dir/case/ponoko"
 
@@ -59,7 +59,7 @@ function generate_ponoko() {
     "$svg_opener" "$output/bloomer_Switch.svg" 
 }
 
-function generate_perimeters() {
+function cmd_perimeters() {
     local vertices_file="pcb_edge_vertices.json"
     [ ! -f "$vertices_file" ] && \
         1>&2 echo "Vertices file $vertices_file does not exist" && \
@@ -95,7 +95,7 @@ function generate_perimeters() {
         "temp/outer_perimeter_curves.svg"
 }
 
-function generate_pcb() {
+function cmd_pcb() {
     pcb_dir="$bloomer_dir/pcb"
 
     input="$bloomer_dir/switches.json"
@@ -110,14 +110,14 @@ function generate_pcb() {
     dotnet "$kbutil_dll" gen-pcb "bloomer" "$input" "$output"
 }
 
-function generate_traces() {
+function cmd_traces() {
     error "Not yet implemented"
 }
 
-function print_usage() {
-    echo "USAGE: ./bloomer.sh <action> [OPTIONS]"
+function usage() {
+    echo "USAGE: ./bloomer.sh <command>"
     echo ""
-    echo "Actions:"
+    echo "Commands:"
     echo "    generate-render       : Generate an svg render of the keyboard"
     echo "    generate-case         : Generate svg renders of the keyboard case layers"
     echo "    generate-ponoko       : Generate an svg styled to be cut by Ponoko"
@@ -127,21 +127,12 @@ function print_usage() {
     echo "    help                  : Print this help dialog"
 }
 
-if [ "$action" = "generate-render" ]; then
-    generate_render
-elif [ "$action" = "generate-case" ]; then
-    generate_case
-elif [ "$action" = "generate-ponoko" ]; then
-    generate_ponoko
-elif [ "$action" = "generate-perimeters" ]; then
-    generate_perimeters
-elif [ "$action" = "generate-pcb" ]; then
-    generate_pcb
-elif [ "$action" = "generate-traces" ]; then
-    generate_traces
-elif [ "$action" = "help" ]; then
-    print_usage
-else
-    print_usage
-    exit 1
-fi
+case "$cmd" in
+    "render")       cmd_render      ;;
+    "case")         cmd_case        ;;
+    "ponoko")       cmd_ponoko      ;;
+    "perimeters")   cmd_perimeters  ;;
+    "pcb")          cmd_pcb         ;;
+    "traces")       cmd_traces      ;;
+    *)              usage           ;;
+esac
