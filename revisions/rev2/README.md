@@ -20,7 +20,7 @@
 
 1) Obtain all the materials listed above. You can use services like https://ponoko.com to print the case pieces and you can use services like https://jlcpcb.com/ to print the PCB. Just upload the respective files to the site and follow the steps to order them.
 
-2) Solder diodes and clip legs off before anything else. Make sure they are all soldered in the same orientation. One side of the diode should have a ring around it and should be facing DOWN. All of the diodes should be on the back side of the PCB (the side with the Bloomer/ Ergo87 text one it) **except for one mentioned in step 3**.
+2) Solder diodes and clip legs off before anything else. Make sure they are all soldered in the same orientation. One side of the diode should have a ring around it and should be facing DOWN. All of the diodes should be on the back side of the PCB (the side with the Bloomer/Ergo87 text on it) **except for one mentioned in step 3**.
 
 3) One switch and diode are soldered onto the PCB above the microcontroller so **both the switch and diode need to be soldered BEFORE the microcontroller**. This is the only diode that is horizontal and should be the only one on the front side of the PCB, same side that the switch is seated on. The ring side of the diode should be to the left (Q side on a qwerty keyboard). Triple check that this specific diode and switch are soldered correctly because removing a microcontroller to fix it is a nightmare.
 
