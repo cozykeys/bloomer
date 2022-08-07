@@ -5,7 +5,7 @@
 ## **Materials:**
 
  - Soldering Iron + Solder
- - Diodes ([example](https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148?qs=i4Fj9T/oRm8RMUhj5DeFQg==))
+ - 1N4148 Diodes ([example](https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148?qs=i4Fj9T/oRm8RMUhj5DeFQg==))
  - Printed PCB
  - Laser cut case (3 pieces)
  - 12mm M2 standoffs
