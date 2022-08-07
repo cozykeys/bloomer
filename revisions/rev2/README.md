@@ -1,4 +1,4 @@
-# Bloomer Keyboard Build Guide
+# Bloomer v2 Keyboard Build Guide
 
 ![bloomer keyboard](https://djo703t8kjftd.cloudfront.net/images/keyboards/bloomer/bloomer-front_1600x1600.jpg)
 
@@ -10,7 +10,7 @@
  - Laser cut case (3 pieces)
  - 12mm M2 standoffs
  - M2 screw heads
- - 6mm x 6mm reset switch
+ - 6mm x 6mm reset button
  - Key switches of your choosing
  - Key caps ([key caps shown in photo](https://pimpmykeyboard.com/dsa-standard-keysets-sublimated/))
  - (Optional) WS2812b RGB LEDs
