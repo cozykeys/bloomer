@@ -10,7 +10,7 @@
  - Laser cut case (3 pieces)
  - 12mm M2 standoffs
  - M2 screw heads
- - 6mm x 6mm reset button
+ - 6mm x 6mm reset button ([example](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150))
  - Key switches of your choosing
  - Key caps ([key caps shown in photo](https://pimpmykeyboard.com/dsa-standard-keysets-sublimated/))
  - (Optional) WS2812b RGB LEDs
