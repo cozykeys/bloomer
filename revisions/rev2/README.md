@@ -6,6 +6,7 @@
 
  - Soldering Iron + Solder
  - 1N4148 Diodes ([example](https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148?qs=i4Fj9T/oRm8RMUhj5DeFQg==))
+ - ([Microcontroller](https://www.adafruit.com/product/3677)) 
  - Printed PCB
  - Laser cut case (3 pieces)
  - 12mm M2 standoffs
