@@ -32,7 +32,7 @@
 
 7) Optionally solder on WS2812b RGB LEDs in the designated areas on the edge of the PCB. There are a total of 12.
 
-8) Flash QMK firmware and test the keyboard, and fix any keys that don't work due to bad solder joints. To flash the firmware, visit https://config.qmk.fm/#/cozykeys/bloomer/v2/LAYOUT, customize key layout to your liking, click compile, once it is done, download the firmware. Then, use QMK Toolbox to flash the firmware to your keyboard.
+8) Flash QMK firmware and test the keyboard, and fix any keys that don't work due to bad solder joints. To flash the firmware, visit https://config.qmk.fm/#/cozykeys/bloomer/v2/LAYOUT, customize key layout to your liking, click compile, once it is done, download the firmware. Then, use QMK Toolbox to flash the firmware to your keyboard. Note: you may have to hit the reset button twice before flashing the firmware.
 
 9) Close up the case using the printed components and the 12mm M2 brass standoffs and screws like these:
 	 - [https://www.ebay.com/itm/293622150636](https://www.ebay.com/itm/293622150636)  
