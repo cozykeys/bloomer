@@ -2349,7 +2349,9 @@
                   </Children>
                 </Group>
                 <Group
-                    Name="PCB">
+                    Name="PCB"
+                    XOffset="-200"
+                    YOffset="-100">
                     <Children>
                         <Path
                             Fill="#00ff00"
@@ -2357,22 +2359,30 @@
                             FillOpacity="0.5"
                             Visible="True">
                             <Components>
-                                <AbsoluteMoveTo> <EndPoint X="0" Y="-64.474" /> </AbsoluteMoveTo>
-                                <AbsoluteLineTo> <EndPoint X="73.622" Y="-64.474" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="91.447" Y="-67.617" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="149.118" Y="-69.662" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="168.801" Y="41.965" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="132.215" Y="48.417" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="75.519" Y="61.460" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="28.100" Y="69.821" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-28.100" Y="69.821" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-75.519" Y="61.460" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-132.215" Y="48.417" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-168.801" Y="41.965" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-149.118" Y="-69.662" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-91.447" Y="-67.617" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="-73.622" Y="-64.474" /> </AbsoluteLineTo>
-                                <AbsoluteLineTo> <EndPoint X="0" Y="-64.474" /> </AbsoluteLineTo>
+                                <AbsoluteMoveTo> <EndPoint X="30.649" Y="142.35" /> </AbsoluteMoveTo>
+                                <AbsoluteLineTo> <EndPoint X="68.17" Y="148.966" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="123.931" Y="161.845" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="161.452" Y="168.461" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="171.425" Y="170.296" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="228.575" Y="170.296" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="238.548" Y="168.461" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="276.069" Y="161.845" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="331.83" Y="148.966" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="369.351" Y="142.35" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="349.503" Y="29.788" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="291.832" Y="31.833" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="273.072" Y="35.141" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="236.592" Y="47.666" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="205.273" Y="47.666" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="205.273" Y="41.801" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="204.638" Y="41.166" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="195.362" Y="41.166" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="194.727" Y="41.801" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="194.727" Y="47.666" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="163.408" Y="47.666" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="126.928" Y="35.141" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="108.168" Y="31.833" /> </AbsoluteLineTo>
+                                <AbsoluteLineTo> <EndPoint X="50.497" Y="29.788" /> </AbsoluteLineTo>
                             </Components>
                         </Path>
                     </Children>

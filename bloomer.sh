@@ -2,6 +2,10 @@
 
 cmd="$1"
 
+function yell () { >&2 echo "$*";  }
+function die () { yell "$*"; exit 1; }
+function try () { "$@" || die "Command failed: $*"; }
+
 bloomer_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # TODO: Is there a better way? Submodule perhaps?
@@ -29,10 +33,15 @@ function cmd_render() {
     output="$bloomer_dir/case"
 
 
-    options="--visual-switch-cutouts --keycap-overlays --keycap-legends --squash"
+    options=(
+        "--visual-switch-cutouts"
+        "--keycap-overlays"
+        "--keycap-legends"
+        "--squash"
+    )
 
-    dotnet "$kbutil_dll" gen-svg $options "$input" "$output"
-    dotnet "$kbutil_dll" gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
+    kbutil gen-svg "${options[@]}" "$input" "$output"
+    try kbutil gen-key-bearings "$input" "./temp/keys.json" --debug-svg="./temp/bearings.svg"
 
     "$svg_opener" "$output/bloomer.svg"
 }
@@ -127,12 +136,24 @@ function usage() {
     echo "    help                  : Print this help dialog"
 }
 
-case "$cmd" in
-    "render")       cmd_render      ;;
-    "case")         cmd_case        ;;
-    "ponoko")       cmd_ponoko      ;;
-    "perimeters")   cmd_perimeters  ;;
-    "pcb")          cmd_pcb         ;;
-    "traces")       cmd_traces      ;;
-    *)              usage           ;;
-esac
+function main() {
+    local cmd
+
+    cmd="$1"
+
+    if ! command -v kbutil &>/dev/null; then
+        die "kbutil not installed in \$PATH"
+    fi
+
+    case "$cmd" in
+        "render")       cmd_render      ;;
+        "case")         cmd_case        ;;
+        "ponoko")       cmd_ponoko      ;;
+        "perimeters")   cmd_perimeters  ;;
+        "pcb")          cmd_pcb         ;;
+        "traces")       cmd_traces      ;;
+        *)              usage           ;;
+    esac
+}
+
+main "$1"
